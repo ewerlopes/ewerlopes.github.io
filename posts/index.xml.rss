@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+      <title>News in consequently.org: Greg Restall’s website </title>
+	  <itunes:subtitle>Greg Restall's publications on logic and philosophy</itunes:subtitle>
+	  <itunes:author>Greg Restall</itunes:author>
+	  <itunes:owner>
+	  <itunes:name>Greg Restall</itunes:name>
+	  <itunes:email>greg@consequently.org</itunes:email>
+	  </itunes:owner>
+	  <itunes:category text="Education">
+	  <itunes:category text="Higher Education"/>
+	  </itunes:category>
+	  <itunes:keywords>Philosophy, Logic, mathematics, pdf, research, University, Greg Restall, Melbourne, Australia, Victoria</itunes:keywords>
+	  <itunes:explicit>no</itunes:explicit>
+	  <itunes:image href="http://consequently.org/img/avatar2.jpg" />
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://consequently.org/news/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 19 Sep 2017 22:47:48 &#43;1100</updated>
+    
+ 
+    <item>
+      <title>Learning and Teaching (the eleventh of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-11-learning-and-teaching/</link>
+      <pubDate>Tue, 19 Sep 2017 22:47:48 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-11-learning-and-teaching/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Working in philosophical logic, I love the opportunity to &lt;em&gt;learn&lt;/em&gt; from so many people through history, and not only to &lt;em&gt;learn&lt;/em&gt;, but to pass on a tradition, and to have the opportunity to extend the tradition, and to refine it a little, in passing it on.  It’s been a delight to learn from some &lt;a href=&#34;http://consequently.org/writing/logicians/&#34;&gt;great figures&lt;/a&gt;, the historical figures through their writing, and my contemporaries in person, both as &lt;em&gt;face-to-face teachers&lt;/em&gt; (while a student, I learned logic from Sheila Oates-Williams, Neil Williams, Rod Girle, Ian Hinckfuss, and Graham Priest), but the learning doesn’t stop when you finish your degree. I’ve learned much from colleagues (Bob Meyer, Richard Sylvan, John Slaney, Allen Hazen, Graham Priest (again), Zach Weber, Dave Ripley, Shawn Standefer), whose work I admire, and who generously share of their time at whiteboards, in seminars, and in many many conversations. I have also learned a great deal from all of my &lt;a href=&#34;http://consequently.org/writing/logicians/&#34;&gt;graduate students&lt;/a&gt;, who have sent me in directions I never expected to head. If learning logic is (in part) &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-05-recognition/&#34;&gt;gaining facility with the concepts you have&lt;/a&gt;, as well as &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-06-expansion/&#34;&gt;acquiring new concepts&lt;/a&gt;, then working &lt;em&gt;with others&lt;/em&gt; is a very good way to learn. The kinds of knowledge you acquire is not merely &lt;em&gt;knowing that&lt;/em&gt;, but it (at least in part) skills to be learned, and they’re learned by practice, and sometimes skilled practice is best acquired when guided by others — explicitly, when the teacher knows she is &lt;em&gt;teaching&lt;/em&gt; — or implicitly, when we observe an expert displaying expertise, and we can use their practice to scaffold our own, and learn by imitation. I’ve learned so much from my teachers, not only in consciously building on their ideas, but in learning how to &lt;em&gt;be&lt;/em&gt; a logician by starting in their footsteps.&lt;/p&gt;
+
+&lt;p&gt;One way to develop the tradition is to &lt;a href=&#34;http://consequently.org/class/&#34;&gt;teach&lt;/a&gt;, and a significant part of my job at the &lt;a href=&#34;http://unimelb.edu.au&#34;&gt;University of Melbourne&lt;/a&gt; is to teach, and a lot of my time is spent teaching philosophical logic. Putting together a course is a good way of sorting out your ideas, and in philosophical logic, where the concepts very clearly and precisely build on prior ideas, it is a real intellectual challenge to see how you can teach a course in 12 weeks that, say, &lt;a href=&#34;http://consequently.org/class/2017/PHIL30043&#34;&gt;introduces Gödel’s incompleteness theorems&lt;/a&gt; and everything you need to understand them. This is a challenge, and designing the curriculum in such a way to carry undergraduate students from the basics of predicate logic, through soundness and completeness, into Peano arithmetic, recursive functions, diagonalisation, and into Gödel’s proofs — and to do it in some way that there is hope that the students will survive the journey with their curiosity and interest intact! — forces you to come to grips with the concepts in a way that a cursory understanding won’t suffice. I can truly say that I’ve come to understand things much more deeply when I’ve had the opportunity to &lt;em&gt;teach&lt;/em&gt; them.&lt;/p&gt;
+
+&lt;p&gt;That’s why I’m enjoying &lt;a href=&#34;http://consequently.org/writing/ptp/&#34;&gt;writing my new book&lt;/a&gt;. Officially, it is a research monograph and not a textbook, but one of the ways I’ve been describing it (to myself, and to others, who ask me what I’m writing on) is that it’s trying to explain to people attracted to normative pragmatic theories of meaning what they can do with recent work in logic (in proof theory, in particular), and to explain to logicians what philosophy they should have to understand why proof theory works so well. Yes, the core of it is a particular &lt;em&gt;argument&lt;/em&gt; for a way of understanding the distinctive nature of logic, but that argument is buttressed by a lot of &lt;em&gt;showing&lt;/em&gt; as well as &lt;em&gt;saying&lt;/em&gt;. You’ve got to &lt;em&gt;learn some logic&lt;/em&gt; to understand why it is the kind of thing it is, and to get a real sense of what it can &lt;em&gt;do&lt;/em&gt; (and what it can’t). To do that, is to &lt;em&gt;teach&lt;/em&gt;, as well as to &lt;em&gt;argue&lt;/em&gt;, and that is just how I like it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Learning and Teaching&lt;/em&gt; is the eleventh of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Possibility (the tenth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-10-possibility/</link>
+      <pubDate>Mon, 18 Sep 2017 14:38:20 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-10-possibility/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;In the &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-09-necessity/&#34;&gt;previous entry&lt;/a&gt; I explored the connection between &lt;em&gt;proofs&lt;/em&gt; and &lt;em&gt;necessity&lt;/em&gt;. Here, I want to spend a little time exploring the other side of the logical street, the connection between &lt;em&gt;models&lt;/em&gt; and &lt;em&gt;possibility&lt;/em&gt;. As I have already explained, one core insight from 20th Century work in logic is the fundamental duality between proof theory and model theory. You can define logical notions like validity by way of proofs (a &lt;em&gt;valid&lt;/em&gt; argument is certified by the existence of some proof) or by way of models (an argument is shown to be &lt;em&gt;invalid&lt;/em&gt; by the existence of some model which serves as a &lt;em&gt;counterexample&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Exploring proofs gives you can account of the different ways that concepts are tied together. (It gives you an account of what is involved in different kinds of necessary connections. The more different proofs you have, the more connections are possible.) Approaching the validity/invalidity boundary on the other side, by way of models, gives you a very different picture of this boundary. Defining more &lt;em&gt;models&lt;/em&gt; means having more &lt;em&gt;counterexamples&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Model building is one very fruitful way of articulating what is &amp;mdash; and more importantly, what &lt;em&gt;isn&amp;rsquo;t&lt;/em&gt; &amp;mdash; a part of a theory. Suppose you are interested in some strange new theory. (Put yourself back into the 19th Century, and consider a strange newfangled theory of geometry, where you accept the first four of Euclid&amp;rsquo;s axioms, but you &lt;em&gt;deny&lt;/em&gt; the parallel postulate.) You&amp;rsquo;ve got your collection of basic principles, but you&amp;rsquo;re not sure what follows from them. If you can manage to build a &lt;em&gt;model&lt;/em&gt; for your theory, then this can begin to address the question of what the theory involves. In particular, &lt;em&gt;any&lt;/em&gt; can give you a decisive answer to some questions about what the theory &lt;em&gt;doesn&amp;rsquo;t&lt;/em&gt; involve. If your model \(\mathfrak M\) gives you a way to interpret all of the basic principles of the theory as being true, and if some other claim \(A\) turns out to be &lt;em&gt;false&lt;/em&gt; in \(\mathfrak M\), then you can see how \(A\) &lt;em&gt;doesn&amp;rsquo;t&lt;/em&gt; follow from those basic principles. \(\mathfrak M\) gives you a picture of how the theory could be true, and in this case, it shows how \(A\) comes apart from the axioms of the theory. (So, if you think that  \(A\) &lt;em&gt;should&lt;/em&gt; be true, according to the theory you&amp;rsquo;re exploring, you need to supplement your axioms.)&lt;/p&gt;
+
+&lt;p&gt;Having a model on hand &amp;mdash; in and of itself &amp;mdash; gives you little information about what &lt;em&gt;does&lt;/em&gt; follow, because theories can have more than one model, in which different things hold. If something is &lt;em&gt;not&lt;/em&gt; true in a model for your theory, that tells you that it is not a consequence of the first principles theory; but when something &lt;em&gt;is&lt;/em&gt; true in a model for your theory, that&amp;rsquo;s not necessarily enough to show you that it is a consequence of the first principles of the theory. After all, it might hold in &lt;em&gt;some&lt;/em&gt; models, and not others. To show that something does follow (given the soundness and completeness theorems) we need to show that it holds in &lt;em&gt;every&lt;/em&gt; model of the theory.&lt;/p&gt;
+
+&lt;p&gt;So, models, in and of themselves don&amp;rsquo;t do &lt;em&gt;everything&lt;/em&gt;, but they are an excellent way to open up new areas of logical space. The development of models of non-Euclidean geometries helped us expand our understanding of what is involved in talk of points and lines. The development of models of different modal logics or non-classical logics helps us come to grips with different options for how basic propositional notions such as conjunction, disjunction, negation, conditionality, possibility and necessity might fit together. Models are useful tools for sketching out options.&lt;/p&gt;
+
+&lt;p&gt;So, models for theories give us powerful tools for exploring logical notions, and they provide an especially powerful way for expanding our bounds of understanding what is &lt;em&gt;possible&lt;/em&gt;. Constructing a model of a theory is one way to show how that theory &lt;em&gt;could be true&lt;/em&gt;.  I love the way which the &lt;em&gt;possibility&lt;/em&gt; of logical space is a wide plenitude, that the different antecedents for a &amp;ldquo;what if&amp;hellip;&amp;rdquo; lead us in so many different directions.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Possibility&lt;/em&gt; is the tenth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Necessity (the ninth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-09-necessity/</link>
+      <pubDate>Thu, 14 Sep 2017 23:55:19 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-09-necessity/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;The next two thoughts are motivated by the two complementary aspects of contemporary research in logic, &lt;em&gt;proof theory&lt;/em&gt; and &lt;em&gt;model theory&lt;/em&gt;. As I try to emphasise to my students, there are two broad ways you can define logical concepts like &lt;em&gt;validity&lt;/em&gt;. Following the way of &lt;em&gt;proofs&lt;/em&gt;, an argument is valid if there is &lt;em&gt;some&lt;/em&gt; proof leading from the premises to the conclusion. Following the way of &lt;em&gt;models&lt;/em&gt;, an argument is valid if there is &lt;em&gt;no&lt;/em&gt; model in which the premises are true and the conclusion is not. In proof theory, validity is vouchsafed by the existence of something: a &lt;em&gt;proof&lt;/em&gt;, which certifies the claim to validity. Invalidity is the absence of such a certificate. In model theory, &lt;em&gt;in&lt;/em&gt;validity is vouchsafed by the existence of something: a &lt;em&gt;model&lt;/em&gt; &amp;mdash; a &lt;em&gt;counterexample&lt;/em&gt; to the claim of validity. Validity is the absence of any such counterexample. It was a great intellectual advance to understand that these are two very different ways to define logical concepts, such as validity, and it was a further advance to be able to rigorously prove that (on certain understandings of logic, such as classical first order predicate logic), these two different kinds of definitions can coincide to determine the &lt;em&gt;same&lt;/em&gt; concept. A &lt;em&gt;soundness&lt;/em&gt; theorem (relating an account of proofs and a account of models) shows that these two notions don&amp;rsquo;t &lt;em&gt;clash&lt;/em&gt;: you never get both a proof showing that some argument is valid, &lt;em&gt;and&lt;/em&gt; a model showing that it is invalid. A &lt;em&gt;completeness&lt;/em&gt; theorem (also relating an account of proofs and a account of models) shows that these two notions cover the whole field &amp;mdash; for each argument, we &lt;em&gt;either&lt;/em&gt; have a proof (showing it is valid) or a counterexample (showing that it isn&amp;rsquo;t).&lt;/p&gt;
+
+&lt;p&gt;Having a sound and complete account of proofs and models for a particular understanding of validity gives you a very powerful toolkit: you can approach a question concerning validity in two distinct ways, by the way of proofs (attempting to build a bridge from the premises to the conclusions, or showing that there isn&amp;rsquo;t any) or by the way of models (attempting to show that there is a chasm between the premises and the conclusions by showing that there is some way to make the premises true and the conclusions untrue, or again, showing that there isn&amp;rsquo;t any). These two ways of accounting for validity have very different affordances, they are good for different things, both mathematically or technically, and philosophically or conceptually.&lt;/p&gt;
+
+&lt;p&gt;I am particularly interested in the kinds of conceptual gains that are possible when applying notions of proof and notions of model, and the modes of thinking that are involved when using these different tools.&lt;/p&gt;
+
+&lt;p&gt;One connection that I am beginning to learn is the intimate connection between proof and &lt;em&gt;necessity&lt;/em&gt;, between logical consequence and the hardness and fixity of the logical &lt;em&gt;must&lt;/em&gt;. It is one thing to think that an argument is valid, in the sense that it happens to fail to have a counterexample. It is another to have an account of &lt;em&gt;why&lt;/em&gt; it is valid. What a proof gives you is some kind of account of &lt;em&gt;how&lt;/em&gt; you can get from the premises to the conclusion. This kind of thing is quite powerful, especially given the generality of logical concepts. The power of concepts like conjunction, negation, the quantifiers, etc., (I think) is that our norms and rules for using them apply under the scope of suppositions (whether those suppositions are subjunctive alternatives &amp;mdash; suppose that \(A\) had been the case &amp;mdash; or indicative alternatives  &amp;mdash; suppose that, after all \(A\) is actually true), if we suppose that \(A\land B\) is true, it&amp;rsquo;s still totally appropriate (under the scope of that supposition) to deduce \(A\) and to deduce \(B\), the usual rules for conjunction still apply.  A &lt;em&gt;proof&lt;/em&gt; (on this view) from premises to a conclusion is the kind of chain of reasoning which will work under any different supposition. It shows us how the conclusion is already present, implicit in the premises. To have granted the premises is to be committed (at least implicitly) to the conclusion, and the proof renders that consequential commitment &lt;em&gt;explicit&lt;/em&gt;. Of course, when confronted with a proof of an unacceptable conclusion from premises you have accepted, one appropriate response would be to reject one or another of the premises, and to resist the conclusion. That is always an option.&lt;/p&gt;
+
+&lt;p&gt;This brings logic up close to issues in &lt;em&gt;metaphysics&lt;/em&gt;, in &lt;em&gt;epistemology&lt;/em&gt; and in &lt;em&gt;philosophy of language&lt;/em&gt;. In metaphysics, we ask questions about the ultimate nature of reality, and the bounds of what is possible, or what is necessary. Of how reality is and how it must be. The kind of necessary connection between premises and conclusion of a valid argument must bring us up to the boundary of metaphysical necessity. If something is metaphysically &lt;em&gt;possible&lt;/em&gt;, then it must count as at least logically possible. If there is a way the world is that makes \(A\) true, then \(A\) cannot be logically inconsistent. If we could prove a triviality from \(A\), then this argument would apply were the world to be the way that possibility describes. Proofs in logic tell us &lt;em&gt;something&lt;/em&gt; about what is necessary.  (Of course, this isn&amp;rsquo;t to say that anything that is necessary is vouchsafed by a proof. That would be to say much more.)&lt;/p&gt;
+
+&lt;p&gt;Similarly, proofs can also play an &lt;em&gt;epistemic&lt;/em&gt; and &lt;em&gt;dialogical&lt;/em&gt; role. Provided that you and I agree on the norms governing our logical vocabulary, then if we possess a proof from \(A\) to \(B\), we agree that it&amp;rsquo;s out of bounds to accept \(A\) and reject \(B\). The proof can show us this much, to help map out the conceptual topography, see the space of possible options for us, even if we disagree on which options to take (perhaps you accept \(A\) and \(B\), and I reject both). A proof will do this work, even if we disagree on matters of necessity. Perhaps I take \(A\) to not only be false but to be &lt;em&gt;impossible&lt;/em&gt;, and you take \(B\) to be &lt;em&gt;necessary&lt;/em&gt;. (Such disputes are common in philosophy.) Regardless of the fact that one or other of us may be beyond the bounds of possibility, dispute here can still be rational. If, in the course of our reasoning, I begin to take your position as a live option (this is surely possible), I now have two positions before me: to accept \(A\) and \(B\), and to take them as &lt;em&gt;necessary&lt;/em&gt;, or to reject \(A\) and \(B\) and to take them as &lt;em&gt;impossible&lt;/em&gt;.  When I do this, I can take something to be an &lt;em&gt;epistemic possibility&lt;/em&gt; (a live option) which I think may also be metaphysically &lt;em&gt;impossible&lt;/em&gt;. When we use the tools of &lt;em&gt;proofs&lt;/em&gt;, we have guides to help see what positions are open to us, even if this does not tell us the whole story of which position may be best to take.&lt;/p&gt;
+
+&lt;p&gt;I love the way in which the &lt;em&gt;necessity&lt;/em&gt; of the logical &lt;em&gt;must&lt;/em&gt; brings us right up to concerns of metaphysics and epistemology, of the nature of reality and what options we have as we attempt to understand it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Necessity&lt;/em&gt; is the ninth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Attention (the eighth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-08-attention/</link>
+      <pubDate>Wed, 13 Sep 2017 14:01:56 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-08-attention/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;I&amp;rsquo;m not totally happy with the word for he next item on the list of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/%2&#34;&gt;twelve things I love about philosophical logic&lt;/a&gt;. The word on the list is &lt;em&gt;attention&lt;/em&gt;, and it gets at something that I have learned, and which seems to me to be an important distinctive about working in &lt;em&gt;philosophical&lt;/em&gt; logic, but I&amp;rsquo;m not altogether sure that &amp;ldquo;attention&amp;rdquo; is the best word for it. Maybe after I&amp;rsquo;ve explained what I mean, you could suggest a better short label for the phenomenon I&amp;rsquo;m gesturing towards.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the core idea: when you spend time working with core logical notions such as &lt;em&gt;consequence&lt;/em&gt;, &lt;em&gt;consistency&lt;/em&gt;, &lt;em&gt;necessity&lt;/em&gt;, &lt;em&gt;possibility&lt;/em&gt;, &lt;em&gt;model&lt;/em&gt; and &lt;em&gt;proof&lt;/em&gt;,  you notice that you are attending to judgements and thoughts and claims in more than one way. You learn to distinguish between taking a claim to be &lt;em&gt;true&lt;/em&gt;, and considering it as &lt;em&gt;possible&lt;/em&gt;. You can agree that even though \(p)) isn&amp;rsquo;t true, it is &lt;em&gt;consistent&lt;/em&gt; with \(q\). You can agree that it&amp;rsquo;s not true that \(p\) while still seriously entertain what it would be like &lt;em&gt;were&lt;/em&gt; \(p\) to be true. Working with \(p\) as an hypothesis is not the same thing as taking it to be true. But even though working under the supposition that \(p\) is not the same thing as taking \(p\) to be true, it is related intimately to it. You don&amp;rsquo;t just consider at \(p\) from the &amp;ldquo;outside.&amp;rdquo; (Say, look at those crazy people who believe \(p\)! Aren&amp;rsquo;t they weird?) Instead, you &amp;ldquo;try it on for size&amp;rdquo; in the sense that you let your inferential norms and processes act on \(p\) as if it were one among the other things you are working with. You temporarily adopt \(p\) into your view of the world, or you change perspective and attempt to see what things look like from the other side of the street, backgrounding your prior commitment to \(\neg p\) (if you actually believe \(p\) is false), and trying a different set of commitments on for size. This moves you in the direction of a kind of intellectual sympathy. You can gain some insight concerning some of what it would be like to actually see things from \(p\)&amp;rsquo;s point of view.&lt;/p&gt;
+
+&lt;p&gt;This is just one way in which familiarity with core concepts of logic facilitates distinct skills for attending to judgement, and thereby, of paying attention to how we attend to the world around us, too.&lt;/p&gt;
+
+&lt;p&gt;With all that said, I&amp;rsquo;m not totally happy with &amp;ldquo;attention&amp;rdquo; as the word for this &amp;mdash; the skill attained is not the acquisition of &lt;em&gt;sustained, focussed attention&lt;/em&gt;. If you&amp;rsquo;re anything like me, your attention is often scattered, unfocussed, and you&amp;rsquo;re easily distracted, and if my history of 25 years working in philosophical logic is any testament, it&amp;rsquo;s not that becoming a logician is in and of itself a great help with dealing with distraction. (There are other practices which foster sustained, focussed attention and awareness, like meditation, prayer, reading, physical activity, etc.). No, instead, what is involved is a kind of suppleness of attention, the ability to shift between different positions, to creatively see things from different sides, and to take in different views. It&amp;rsquo;s those skills of attention that can be fostered when you spend time with the core concepts of logic.&lt;/p&gt;
+
+&lt;p&gt;So, here is another thing that I love in working in philosophical logic&amp;mdash;how growing into mastery of core logical concepts has these kinds of consequences for my own thinking, my own &lt;em&gt;attention&lt;/em&gt;, and as a result my own &lt;em&gt;life&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Attention&lt;/em&gt; is the eighth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Pragmatics (the seventh of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-07-pragmatics/</link>
+      <pubDate>Tue, 12 Sep 2017 12:53:42 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-07-pragmatics/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Some of my phrasing in the last &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-05-recognition/&#34;&gt;two&lt;/a&gt; &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-06-expansion/&#34;&gt;posts&lt;/a&gt; about what I love about philosophical logic have emphasised &lt;em&gt;capacities&lt;/em&gt;, or &lt;em&gt;abilities&lt;/em&gt;. I’ve described the &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-05-recognition/&#34;&gt;pleasure of the “&lt;em&gt;aha&lt;/em&gt;!” moment&lt;/a&gt; in terms of the kinds of mastery you acquire in handling the concepts you have, and I described &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-06-expansion/&#34;&gt;the joys of conceptual expansion&lt;/a&gt; in terms of abilities gained. This is to take a &lt;em&gt;pragmatic&lt;/em&gt; perspective on logic, to consider the connection to practices and actions.&lt;/p&gt;
+
+&lt;p&gt;Thinking of things “pragmatically” can be understood in a very crude way, fixing in advance what how you want to measure costs and benefits, and then doing some naïve cost/benefit calculation and then choosing option that somehow maximises benefits and minimises the costs (if that is even possible). This is not what I mean when I consider the connection between logic and pragmatics. I don’t think that the best way to select some logical system or logical theory is on the basis of that kind of cost/benefit analysis. Rather, it’s that there are connections between features of logical systems and the practices of &lt;em&gt;asserting&lt;/em&gt;, &lt;em&gt;denying&lt;/em&gt;, &lt;em&gt;inferring&lt;/em&gt;, &lt;em&gt;questioning&lt;/em&gt;, etc. What kind of connections are there? It’s not that the laws of logic are descriptively correct as a theory about how assertion and denial and inference actually work in practice. Rather, they can be understood as norms governing how those acts can be evaluated. (In particular, I think that if the argument from the premise \(A\) to the conclusion \(B\) is &lt;em&gt;valid&lt;/em&gt;, then taking a position in which \(A\) is asserted and \(B\) is denied is &lt;em&gt;out of bounds&lt;/em&gt;. If you’ve asserted \(A\) and \(B\) follows from \(A\) then in some sense, \(B\) is &lt;em&gt;undeniable&lt;/em&gt;, in that any positions where you rule \(A\) in and \(B\) out are out of bounds. For more on this, take a look at my “&lt;a href=&#34;http://consequently.org/writing/multipleconclusions&#34;&gt;Multiple Conclusions&lt;/a&gt;”, the &lt;a href=&#34;https://scholar.google.com.au/scholar?cites=2800898225913341308&amp;amp;as_sdt=2005&amp;amp;sciodt=0,5&amp;amp;hl=en&#34;&gt;critical literature it’s spawned&lt;/a&gt;, and the &lt;a href=&#34;http://consequently.org/writing/ptp&#34;&gt;manuscript I’m working on&lt;/a&gt; right now.) There’s much more to say about this, but I think that it’s a clarifying perspective on the connection between core concepts in logic and the different kinds of acts we can actually engage in, like asserting, or believing, like denying or rejecting. It is a &lt;em&gt;normative pragmatic&lt;/em&gt; position concerning logic, that the concepts provide norms or standards by which acts can be evaluated.&lt;/p&gt;
+
+&lt;p&gt;You might worry that thinking of logic in terms of rules for a contingent human practice makes those rules themselves contingent too. Now, there’s nothing wrong with laws and rules being contingent. However, it’s a radical view of &lt;em&gt;logic&lt;/em&gt; that takes the rules of logic contingent on human practices. If it’s a law of logic that either \(p\) or not \(p\) for all propositions \(p\), then it would seem to follow that either all non-avian dinosaurs were extinct by 65 million years ago, or not all non-avian dinosaurs were extinct by 65 million years ago, and that this &lt;em&gt;still&lt;/em&gt; would have been the case even if there weren’t any people (or sentient creatures) around to reason about it. Contingently existing human reasoners like us can reason about all sorts of things, including what went on before contingently existing human reasoners existed.&lt;/p&gt;
+
+&lt;p&gt;Here’s an analogy I find compelling and clarifying when it comes to understanding how we can have a contingent practice with non-contingent rules. It’s the example of arithmetic and our counting practices. It’s contingently useful to creatures like us to engage in counting practices, introducing vocabulary for things we call “numbers”, which codify various practices of enumerating and pairing things up. Given that we want to engage in such a contingent practice (we have reason to keep track of the number of sheep we have in our flock, to make sure trades are fair, etc., but there was a time before any humans were doing these things), we have (again, contingent) reasons to use counting practices like those we actually have. At the very least, our counting practices give us ways to attend to patterns among practices of pairing things up. (It’s easy enough to figure out that if you have five sheep and I promised to give you three bags of grain for each of your sheep that I’ll owe you 15 bags of grain, than to laboriously pair up three bags with each sheep.) But the (contingently existing) practice of using number vocabulary in this way gets its power by having results that apply &lt;em&gt;invariantly&lt;/em&gt; and &lt;em&gt;necessarily&lt;/em&gt;. It’s not necessary that we have the concepts of &lt;em&gt;3&lt;/em&gt; and &lt;em&gt;5&lt;/em&gt; and &lt;em&gt;multiplication&lt;/em&gt;, but it is necessary that if we do have concepts like these, governed in this way, then no matter what they’re counting, 3 times 5 is 15, and it is, necessarily. (Why do we want such &lt;em&gt;necessity&lt;/em&gt;? I’d say that this is tied up with interaction between  counting and planning: it is also true if I’ve promised three bags of grain for every sheep, then if I want 2 sheep, I owe you 6 bags; 3 sheep, then 9, etc. It’s not that the rules of counting apply differently in different hypothetical scenarios. They are applied the same way in all hypothetical scenarios.) A practice can be contingently useful while having norms that apply non-contingently.&lt;/p&gt;
+
+&lt;p&gt;The same holds, I think, for so-called logical laws, and the account &lt;a href=&#34;http://consequently.org/writing/multipleconclusions&#34;&gt;I prefer&lt;/a&gt; puts this down to norms governing assertion and denial. The laws of logic can be understood as arising out of fundamental norms governing the practices of assertion and denial, and their interrelationship. The &lt;em&gt;generality&lt;/em&gt; of certain laws of logic can be explained in terms of norms applying to assertion and denial &lt;em&gt;as such&lt;/em&gt;, independently of any specific subject matter of those assertions and denials. The behaviour of the regular propositional connectives can be explained as ways to make explicit what is already implicit in the practice of assertion and denial. The behaviour of modal operators can be understood in terms of making explicit &lt;a href=&#34;http://consequently.org/writing/cfss2dml/&#34;&gt;norms governing different kinds of supposition&lt;/a&gt;, while those for quantifiers make explicit relations of &lt;a href=&#34;http://consequently.org/writing/generality-and-existence-1/&#34;&gt;substitution and generality&lt;/a&gt;, once the practice of assertion and denial is rich enough to involve singular terms. The story, I think, is rich in connections.&lt;/p&gt;
+
+&lt;p&gt;I love how philosophical logic is—when rightly understood—tied up with &lt;em&gt;practices&lt;/em&gt; and &lt;em&gt;activities&lt;/em&gt;. Through these connections, we see that understanding the grounds of our conceptual capacities brings logicians into the realm of practical action, in a way rather different to the picture that logicians are calculators solving predefined problems. Instead, logic is a normative discipline which describes some of the norms governing  practices of assertion, denial, description, theorising, conjecture, and the like.&lt;/p&gt;
+
+&lt;p&gt;You don’t often find human concerns, our own contingent and local interests, preferences and desires — let alone the social and political concerns of life in a community — playing an explicit role inside a philosophical logician’s proof. These would be as alien there as they would inside a mathematical demonstration. However, this does not mean that these considerations are divorced from philosophical logic. After all, our interest in matters of logic have grown up with our interest in the communicative practices of asserting, denying, arguing and reasoning, and those are nothing if not social practices. Our own contingent and local circumstances and interests help explain why concepts like those from logic are worth using. It is a loss to the discipline if we don’t heed that connection.&lt;/p&gt;
+
+&lt;p&gt;The connection with &lt;em&gt;pragmatics&lt;/em&gt; is the seventh of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Conceptual Expansion (the sixth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-06-expansion/</link>
+      <pubDate>Mon, 11 Sep 2017 09:26:50 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-06-expansion/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;There are different delights to be found in working with concepts. It is not all a matter of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-05-recognition/&#34;&gt;gaining greater mastery&lt;/a&gt; of the concepts you have already acquired. There is also a special delight to be found in acquiring &lt;em&gt;new&lt;/em&gt; concepts. I love that feeling of progress when you make a conceptual advance. A common way to do this is to &lt;em&gt;disambiguate&lt;/em&gt;, to clarify matters by noticing that what you took to be one thing is really &lt;em&gt;two&lt;/em&gt;. This is the clarity gained in uncovering a hidden confusion, the moment when ideas are sharpened and distinguished, when you form a new vocabulary and, as a result, you are able to say things you couldn’t express before. This one way to reap the rewards of &lt;em&gt;conceptual expansion&lt;/em&gt;. Our repertoire of concepts is larger than it was.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of this phenomenon. (It’s not an uncontroversial example, but it’s one that I find quite compelling.) Consider what it means to &lt;em&gt;suppose&lt;/em&gt; something. This is something we do regularly when we’re reasoning, when we’re planning, considering options, or discussing something with people who have different views. Often we “try a claim on for size”, suppose it’s the case, and reason from there. (This kind of dialectical move is something we not only &lt;em&gt;do&lt;/em&gt;, it’s also at the heart of different accounts of the &lt;a href=&#34;http://consequently.org/writing/ptp&#34;&gt;structure of proof&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;It’s an insight — a conceptual advance — to notice that the act of supposition can take different forms, that not all supposition is the same.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/kennedy-shot.jpg&#34; alt=&#34;NYT Times Kennedy Cover&#34;&gt;
+    &lt;figcaption&gt;Oswald shot Kennedy. But what if he hadn&#39;t? Or what if he &lt;b&gt;didn&#39;t&lt;/b&gt;?&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If I suppose that it’s not the case that Oswald shot Kennedy, I can do this in two different ways.&lt;/p&gt;
+
+&lt;p&gt;I can &lt;em&gt;counterfactually&lt;/em&gt; suppose (I can suppose that Oswald &lt;em&gt;hadn’t&lt;/em&gt; shot Kennedy) and here I still grant that Oswald &lt;em&gt;did&lt;/em&gt; shoot Kennedy (or at least, I leave it &lt;em&gt;open&lt;/em&gt; that he did) and I could explore what would have followed in the (not-necessarily actual) circumstances where he &lt;em&gt;didn’t&lt;/em&gt;. We do this sort of thing when we plan for the future or regret the past. We consider alternate possibilities, with an eye to understand what we can do, and what options are available to us.&lt;/p&gt;
+
+&lt;p&gt;But this is not the only form of supposition: we &lt;em&gt;indicatively&lt;/em&gt; suppose when we ask ourselves whether we might be wrong, or when we consider what things are like from a point of view other than ours. When we suppose that Oswald &lt;em&gt;didn’t&lt;/em&gt; shoot Kennedy, we take on a different view of how things &lt;em&gt;are&lt;/em&gt;. I consider the option that it didn&amp;rsquo;t happen as I have taken it to happen, but that it actually happened in some other way. This is the kind of supposition involved when we&amp;rsquo;re considering opposing views and weighing different theories of how things are.&lt;/p&gt;
+
+&lt;p&gt;Once you realise that we can be doing different things in different forms of supposition means that you have the space to allow these kinds of supposition to operate in different ways, and to explore their distinct features. (This is the direction I pursue things in my paper on a &lt;a href=&#34;http://consequently.org/writing/cfss2dml/&#34;&gt;cut-free hypersequent calculus for two-dimensional modal logic&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;The generation of &lt;em&gt;new&lt;/em&gt; concepts is a different kind of conceptual mastery than the working out of consequences I discussed in the &lt;a href=&#34;http://consequently.org&#34;&gt;previous entry&lt;/a&gt;. Here, instead of gaining mastery of an already established practice, we institute a new practice, and gain the ability to say new things.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Conceptual Expansion&lt;/em&gt; is the sixth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>The Moment of Recognition (the fifth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-05-recognition/</link>
+      <pubDate>Sat, 09 Sep 2017 14:29:39 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-05-recognition/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Here is a more personal reflection on what I love in working in philosophical logic.&lt;/p&gt;
+
+&lt;p&gt;I love the &amp;ldquo;&lt;em&gt;aha&lt;/em&gt;!&amp;rdquo; moment of &lt;em&gt;recognition&lt;/em&gt;. This is the relief of  a proof completed, or a counterexample found. It is the delight of gaining clarity into something that you had only dimly understood, or the dawning realisation that an assumption you had made is in fact false and a whole new vista of possibilities opens up to you.&lt;/p&gt;
+
+&lt;p&gt;The particular kind of &amp;ldquo;aha&amp;rdquo; that I mean is the kind where you&amp;rsquo;re working out of the consequences of something you already know. This can be understood as a kind of &lt;em&gt;mastery&lt;/em&gt; that is gained when you become familiar with the conceptual tools you&amp;rsquo;re using. It is the acquisition of greater skill.&lt;/p&gt;
+
+&lt;p&gt;This is the &amp;ldquo;aha&amp;rdquo; that students in my second year logic class experienced when they figured out for themselves that not all symmetric and transitive relations must be reflexive.  In one sense, they already &lt;em&gt;knew&lt;/em&gt; the definitions of these concepts (at least, most of them did) and this fact was implicit in what they already knew, but now they had figured this out for themselves &amp;mdash; they &lt;em&gt;saw&lt;/em&gt; it for themselves. They understood something new about how these concepts fit together, how they relate.&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;em&gt;lot&lt;/em&gt; of scope for this when working in philosophical logic. We&amp;rsquo;re pushing concepts to their limits, finding the boundaries of conceptual space. We map out its  topography. Sometimes you &lt;em&gt;think&lt;/em&gt; that things hang together in some way (say, your examples of symmetric and transitive relations all happened to be reflexive, too) and then you suddenly &lt;em&gt;see&lt;/em&gt; that they&amp;rsquo;re not. That moment of recognition is the dawning of new light, the opening up of new territory, the acquisition of new conceptual capacities, and moments like these are to something to be treasured.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Moment of Recognition&lt;/em&gt; is the fifth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Interdisciplinarity (the fourth of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-04-interdisciplinarity/</link>
+      <pubDate>Fri, 08 Sep 2017 14:27:05 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-04-interdisciplinarity/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;The &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-03-multiple-realisability/&#34;&gt;multiple realisations&lt;/a&gt; of a concept in logic often come from different disciplines. One thing I’ve grown to love in philosophical logic is the way different ideas, disciplines and traditions are connected in the space of the wider generality of formal logic. In my own work over the years in &lt;a href=&#34;http://consequently.org/writing/isl&#34;&gt;substructural logic&lt;/a&gt;, &lt;a href=&#34;http://consequently.org/writing/pluralism/&#34;&gt;logical pluralism&lt;/a&gt; and &lt;a href=&#34;http://consequently.org/writing/ptp&#34;&gt;proof theory&lt;/a&gt; (among other things), traditions in computer science, linguistics, mathematics and philosophy have all played distinct roles.&lt;/p&gt;
+
+&lt;p&gt;Each discipline has its own examples, its own traditions, its own heroes, its own villains—and its own concerns. If you are aware of the distinctive features of different traditions, this allows for the strengths of those disciplines to shine, for the insights and examples of one discipline to be brought to bear on the questions and problems of others.  If you’re a philosopher, you should, by nature, be interested in more than your own traditions—or at least you should if you understand philosophy in the way Wilfrid Sellars did:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The aim of philosophy, abstractly formulated, is to understand how things in the broadest possible sense of the term hang together in the broadest possible sense of the term. — Wilfrid Sellars, “Philosophy and the Scientific Image of Man”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Through the meeting ground of &lt;em&gt;logic&lt;/em&gt;, the linguist can speak to the mathematician, the computer programmer to the philosopher. All too often, we don’t step outside our own disciplinary bubbles, but in logic, staying inside your own hermetically sealed discipline actually takes effort on your own part. In the late 20th Century into the early 21st, the best work in logic is being done by linguists, computer scientists, mathematicians and philosophers. No one academic discipline is in the ascendancy in logic. You’re missing out if you don’t attend to the richer tapestry of that work, and in particular, you have much to gain by learning from the best work in traditions other than your own. Since logic is such a well-worn meeting place between these disciplines, those who have some training in logic have a head start when it comes to translating from one tradition to the other.&lt;/p&gt;
+
+&lt;p&gt;Sometimes interdisciplinary is understood as a relatively recent trend, and in many cases it is. Regardless, the concerns of logic naturally lend themselves to application in any different fields where we are concerned with judgement, with truth, with the way our claims hold together and bear on each other—and that is a broad tapestry. Logic has &lt;em&gt;always&lt;/em&gt; been connected to philosophy and to mathematics, and with the rise of newer disciplines such as linguistics and computer science, the concerns of logic are deeply embedded in many domains of inquiry. Being a logician gives you a passport into these fields, and it is a pleasure to be able to venture widely, and to enjoy different scenery.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Interdisicplinarity&lt;/em&gt; is the fourth of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Multiple Realisability (the third of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-03-multiple-realisability/</link>
+      <pubDate>Thu, 07 Sep 2017 15:34:51 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-03-multiple-realisability/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Closely connected to the notion of &lt;em&gt;abstraction&lt;/em&gt;, I love the way that logical concepts are &lt;em&gt;multiply realisable&lt;/em&gt;. An abstract structure can be instantiated in different ways, and often in ways completely unforeseen when the original abstraction was made.&lt;/p&gt;
+
+&lt;p&gt;The twin moves of abstraction (moving from the particular to the general) and concretisation (going back from the general to the particular—perhaps to a new and &lt;em&gt;different&lt;/em&gt; particular) in different domains brings different insights, different models, and new connections. These new connections often bring fresh insight.&lt;/p&gt;
+
+&lt;p&gt;For example, the simple notion of a &lt;em&gt;Boolean algebra&lt;/em&gt; can be instantiated as a power set algebra (think of the subsets of a set and the operations of union, intersection and complementation). But this simple idea of a power set Boolean algebra can then be understood in different domains of application: you can think of the underlying set as a domain of &lt;em&gt;objects&lt;/em&gt; and the subsets are extensions of different predicates. Or you can think of them as a set of possible worlds, and the subsets are propositions. And so on. Shifting from one representation to another is often conceptually fruitful when thinking about these different domains, or thinking about the ways that the formal techniques are applied. And you can answer questions about anything that counts as a Boolean algebra in one go. Here’s how the Hungarian recursion theorist Rózsa Péter put it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The writing down of a formula is an expression of our joy that we can answer all these questions by means of one argument.&lt;/p&gt;
+
+&lt;p&gt;— Rózsa Péter &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/Playing-Infinity-Mathematical-Explorations-Excursions/dp/0486232654/consequentlyorg&#34;&gt;Playing with Infinity&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/Rozsa-Peter.jpg&#34; alt=&#34;Rózsa Péter&#34;&gt;
+    &lt;figcaption&gt;Rózsa Péter.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;But more than that, once you’ve studied Boolean algebras for a while you learn that not all Boolean algebras are (isomorphic to) power set algebras. Given a domain of objects, you can get  a Boolean algebra out of less than the collection of &lt;em&gt;all&lt;/em&gt; of the subsets of the underlying set of objects.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example: take an infinite set &lt;em&gt;D&lt;/em&gt;, and think of the finite subsets of &lt;em&gt;D&lt;/em&gt; — those with finitely many members — together with the co-finite subsets of &lt;em&gt;D&lt;/em&gt; — those which contain all of the elements of &lt;em&gt;D&lt;/em&gt; &lt;em&gt;except&lt;/em&gt; for finitely many members. (In the case of the natural numbers, the sets {0,1,2} and all of the numbers &lt;em&gt;other than&lt;/em&gt; {1,2,3} would be fine, but the set of even numbers doesn’t count, because it contains infinitely many members and excludes infinitely many members too.) Then these sets, the finite and co-finite subsets of &lt;em&gt;D&lt;/em&gt; form a Boolean algebra. (The union, intersection or complement of finite and co-finite sets is itself finite or co-finite.)&lt;/p&gt;
+
+&lt;p&gt;Once you see this, you see that there’s nothing in the idea of a Boolean algebra that means that the structure of truth values, or extensions of predicates, or propositions, &lt;em&gt;must&lt;/em&gt; look like a power set Boolean algebra. Maybe it does, but maybe it doesn’t.&lt;/p&gt;
+
+&lt;p&gt;The move from the particular to the general and back not only allows us to transfer insights from one domain to another, it also means that we can gain insight into unconsidered possibilities, and different ways our concepts can be realised.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Multiple realisability&lt;/em&gt; is the third of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Abstraction (the second of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-02-abstraction/</link>
+      <pubDate>Wed, 06 Sep 2017 13:00:03 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-02-abstraction/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;As I mentioned in the previous entry, philosophical logic uses the tools and techniques from formal logic, and formal logic is nothing if it is not &lt;em&gt;abstract&lt;/em&gt;. It gets its power &amp;mdash; as well as its weaknesses, to be sure &amp;mdash; by abstracting away from specifics and moving to generalities. We explain the virtues of a particular argument (in part) by looking at its form, the structure which is in common to other arguments of the same shape. This goes back, at least, to Aristotle, who taught us that it isn’t a coincidence that both syllogisms&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;All footballers are bipeds. All bipeds have feet. Therefore all footballers have feet.&lt;/p&gt;
+
+&lt;p&gt;All wombats are cute. All cute things are popular. Therefore all wombats are popular.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;have similar virtues. At the very least, they’re both &lt;em&gt;valid&lt;/em&gt;. They both have the form:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;All &lt;strong&gt;F&lt;/strong&gt;s are &lt;strong&gt;G&lt;/strong&gt;s. All &lt;strong&gt;G&lt;/strong&gt;s are &lt;strong&gt;H&lt;/strong&gt;s. Therefore all &lt;strong&gt;F&lt;/strong&gt;s are &lt;strong&gt;H&lt;/strong&gt;s.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and any syllogisms with that form are valid. Attending to the shape of the reasoning, and “tuning out” concern about whether the premises are &lt;em&gt;true&lt;/em&gt; (are &lt;em&gt;all&lt;/em&gt; wombats cute? Are &lt;em&gt;all&lt;/em&gt; footballers bipeds? — most likely not) and focussing on the form, we see how the premises and conclusions are connected.&lt;/p&gt;
+
+&lt;p&gt;To study &lt;em&gt;form&lt;/em&gt; or &lt;em&gt;structure&lt;/em&gt; is to learn how to attend to one thing and to ignore others, to look for a new level of generality. I love to take the opportunity to stand back, to look at a problem again from a different angle, to reframe it in a different way, to attend to it again, perhaps to see something new, to notice the parallels between one thing and another.&lt;/p&gt;
+
+&lt;p&gt;Thinking of the role of &lt;em&gt;abstraction&lt;/em&gt; involved in formal logic brings to the fore the aspect of logic that is a &lt;em&gt;design&lt;/em&gt; task. Logic is a kind of conceptual engineering. It is always a choice to attend to focus on some features of a problem and to ignore others. Being formal and abstract, logic allows us to stand back and look for structure, to look for patterns — and the result is the delight in recognising a unifying pattern that helps us see something that we didn’t see before.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Abstraction&lt;/em&gt; is the second of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>The Dialectic (the first of twelve things I love about philosophical logic)</title>
+      <link>http://consequently.org/news/2017/twelve-things-01-the-dialectic/</link>
+      <pubDate>Tue, 05 Sep 2017 13:36:03 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-01-the-dialectic/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;One thing I noticed when making my way from mathematics (my undergraduate degree was a B.Sc. in Mathematics at the &lt;a href=&#34;http://www.smp.uq.edu.au/mathematics&#34;&gt;University of Queensland&lt;/a&gt;) to philosophy was the different approach when doing research in the two disciplines. To put it very coarsely, in mathematics, you prove theorems. In philosophy, you argue about things.&lt;/p&gt;
+
+&lt;p&gt;The standards for success are very different in philosophy and in mathematics.  Witness &lt;a href=&#34;https://arxiv.org/abs/1708.03486&#34;&gt;Norbert Blum&amp;rsquo;s recent retraction&lt;/a&gt; of his paper which purported to prove that &lt;em&gt;P&lt;/em&gt; &amp;ne; &lt;em&gt;NP&lt;/em&gt;. While philosophers change their minds about things, I don&amp;rsquo;t recall anyone going so far as to retract a paper that argued for a position they now reject. That&amp;rsquo;s just not how philosophers work, and nor should they.&lt;/p&gt;
+
+&lt;p&gt;One of the joys about working in philosophical logic &amp;mdash; especially for someone with a relatively short attention span, like me &amp;mdash; is that I get to play on both sides of this street. I spend some time as a technical mathematical logician, playing the theorem-proving game, with all of the satisfaction of knowing that I&amp;rsquo;ve really &lt;em&gt;proved&lt;/em&gt; something solid in its own way: a mathematical &lt;em&gt;result&lt;/em&gt;. On the other hand, there&amp;rsquo;s more to life than theorems, and there&amp;rsquo;s more to &lt;em&gt;understanding&lt;/em&gt; than the making of proofs. I love that my discipline &amp;mdash; &lt;em&gt;philosophical&lt;/em&gt; logic &amp;mdash; gives equal time to the discursive, interpretive, philosophical side of the enterprise, that I can spend time writing papers attempting to give an account of &lt;em&gt;how&lt;/em&gt; something works, to argue with others, developing views about the &lt;em&gt;grounds&lt;/em&gt; or the &lt;em&gt;significance&lt;/em&gt; of different concepts or techniques, that there are no barriers to taking the synoptic view, where conjectures can be explored and where perspectives can clash and collide, without expecting that any option be closed off to inquiry.&lt;/p&gt;
+
+&lt;p&gt;The joy in working philosophical logic is more, though, than having two sides to the coin, the &lt;em&gt;formal&lt;/em&gt;/&lt;em&gt;technical&lt;/em&gt; and the &lt;em&gt;discursive&lt;/em&gt;/&lt;em&gt;interpretive&lt;/em&gt;. The delight I find in the discipline is in the &lt;em&gt;dialectic&lt;/em&gt; or the &lt;em&gt;interplay&lt;/em&gt; between these two aspects of the craft. This delight comes when some technical result can shed light on a philosophical conundrum, or when a different interpretive perspective on problem uncovers the way to a new approach to prove a theorem. A recent example dear to my heart on the interplay between the discursive and the formal is how Mark Lance and Heath White&amp;rsquo;s work on the two forms of supposition in their &amp;ldquo;&lt;a href=&#34;https://www.philosophersimprint.org/007004/&#34;&gt;Stereoscopic Vision&lt;/a&gt;&amp;rdquo; motivated and inspired my work on a &lt;a href=&#34;http://consequently.org/writing/cfss2dml/&#34;&gt;cut-free hypersequent calculus for two-dimensional modal logic&lt;/a&gt;, which, in turn, has philosophical significance of its own on how we might acquire modal concepts and coordinate on their use, even when we disagree on what might be necessary or &lt;em&gt;a priori&lt;/em&gt; knowable.&lt;/p&gt;
+
+&lt;p&gt;I find myself in a field where the best work involves formal results addressing issues that have philosophical significance, where discursive and the technical aspects play important, interlocking roles. If you formally model a theory, you nail your colours to the mast. You have to be specific and precise about what is being proposed. This (when done well) keeps you honest. It&amp;rsquo;s harder to hide or to fudge when you&amp;rsquo;re specific and precise about your theory&amp;rsquo;s commitments. On the other hand, the philosophical imperative &amp;mdash; to understand, to probe the foundations, and to take the synoptic view &amp;mdash; means that you don&amp;rsquo;t treat the formal theory as something to be explored for its own sake. Instead, you are always able to take the critical perspective, to ask whether &lt;em&gt;this&lt;/em&gt; is the best model for the phenomenon in question, and to push beyond.&lt;/p&gt;
+
+&lt;p&gt;It is the &lt;em&gt;dialectic&lt;/em&gt; between the formal and the discursive; the &lt;em&gt;dance&lt;/em&gt; between the technical and the critical, that makes philosophical logic such a joy.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Dialectic&lt;/em&gt; is the first of &lt;a href=&#34;http://consequently.org/news/2017/twelve-things-i-love/&#34;&gt;twelve things that I love about philosophical logic&lt;/a&gt;.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Twelve things I love about philosophical logic</title>
+      <link>http://consequently.org/news/2017/twelve-things-i-love/</link>
+      <pubDate>Mon, 04 Sep 2017 20:21:54 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/twelve-things-i-love/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Over this last weekend, I spent some time tidying out one of the electronic &amp;ldquo;junk drawers&amp;rdquo; of my writing life, a folder full of thousands upon thousands of little scraps of text, ranging from minutes of meetings, recipes I&amp;rsquo;ve saved, little ideas I came across which I wanted to save, lists of places to visit when travelling, and many other kinds of digital flotsam and jetsam I&amp;rsquo;ve collected over around 20 years of being online, reading and writing.&lt;/p&gt;
+
+&lt;p&gt;There was a &lt;em&gt;lot&lt;/em&gt; of junk in that big pile of text that I deleted on sight (though there were a few recipes I&amp;rsquo;m looking forward to trying out in the next little while) but one thing really surprised me. It was a short list, entitled &amp;ldquo;&lt;em&gt;12 things I love about philosophical logic&lt;/em&gt;&amp;rdquo;. That scrap of writing was about 200 words&amp;mdash;the &amp;ldquo;12 things&amp;rdquo; are each elaborated with only a sentence or two. I wrote it about five years ago, and I&amp;rsquo;d totally forgotten about it until coming across it this weekend. Rereading it, the ideas resonated. (My views haven&amp;rsquo;t shifted &lt;em&gt;that&lt;/em&gt; much over five years.) What resonated wasn&amp;rsquo;t just that I agreed with my earlier self&amp;mdash;but that I found the thoughts helpful, and they struck me as the kind of thing that you don&amp;rsquo;t often hear. Maybe other logicians have thought or said or written things like this, but if they have, I haven&amp;rsquo;t heard them. It seems to me that we don&amp;rsquo;t often reflect on the pleasures of our discipline, and we don&amp;rsquo;t often commit to text much about what it is like to work in our field, or to highlight what it means to us. Reading these words from five years ago clarified some things for me, so it seems to me that it&amp;rsquo;s at least &lt;em&gt;possible&lt;/em&gt; that they might be of some use to others, too. Maybe seeing how things appear from here can help you get some more insight into how things are for &lt;em&gt;you&lt;/em&gt;, whether you work in philosophical logic, you work in some other field, or you&amp;rsquo;re a curious outsider who wants to get some sense of what it is that we philosophical logicians do with our time.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/twelve-things.jpg&#34; alt=&#34;Just a part of my junk drawer&#34;&gt;
+    &lt;figcaption&gt;Just a small part of my junk drawer.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, here&amp;rsquo;s what I&amp;rsquo;ll do: I&amp;rsquo;m going to spend some time expanding my &amp;ldquo;12 things&amp;rdquo; notes, and I&amp;rsquo;ll post them at roughly one per day, over the next couple of weeks. Come back &lt;em&gt;tomorrow&lt;/em&gt; for the first of the 12 things I love about working in philosophical logic. By the end, the list below will contain links to each entry.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-01-the-dialectic/&#34;&gt;The Dialectic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-02-abstraction/&#34;&gt;Abstraction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-03-multiple-realisability/&#34;&gt;Multiple Realisability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-04-interdisciplinarity/&#34;&gt;Interdisciplinarity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-05-recognition/&#34;&gt;The Moment of Recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-06-expansion/&#34;&gt;Conceptual Expansion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-07-pragmatics/&#34;&gt;Pragmatics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-08-attention/&#34;&gt;Attention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-09-necessity/&#34;&gt;Necessity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-10-possibility/&#34;&gt;Possibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://consequently.org/news/2017/twelve-things-11-learning-and-teaching/&#34;&gt;Learning and Teaching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Community&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Oh, before I forget, I should add a qualification. This list is idiosyncratic and particular in a number of different ways. I don&amp;rsquo;t expect that what I love is what others who work in philosophical logic love, and neither do I mean to imply that these joys are &lt;em&gt;only&lt;/em&gt; to be found when you work in philosophical logic.  In giving this list, I don&amp;rsquo;t mean to universalise to other people&amp;rsquo;s experience, or to claim any particular distinction for my discipline in comparison to others.&lt;/p&gt;
+
+&lt;p&gt;With that said, I&amp;rsquo;d love to hear back from you, especially if these thoughts spark any reflections of your own.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Conditionals in Closed Set Logic</title>
+      <link>http://consequently.org/news/2017/closed-set-logic/</link>
+      <pubDate>Sat, 22 Jul 2017 14:23:43 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/closed-set-logic/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Over the last couple of days on Twitter, I was &lt;a href=&#34;https://twitter.com/sigfpe/status/887754687318966272&#34;&gt;involved in a thread&lt;/a&gt;, kicked off by &lt;a href=&#34;https://twitter.com/sigfpe&#34;&gt;Dan Piponi&lt;/a&gt;, discussing closed set logic&amp;mdash;the natural dual of intuitionistic logic in which the law of the excluded middle holds but the law of non-contradiction fails, and which has models in the closed sets of any topological space, as opposed to the open sets, which model intuitionistic logic.&lt;/p&gt;
+
+&lt;p&gt;\(\def\ydash{\succ}\)This logic also has a nice sequent calculus in which sequents have one premise (or zero) and multiple conclusions. In the thread I made the claim that this is a natural and beautiful sequent calculus (it is!) but that the structure of the sequents means that the logic doesn&amp;rsquo;t have a natural conditional. The &lt;em&gt;dual&lt;/em&gt; to the conditional (subtraction) can be defined, for which \(A\ydash B\lor C\)  if and only if \(A-B\ydash C\). But the traditional conditional rules don&amp;rsquo;t work so well.&lt;/p&gt;
+
+&lt;p&gt;I realised, when I thought about it a bit more, that this fact is something I&amp;rsquo;ve just believed for the last 20 years or so, but I&amp;rsquo;ve never seen written down, so now is as good as a time, and here is as good as a place as any to explain what I mean.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider the conditional rules in the classical sequent calculus. They look something like this (give or take variations in the presentation, all equivalent given the classical structural rules):&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/classical-conditional-rules.png&#34; alt=&#34;Classical Sequent Rules for the Conditional&#34;&gt;
+    &lt;figcaption&gt;Classical sequent rules for the conditional.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If we restrict these rules to multiple conclusion &lt;em&gt;single premise&lt;/em&gt; sequents, we get rules which look like these:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/closed-set-conditional-rules.png&#34; alt=&#34;closed set logic Sequent Rules for the Conditional&#34;&gt;
+    &lt;figcaption&gt;Closed set logic sequent rules for the conditional.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can see an immediate issue with the [\(\supset\)&lt;em&gt;R&lt;/em&gt;&amp;ast;] rule. The concluding sequent is \(\ydash A\supset B,Y\) which tells you when a conditional (with alternate conclusion cases) is derivable from &lt;em&gt;no&lt;/em&gt; premises. It does not tell you anything else about when a conditional (with alternate conclusion cases) is derivable from another premise. It does not tell us what to do if we want to derive \(C\ydash A\supset B,Y\) in any case where the \(C\) is doing some logical work. The best guidance we get is to ignore the \(C\) and to hope that we can derive \(\ydash A\supset B,Y\). (In classical logic, that&amp;rsquo;s fine, because we could stash the \(C\) premise away as an alternate conclusion \(\neg C\) among the \(Y\)s in the right hand side, but in an asymmetric sequent calculus like this, that&amp;rsquo;s not necessarily within our powers.)&lt;/p&gt;
+
+&lt;p&gt;The fact that the rules seem too weak to constrain arbitrary sequents of the form \(C\ydash A\supset B,Y\) gives us a hint that these rules might not be strong enough to actually &lt;em&gt;characterise&lt;/em&gt; or &lt;em&gt;uniquely define&lt;/em&gt; the connective \(\supset\). And that hint bears out when you attempt to derive uniqueness. Here&amp;rsquo;s the issue. Imagine that you and I both use rules like these to define a conditional connective. Yours is \(\supset_1\) and mine is \(\supset_2\). Try to derive the sequent \(p\supset_1 q\ydash p\supset_2 q\) and you&amp;rsquo;ll see that you get stuck:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/attempted-identity-derivation.png&#34; alt=&#34;Attempted derivation of an identity sequent&#34;&gt;
+    &lt;figcaption&gt;Attempted derivation of an identity sequent.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You get stuck at just the point where we&amp;rsquo;d like to know when \(p\supset_2 q\) follows from other premises, and our rules give us no guidance at all. So, it looks as if our rules are not uniquely characterising in this sequent calculus.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s just a suspicion. It&amp;rsquo;d be nice to have a demonstration of this fact&amp;mdash;an explanation of how it is that these rules could be interpreted in different, incompatible ways.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s &lt;em&gt;one&lt;/em&gt; way to show that the single premise / multiple conclusion conditional rules do not define a unique connective in closed set logic. We&amp;rsquo;ll use very simple algebras that are known to model closed set logic. Finite total orders. To be concrete, we&amp;rsquo;ll interpret propositions as taking values from some given subset of the interval \([0,1]\), at least including \(0\) and \(1\), so each formula \(A\) will take some value \(a\) in that set of values, and we&amp;rsquo;ll interpret a sequent \(A\ydash B_1,\ldots,B_n\) as saying that \(a\le \max(b_1,\ldots,b_n)\), which amounts to saying that \(a\le b_i\) for some \(i\). And similarly, \(\ydash B_1,\ldots,B_n\) amounts to \(1\le b_i\) for some \(i\). A sequent holds if the value of the left hand formula (or \(1\), if the formula is absent) is less than or equal to the value of one of the right hand formulas. (If the language has conjunction and disjunction, you can interpret them as \(\min\) and \(\max\) respectively, and the top and bottom values are \(0\) and \(1\).)&lt;/p&gt;
+
+&lt;p&gt;(What has this to do with closed set logic? An \(n+1\) valued algebra corresponds to the closed sets in the topological space of an \(n\)-element totally ordered set where the closure of a set is its upwards closure in the ordering. \(0\) is the empty set and \(1\) is the whole space.)&lt;/p&gt;
+
+&lt;p&gt;Now, look at what the sequent rules for a conditional mean in this setting. Collapsing the finite set \(Y\) in the rules to a single formula \(C\) for simplicity&amp;rsquo;s sake (without any loss of generality), [\(\supset\)&lt;em&gt;R&lt;/em&gt;&amp;ast;]  tells us that if \(a\le\max(b,c)\) then \(1\le\max(a\supset b,c)\). That is, if \(a\le b\) or \(a\le c\) then either \(a\supset b=1\) or \(c=1\). This is to hold for all values for \(a\), \(b\) and \(c\).  A little bit of algebraic manipulation shows that this is equivalent to saying that when \(a\le b\) or \(a\lt 1\) then \(a\supset b=1\).&lt;/p&gt;
+
+&lt;p&gt;And [\(\supset\)&lt;em&gt;L&lt;/em&gt;&amp;ast;] tells us that if \(1\le \max(a,c)\) and \(b\le c\) then \(a\supset b\le c\) for all  \(a\), \(b\) and \(c\). That is, if either \(1\le a\) or \(1\le c\) and \(b\le c\) then \(a\supset b\le c\). Some more  manipulation tells shows that this holds if and only if \(1\supset b\le b\).&lt;/p&gt;
+
+&lt;p&gt;So, [\(\supset\)&lt;em&gt;L&lt;/em&gt;&amp;ast;] and [\(\supset\)&lt;em&gt;R&lt;/em&gt;&amp;ast;] are satisfied in our order models when we have&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\(1\supset b\le b\)&lt;/li&gt;
+&lt;li&gt;If \(a\le b\) or \(a\lt 1\) then \(a\supset b=1\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this is enough to fix &lt;em&gt;many&lt;/em&gt; of the values of \(a\supset b\), but it is nowhere near enough to fix all of them. They do tell us that \(a\supset b=1\) whenever \(a\lt 1\), and also, when \(a=b=1\). But the values for \(1\supset b\) are less constrained. For example these rules are satisfied by setting \(1\supset b =b\) for all \(b\). And they&amp;rsquo;re also satisfied by setting \(1\supset 1 = 1\) and \(1\supset b=0\) when \(b\lt 1\). Provided that there&amp;rsquo;s at least one extra value between \(0\) and \(1\) in the ordering, that gives us wiggle room.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/two-conditional-tables.png&#34; alt=&#34;Two truth tables for conditionals&#34;&gt;
+    &lt;figcaption&gt;Two truth tables for conditionals.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;No wonder we couldn&amp;rsquo;t show that \(p\supset_1 q\) entails \(p\supset_2 q\)! In this case (when \(p\) takes the value \(1\) and \(q\) takes the value \(\frac{1}{2}\)) that inference takes us from \(\frac{1}{2}\) to \(0\). That sequent isn&amp;rsquo;t valid.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That&amp;rsquo;s&lt;/em&gt; what I meant when I said that the conditional rules were not so good in closed set logic. The rules tell us something about conditionals, but they are not specific or strong enough to characterise a single concept.&lt;/p&gt;]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Typesetting Flow Graphs with tikz</title>
+      <link>http://consequently.org/news/2017/typesetting-flow-graphs/</link>
+      <pubDate>Tue, 11 Jul 2017 11:17:18 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2017/typesetting-flow-graphs/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;In a few &lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations/&#34;&gt;recent&lt;/a&gt; &lt;a href=&#34;http://consequently.org/writing/cfss2dml/&#34;&gt;papers&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2017/a-category-of-classical-proofs-tacl/&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2017/proof-identity-invariants-and-hyperintensionality/&#34;&gt;talks&lt;/a&gt;, I&amp;rsquo;ve been using &lt;em&gt;flow graphs&lt;/em&gt; to display the flow of information in proofs. These are the kinds of things that are easy to draw, but they&amp;rsquo;re not so straightforward to typeset.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s an example:
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/flowgraph.jpg&#34; alt=&#34;a flow graph on a natural deduction proof&#34;&gt;
+    &lt;figcaption&gt;A flow graph on a natural deduction proof.&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;They&amp;rsquo;re not easy to typset, because they&amp;rsquo;re an overlay over a proof. The arrows indicate the flow of information inside a proof.&lt;/p&gt;
+
+&lt;p&gt;As an aside, I love the flow graph on this natural deduction proof because the &amp;ldquo;action at a distance&amp;rdquo; nature of the disjunction elimination step is called out by those two sweeping blue and green arcs&amp;mdash;the \(q\) and \(r\) assumptions are discharged by the appeal to the disjunctive conclusion \(q\lor r\). These are the only non-local informational connections in the proof. Each other arc in the flow graph is local, from a premise to a conclusion.&lt;/p&gt;
+
+&lt;p&gt;Now, typesetting these things is not straightforward, because the locations of the arrows are defined by typesetting the underlying proof (here, the black text) and the coloured arcs are typeset on top. How do you do that? And how do you do that in an algorithmic and structural way, focussing on the structure and not hand positioning each of the lines?&lt;/p&gt;
+
+&lt;p&gt;Thankfully, the tools to typset flow graphs are readily available, at least if you use &lt;a href=&#34;http://tug.org&#34;&gt;LaTeX&lt;/a&gt;. I&amp;rsquo;ve written up a little document explaining how to do this, and the document and source are now &lt;a href=&#34;https://github.com/consequently/flowgraphs&#34;&gt;available on Github&lt;/a&gt; for you to use as you see fit. If you&amp;rsquo;ve got any questions, feedback or recommendations for how to extend the technique, please don&amp;rsquo;t hesitate to get in touch.&lt;/p&gt;
+
+&lt;p&gt;I hope it&amp;rsquo;s helpful.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/consequently/flowgraphs&#34;&gt;https://github.com/consequently/flowgraphs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>With Gratitude to Raymond Smullyan</title>
+      <link>http://consequently.org/news/2017/with-gratitude-to-smullyan/</link>
+      <pubDate>Mon, 13 Feb 2017 22:12:50 AEDT</pubDate>
+      
+      <guid>http://consequently.org/news/2017/with-gratitude-to-smullyan/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;While I was busy writing my most recent paper, &amp;ldquo;&lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations/&#34;&gt;Proof Terms for Classical Derivations&lt;/a&gt;&amp;rdquo;, I heard that &lt;a href=&#34;https://www.nytimes.com/2017/02/11/us/raymond-smullyan-dead-puzzle-creator.html?smid=tw-share&#34;&gt;Raymond Smullyan had died at the age of 97&lt;/a&gt;. I &lt;a href=&#34;https://t.co/g5e54e0eo6&#34;&gt;posted a tweet&lt;/a&gt; with a photo of a page from the draft of the paper I was writing at the time, expressing loss at hearing of his death and gratitude for his life.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons to love Professor Smullyan. I learned combinatory logic from his delightful puzzle book &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/Mock-Mockingbird-Raymond-Smullyan/dp/0192801422/consequentlyorg&#34;&gt;To Mock a Mockingbird&lt;/a&gt;&lt;/em&gt;, and he was famous for many more puzzle books like that. He was not only bright and sharp, he was also &lt;a href=&#34;https://www.amazon.com/Tao-Silent-Raymond-M-Smullyan/dp/0060674695/consequentlyorg&#34;&gt;warmly&lt;/a&gt; &lt;a href=&#34;https://www.amazon.com/Who-Knows-Study-Religious-Consciousness/dp/0253215749/&#34;&gt;humane&lt;/a&gt;. However, the focus of my gratitude was something else. In my tweet, I hinted at one reason why I&amp;rsquo;m especially grateful for Smullyan&amp;rsquo;s genius&amp;mdash;his deep understanding of proof theory. I am convinced that his analysis of inference rules in the tableaux system for classical logic rewards repeated reflection. (See his &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/First-Order-Logic-Dover-Books-Mathematics/dp/0486683702/consequentlyorg&#34;&gt;First-Order Logic&lt;/a&gt;&lt;/em&gt;, Chapter 2, Section 1 for details.) I&amp;rsquo;ll try to explain why it&amp;rsquo;s important and insightful here.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;In memory of Raymond Smullyan (1919-2017), with appreciation, fondness, and a sense of loss. &lt;a href=&#34;https://t.co/g5e54e0eo6&#34;&gt;pic.twitter.com/g5e54e0eo6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Greg Restall (@consequently) &lt;a href=&#34;https://twitter.com/consequently/status/829517048346705921&#34;&gt;February 9, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Step back a moment and think about &lt;em&gt;proof theory&lt;/em&gt;, that branch of logic which concentrates&amp;mdash;unlike model theory&amp;mdash;on the &lt;em&gt;positive&lt;/em&gt; definition of the core logical notions of validity, inconsistency, etc. An argument is valid if and only if &lt;em&gt;there is some&lt;/em&gt; proof from the premises to the conclusion. A set of sentences is inconsistent if and only if &lt;em&gt;there is some&lt;/em&gt; refutation of (i.e., proof of a contradiction from) that set of sentences. On the contrary, model theoretic approaches define those notions negatively. An argument is valid if and only if &lt;em&gt;there is no&lt;/em&gt; model satisfying the premises but failing to satisfy the conclusion; a set of sentences is inconsistent if &lt;em&gt;there is no&lt;/em&gt; model satisfying all of them. For proof theory to be precise, we need to know what counts as a proof. The way this is typically done in different accounts of proof (whether &lt;a href=&#34;https://www.amazon.com/Natural-Deduction-Proof-Theoretical-Study-Mathematics/dp/0486446557/consequentlyorg&#34;&gt;natural deduction&lt;/a&gt;, Gentzen&amp;rsquo;s &lt;a href=&#34;https://www.amazon.com/Theory-Cambridge-Theoretical-Computer-Science/dp/0521779111/consequentlyorg&#34;&gt;sequent&lt;/a&gt; &lt;a href=&#34;https://www.amazon.com/Structural-Proof-Theory-Professor-Negri/dp/0521068428/consequentlyorg&#34;&gt;calculus&lt;/a&gt;, or &lt;a href=&#34;https://www.amazon.com/First-Order-Logic-Dover-Books-Mathematics/dp/0486683702/consequentlyorg&#34;&gt;tableaux&lt;/a&gt;), there are different rules for each different logical connective or quantifier. In well behaved proof systems, there tend to be two rules for each connective, explaining what you can deduce &lt;em&gt;from&lt;/em&gt; (for example) a conjunction, and how you could make a deduction &lt;em&gt;to&lt;/em&gt; a conjunction. The same for a conditional, a disjunction, a negation, a universally quantified statement, and so on.&lt;/p&gt;
+
+&lt;p&gt;That makes for a &lt;em&gt;lot&lt;/em&gt; of different rules.&lt;/p&gt;
+
+&lt;p&gt;A &lt;em&gt;proof&lt;/em&gt; is then is some structured collection of statements, linked together in ways specified by the rules. You demonstrate things &lt;em&gt;about&lt;/em&gt; proofs typically by showing that the feature you want to prove holds for &lt;em&gt;basic&lt;/em&gt; proofs (the smallest possible cases), and then you show that if the property holds for a proof, it also holds for a proof you can make out of that one by extending it by a new inference step. If you have \(9\) different rules, then there are \(9\) different cases to check. Worse than that, if you were &lt;em&gt;mad enough&lt;/em&gt; to try to &lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations&#34;&gt;prove something about what happens when you rearrange proofs&lt;/a&gt; by swapping inference steps around, then welcome to the world of combinatorial explosion of cases. If you have \(9\) different kinds of rules, then there are \(9 \times 9 = 81\) different cases you have to consider. There&amp;rsquo;s something inherently unsatisfying about having to consider \(81\) different cases in a proof. You have the nagging feeling that you&amp;rsquo;re not looking at this at the right level of complexity. There is no wonder that the insightful and influential proof theorist &lt;a href=&#34;http://iml.univ-mrs.fr/~girard/Accueil.html&#34;&gt;Jean-Yves Girard&lt;/a&gt; complained:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;One can see &amp;hellip; technical limitations in current proof-theory: The lack in &lt;em&gt;modularity&lt;/em&gt;: in general, neigbouring problems can be attacked by neighbouring methods; but it is only exceptionally that one of the problems will be a corollary of the other &amp;hellip; Most of the time, a completely new proof will be necessary (but without any new idea).  This renders work in the domain quite long and tedious.  For instance, if we prove a cut-elimination theorem for a certain system of rules, and then consider a new system including just a new pair of rules, then it is necessary to make a complete new proof from the beginning.  Of course 90% of the two proofs will be identical, but it is rather shocking not to have a reasonable &amp;laquo;modular&amp;raquo; approach to such a question: a main theorem, to which one could add various &amp;laquo;modules&amp;raquo; corresponding to various directions.  Maybe this is inherent in the subject; one may hope that this only reflects the rather low level of our conceptualization!&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; &lt;a href=&#34;https://www.amazon.com/Proof-Theory-Logical-Complexity-Studies/dp/0444987150/consequentlyorg&#34;&gt;Proof Theory and Logical Complexity&lt;/a&gt;, pages 15 and 16.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the case of permutations of rules, the usual proof of a theorem like this would have \(n\times n\) cases where you have a proof system with \(n\) different inference rules. And if you decided to try to extend your result it to a proof system with another \(m\) rules, you not only need to prove the fact all over again for your new rules, you also need to one-by-one add the \(n\times m\) cases of interaction betwen the old rules and your new ones. Ugh.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s where Smullyan&amp;rsquo;s insight comes in. He divided the rules of his tableaux system for classical propositional logic into two kinds. The \(\alpha\) (linear) rules are single-premise single-conclusion rules, while the \(\beta\) (branching) rules infer a conclusion from &lt;em&gt;two&lt;/em&gt; premises.  It turns out that you can prove very many things about rules operating at this level of generality.  Many features of rules are shared by &lt;em&gt;all&lt;/em&gt; \(\alpha\) rules or &lt;em&gt;all&lt;/em&gt; \(\beta\) rules. And in &lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations&#34;&gt;my paper&lt;/a&gt; I was pleased to see that the \(81\) different cases of permutations I had to consider could be simplified into \(3\) different cases. Swapping an \(\alpha\) step around an \(\alpha\) step; a \(\beta\) around a \(\beta\) and an \(\alpha\) around a \(\beta\) (and back). Instead of writing a paper where I considered \(n\) different cases out of \(81\), and leave the rest to the reader, using Smullyan&amp;rsquo;s insight I could show that any rules of the required two general shapes can be permuted around using the general schemas I formulate. Every case is covered. And what&amp;rsquo;s more, if you extend the proof system with &lt;em&gt;other&lt;/em&gt; rules, provided that they are \(\alpha\) or \(\beta\) rules, the results still hold.  It&amp;rsquo;s a much better way to do proof theory. It&amp;rsquo;s a &lt;em&gt;modular&lt;/em&gt; proof of a theorem, in just the way that Girard hoped for.&lt;/p&gt;
+
+&lt;p&gt;Thanks, Professor Smullyan!&lt;/p&gt;]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>A New Paper</title>
+      <link>http://consequently.org/news/2017/a-new-paper/</link>
+      <pubDate>Mon, 13 Feb 2017 01:32:58 AEDT</pubDate>
+      
+      <guid>http://consequently.org/news/2017/a-new-paper/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;It&amp;rsquo;s a new year, and it&amp;rsquo;s time for a new paper, so here is &amp;ldquo;&lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations/&#34;&gt;Proof Terms for Classical Derivations&lt;/a&gt;&amp;rdquo; I&amp;rsquo;ve been working on these ideas for about a year, from some &lt;a href=&#34;http://consequently.org/presentation/2016/terms-for-classical-sequents-logicmelb/&#34;&gt;rough&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2016/terms-for-classical-sequents-gothenburg/&#34;&gt;talks&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2016/terms-for-classical-sequents-aal-2016/&#34;&gt;over&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2016/what-proofs-are-about/&#34;&gt;most&lt;/a&gt; &lt;a href=&#34;http://consequently.org/presentation/2016/proof-terms-invariants/&#34;&gt;of&lt;/a&gt; 2016, to many conversations with my colleague &lt;a href=&#34;http://standefer.weebly.com&#34;&gt;Shawn&lt;/a&gt; as I attempted to iron out the details, to many more hours in front of whiteboards, I&amp;rsquo;ve finally got something I&amp;rsquo;m happy to show in public.&lt;/p&gt;
+
+&lt;p&gt;The paper still rough, but the ideas are all there, and I think the theorems are all correct. The paper is under 50 pages&amp;mdash;but only just! It proposes a new account of proof terms for classical propositional logic. These proof terms give a new account of what it is for one sequent derivation to represent the &amp;ldquo;same underlying proof&amp;rdquo; as another. Two derivations represent the same proof if and only if they have the same proof term. In the paper I show that two derivations have the same proof term if and only if one can be permuted into the other, using a natural class of transformations of derivations. Finally, I show that cut elimination for proof terms is confluent and strongly normalising, giving a new account of what it is to &lt;em&gt;evaluate&lt;/em&gt; a classical proof, in a way that does not collapse into triviality.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s an example from the paper, of three derivations, with the same concluding proof term:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/three-derivations.jpg&#34; alt=&#34;three derivations with the same profo term&#34;&gt;
+    &lt;figcaption&gt;Three derivations with the same proof term&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If this looks interesting to you, please &lt;a href=&#34;http://consequently.org/writing/proof-terms-for-classical-derivations/&#34;&gt;take a look&lt;/a&gt;. I&amp;rsquo;d appreciate your feedback. Thanks!&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>A Puzzle for Brandom&#39;s Account of Singular Terms</title>
+      <link>http://consequently.org/news/2016/a-puzzle-for-bob/</link>
+      <pubDate>Wed, 30 Nov 2016 11:22:42 AEDT</pubDate>
+      
+      <guid>http://consequently.org/news/2016/a-puzzle-for-bob/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;I&amp;rsquo;ve been interested in &lt;a href=&#34;http://www.pitt.edu/~rbrandom/&#34;&gt;Robert Brandom&lt;/a&gt;’s inferentialism since I picked up a copy of &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/Making-Explicit-Representing-Discursive-Commitment/dp/0674543300/consequentlyorg&#34;&gt;Making it Explicit&lt;/a&gt;&lt;/em&gt; back in 1996.  One interesting component of Brandom&amp;rsquo;s inferentialism is his account of what it is to be a singular term. There are a number of ways to understand inferentialism, but the important point here is the centrality of &lt;em&gt;material inference&lt;/em&gt; to semantics. An inference like “Melbourne is south of Sydney, therefore Sydney is north of Melbourne” is a materially good inference. Material inferences, for Brandom, are not to be understood as grounded in a more primitive notion of logical consequence—we shouldn’t explain the inference in terms of the validity of the form “\(a\) is south of \(b\), for all \(x\) and \(y\) if \(x\) is south of \(y\) then \(y\) is north of \(x\), therefore, \(b\) is north of \(a\)” and the fact that the extra premise is common knowledge or a part of the norms governing the concepts of north and south. No, according the inferentialist, we are to explain those facts in terms of materially good inferences, and not &lt;em&gt;vice versa&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Well, one of the distinctive features of Brandom’s inferentialism is that he takes there to be an inferentialist account of what it is for a term to be a &lt;em&gt;singular term&lt;/em&gt;&amp;mdash;a name or other device that picks out an &lt;em&gt;object&lt;/em&gt;, rather than a &lt;em&gt;predicate&lt;/em&gt; that describes something, or some other kind of connective or modifier.&lt;/p&gt;
+
+&lt;p&gt;Here’s a one sentence slogan summarising the account of what it is to be a singular term:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A grammatical item is a &lt;em&gt;singular term&lt;/em&gt; if and only if the &lt;em&gt;substitution inferences&lt;/em&gt; in which that item is &lt;em&gt;materially involved&lt;/em&gt; are &lt;em&gt;symmetric&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(See Brandom’s &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/Articulating-Reasons-Inferentialism-Robert-Brandom/dp/0674006925/consequentlyorg&#34;&gt;Articulating Reasons&lt;/a&gt;&lt;/em&gt;, Chapter 4, especially Section II for details and exposition.)&lt;/p&gt;
+
+&lt;p&gt;There are at least three complex concepts in this slogan that require explanation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Substitution inferences&lt;/strong&gt;: A substitution inference involving a term \(t\) is an inference from a sentence using \(t\) to a sentence found by replacing the occurrences if \(t\) in the sentence with some other term of the same grammatical type. For example, the inference from “Greg is a philosophical logician” to “Greg is a philosopher” is a substitution inference involving “philosophical logician”—the term “philosopher” is substituted is in place of “philosophical logician.” The inference “Greg is a philosophical logician” to “The author of this note is a philosophical logician” is also a substitution inference.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Material involvement&lt;/strong&gt;: A term is &lt;em&gt;materially involved&lt;/em&gt; in an inference if it cannot be replaced without altering the status of the inference.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Symmetric&lt;/strong&gt;: An inference from &lt;em&gt;A&lt;/em&gt; to &lt;em&gt;B&lt;/em&gt; is (materially) symmetric if and only if whenever that inference is materially good, so is the converse, from &lt;em&gt;B&lt;/em&gt; to &lt;em&gt;A&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There’s something insightful about this. The inference from “Greg is a philosophical logician” to “The author of this note is a philosophical logician” is materially good (at least, in some contexts), if that’s good so is the converse inference. Why? Because I (Greg) am the author of this note. But the inference from “Greg is a philosophical logician” to “Greg is a philosopher” is good in the way that the converse need not be. There are clearly asymmetric material inferences resulting from the substitution of weaker predicates for stronger predicates. There don’t seem to be anything “weaker” or “stronger” singular terms. What would such things be? It really looks like there is something important going on in the difference between substitution of singular terms and the substitution of predicates (or predicate modifiers, or other grammatical units) in these inferences.&lt;/p&gt;
+
+&lt;p&gt;However, I am struck by the following puzzle. Consider an inference like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;23 is a small number, therefore 22 is small number.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I take this is a materially good inference. Whatever standard of smallness you invoke, if 23 counts as a small number, so does 22. Why? Because 22 is smaller than 23.&lt;/p&gt;
+
+&lt;p&gt;In fact, each inference of the form:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;\(m\) is a small number, therefore \(n\) is a small number.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Looks materially good to me, for any numerals \(m\) and \(n\) where \(n\) names a larger number than \(m\) does. Because, as before, \(m\) is &lt;em&gt;indeed&lt;/em&gt; smaller than \(n\), and in those cases, the inference is good.&lt;/p&gt;
+
+&lt;p&gt;However, the converse inferences seem nowhere near as good. While &lt;em&gt;some&lt;/em&gt; of the converse inferences might be good (I have some &lt;a href=&#34;http://davewripley.rocks&#34;&gt;friends&lt;/a&gt; who take it that every inference of the form &lt;em&gt;\(m\) is small, so \(m+1\) is small&lt;/em&gt; is good), but you shouldn’t think that &lt;em&gt;all&lt;/em&gt; of them are good. If you can find a number \(n\) that is small and a larger number \(m\) that is &lt;em&gt;not&lt;/em&gt; small, then the converse inference&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;\(n\) is a small number, therefore \(m\) is a small number.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;is not only materially bad—it has a true premise and a false conclusion. It’s as bad as an argument can get.&lt;/p&gt;
+
+&lt;p&gt;This looks to me to be a clear counterexample to Brandom’s account of singular terms. Here’s why.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Numerals really do look like they are singular terms. (In the formalised language of mathematics, we treat numerals as singular terms. It’s a natural thing to do.) While numbers aren’t the same sorts of objects as objects we can see or touch, measure or weigh, the terms certainly seem to act like singular terms.&lt;/li&gt;
+&lt;li&gt;The inferences from \(n\) &lt;em&gt;is small&lt;/em&gt; to \(m\) &lt;em&gt;is small&lt;/em&gt; (where \(m\) is smaller than \(n\)) really do seem to be materially good. If we’re going to rule these out&lt;/li&gt;
+&lt;li&gt;The inference from \(n\) &lt;em&gt;is small&lt;/em&gt; to \(m\) &lt;em&gt;is small&lt;/em&gt; looks for all the world like a substitution inference where \(n\) is replaced by \(m\). It would be a strange grammatical analysis to take it to not be a substitution inference.&lt;/li&gt;
+&lt;li&gt;The term \(n\) appears materially in the inference from &lt;em&gt;\(n\) is small&lt;/em&gt; to &lt;em&gt;\(m\) is small&lt;/em&gt;. (If this inference is valid, replace \(n\) by something smaller than \(m\) to make the resulting inference invalid. Conversely if the inference is invalid, we replace \(n\) by some number smaller than \(m\), to find a valid inference.) I can’t see any way to understand material involvement if this is not a case of it.&lt;/li&gt;
+&lt;li&gt;These inferences, though materially valid, are not all symmetric, unless either &lt;em&gt;no&lt;/em&gt; number is small or &lt;em&gt;every&lt;/em&gt; number is.  But that’s to make a nonsense of our concepts of “small.”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Despite appearances, this has nothing to do with the sorites paradox, or to do with the context sensitivity of “small.” We could have run the same argument with the inference&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;23 is smaller than \(N\), therefore 22 is smaller than \(N\).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;where \(N\) is some fixed (possibly known, possibly unknown) number, and the result would have been the same. All inferences&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;\(n\) is smaller than \(N\), therefore \(m\) is smaller than \(N\).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;are materially good, in those cases where \(m\) is smaller than \(n\). And obviously, some of the converse inferences are bad.&lt;/p&gt;
+
+&lt;p&gt;(We could do the same with more prosaic examples, too. The inference from “Wellington is south of Melbourne” to “Wellington is south of Sydney” seems materially good, while the converse inference seems much less compelling.)&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;think&lt;/em&gt; this means that Brandom’s account can’t work as it stands, unless I’ve misunderstood it. Even though there aren’t &lt;em&gt;general&lt;/em&gt; inferential asymmetries between singular terms, there are &lt;em&gt;local&lt;/em&gt; asymmetries, relative to particular substitution inferences. Any account of the distinctive behaviour of singular terms will need to paint the distinction somewhere other than the symmetry  or asymmetry of &lt;em&gt;all&lt;/em&gt; substitution inferences.&lt;/p&gt;
+
+&lt;p&gt;What do &lt;em&gt;you&lt;/em&gt; think?&lt;/p&gt;
+
+&lt;p&gt;(Thanks to &lt;a href=&#34;http://standefer.weebly.com&#34;&gt;Shawn Standefer&lt;/a&gt; and Kai Tanter for conversations that prompted these thoughts.)&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>Proof Terms are fun</title>
+      <link>http://consequently.org/news/2016/proof-terms-are-fun/</link>
+      <pubDate>Fri, 02 Sep 2016 17:35:21 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2016/proof-terms-are-fun/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Today, between &lt;a href=&#34;http://consequently.org/class/2016/PHIL20030/&#34;&gt;marking assignments&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/logicmelb/status/771115105282961410&#34;&gt;working through a paper on proof theory for counterfactuals&lt;/a&gt;, I&amp;rsquo;ve been playing around with &lt;a href=&#34;http://consequently.org/presentation/2016/terms-for-classical-sequents-aal-2016/&#34;&gt;proof terms&lt;/a&gt;. They&amp;rsquo;re a bucketload of fun. The derivation below generates a proof term for the sequent \(\forall xyz(Rxy\land Ryz\supset Rxz),\forall xy(Rxy\supset Ryx),\forall x\exists y Rxy \succ \forall x Rxx\). The playing around is experimenting with different ways to encode the &lt;em&gt;quantifier&lt;/em&gt; steps in proof terms. I think I&amp;rsquo;m getting somewhere with this. (But boy, typesetting these things is &lt;em&gt;not&lt;/em&gt; easy.)&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-captioned data-instgrm-version=&#34;7&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:8px;&#34;&gt; &lt;div style=&#34; background:#F8F8F8; line-height:0; margin-top:40px; padding:49.9074074074% 0; text-align:center; width:100%;&#34;&gt; &lt;div style=&#34; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&#34;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&#34; margin:8px 0 0 0; padding:0 4px;&#34;&gt; &lt;a href=&#34;https://www.instagram.com/p/BJ1QhRCD7ex/&#34; style=&#34; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&#34; target=&#34;_blank&#34;&gt;A whiteboard-to-LaTeX scanner would be really handy right about now. Anybody have one?&lt;/a&gt;&lt;/p&gt; &lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;A photo posted by Greg Restall (@consequently) on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2016-09-01T23:42:54+00:00&#34;&gt;Sep 1, 2016 at 4:42pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async defer src=&#34;//platform.instagram.com/en_US/embeds.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>First Degree Entailment, Symmetry and Paradox</title>
+      <link>http://consequently.org/news/2016/fde-symmetry-and-paradox/</link>
+      <pubDate>Wed, 27 Jul 2016 00:36:40 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2016/fde-symmetry-and-paradox/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Talking to &lt;a href=&#34;http://entailments.net&#34;&gt;Jc Beall&lt;/a&gt; during his recent visit to Australia, I got thinking about &lt;em&gt;first degree entailment&lt;/em&gt; again.&lt;/p&gt;
+
+&lt;p&gt;Here is a puzzle, which I learned from Terence Parsons in his “&lt;a href=&#34;http://www.jstor.org/stable/40231701&#34;&gt;True Contradictions&lt;/a&gt;”. &lt;em&gt;First Degree Entailment&lt;/em&gt; (&lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;) is a logic which allows for truth value &lt;em&gt;gaps&lt;/em&gt; as well as truth value &lt;em&gt;gluts&lt;/em&gt;.  If you are agnostic between assigning paradoxical sentences gaps and gluts (and there seems to be no very good reason to prefer gaps over gluts or gluts over gaps if you&amp;rsquo;re happy with &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;), then this looks no different, in effect, from assigning them a &lt;em&gt;gap&lt;/em&gt; value? After all, on both views you end up with a theory that doesn&amp;rsquo;t commit you to the paradoxical sentence or its negation.  How is the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; theory any different from the theory with gaps alone?&lt;/p&gt;
+
+&lt;p&gt;I think I have a clear answer to this puzzle&amp;mdash;an answer that explains how being agnostic between gaps and gluts is a genuinely different position than admitting gaps alone. But to explain the answer and show how it works, I need to spell things out in more detail. If you want to see how this answer goes, read on.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;First degree entailment (&lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;) is a logic well suited to fixed point solutions to the paradoxes. Perhaps it is &lt;em&gt;too&lt;/em&gt; well suited, because it allows paradoxical sentences to be evaluated in two distinct ways: Paradoxical sentences can be assigned the value \(n\) (neither true nor false: \(\lbrace\rbrace\)) or \(b\) (both true and false&amp;mdash;or \(\lbrace 0,1\rbrace\)) equally well. Are two possible values better than one? And more importantly, is agnosticism between &lt;em&gt;which&lt;/em&gt; value to assign a paradoxical sentence like the liar&amp;mdash;a stance Terence Parsons calls “agnostaletheism”&amp;mdash;any different from assigning it the truth value \(n\) instead of \(b\)? After all, on either stance, neither the liar sentence nor its negation are to be accepted. In this note, I explore the symmetry that is available in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;, and I show how agnostaletheism may be clearly distinguished from the view according to which paradoxes are simply neither true nor false.&lt;/p&gt;
+
+&lt;h3 id=&#34;fde-and-relational-evaluations&#34;&gt;FDE and Relational Evaluations&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;First Degree Entailment&lt;/em&gt; (&lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;) is a simple and elegant logic, well suited to many different applications. It can be defined and understood in a number of different ways, but for our purposes it suits to introduce it as the generalisation of classical two-valued logic according to which evaluations are no longer functions assigning each sentence of a language a truth value from \(\lbrace 0,1\rbrace\), but relations to those truth values. Relaxing the constraint that evaluations be Boolean functions means that sentences can be be &lt;em&gt;neither&lt;/em&gt; true nor false (the evaluation fails to relate the sentence to either \(0\) or \(1\)) or &lt;em&gt;both&lt;/em&gt; true and false (the evaluation relates the sentence to both truth values). This generalisation allows us to interpret the  suite of connectives and quantifiers of predicate logic in a straightforward manner, generalising the traditional evaluation conditions due to Boole and Tarski as follows.&lt;/p&gt;
+
+&lt;p&gt;\(\def\semv#1{{[\![}#1{]\!]}}\)
+Given a non-empty domain \(D\) of objects, an &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-model for a language consists of a multi-sorted relation \(\rho\) defined as follows: For each \(n\)-place predicate \(F\), \(\rho_F\) relates \(n\)-tuples of objects from \(D\) to the truth values \(0,1\). For each constant \(c\) in the language, \(\rho_c\) selects a unique object from \(D\). An assignment \(\alpha\) of values to the variables is a function from those variables to  the domain \(D\). Given an assignment \(\alpha\) and the interpretation \(\rho\) we define the semantic value \(\semv{t}_{\rho,\alpha}\) of a term \(t\) to be given by \(\rho_t\) if \(t\) is a name and \(\alpha(t)\) if \(t\) is a variable. Then, relative to each assignment \(\alpha\) we define the relation \(\rho_\alpha\) which matches formulas in the language to truth values as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\((Ft_1\cdots t_n)\rho_\alpha i\) iff \(\langle \semv{t_1}_{\rho,\alpha},\ldots,\semv{t_n}_{\rho,\alpha}\rangle\rho_F i\)&lt;/li&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 1\) iff \(A\rho_\alpha 1\) and \(B\rho_\alpha 1\)&lt;/li&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 0\) iff \(A\rho_\alpha 0\) or \(B\rho_\alpha 0\)&lt;/li&gt;
+&lt;li&gt;\((A\lor B)\rho_\alpha 1\) iff \(A\rho_\alpha 1\) or \(B\rho_\alpha 1\)&lt;/li&gt;
+&lt;li&gt;\((A\lor B)\rho_\alpha 0\) iff \(A\rho_\alpha 0\) and \(B\rho_\alpha 0\)&lt;/li&gt;
+&lt;li&gt;\(\neg A\rho_\alpha 1\) iff \(A\rho_\alpha 0\)&lt;/li&gt;
+&lt;li&gt;\(\neg A\rho_\alpha 0\) iff \(A\rho_\alpha 1\)&lt;/li&gt;
+&lt;li&gt;\((\forall x)A\rho_\alpha 1\) iff \(A\rho_{\alpha[x:=d]} 1\) for every \(d\) in \(D\).&lt;/li&gt;
+&lt;li&gt;\((\forall x)A\rho_\alpha 0\) iff \(A\rho_{\alpha[x:=d]} 0\) for some \(d\) in \(D\).&lt;/li&gt;
+&lt;li&gt;\((\exists x)A\rho_\alpha 1\) iff \(A\rho_{\alpha[x:=d]} 1\) for some \(d\) in \(D\).&lt;/li&gt;
+&lt;li&gt;\((\exists x)A\rho_\alpha 0\) iff \(A\rho_{\alpha[x:=d]} 0\) for every \(d\) in \(D\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The only deviation from classical first order predicate logic is that we allow for truth value gaps (\(\rho\) may fail to relate a given formula to a truth value) or gluts (\(\rho\) may relate a given formula to both truth values). Indeed, these features are, in a sense, &lt;em&gt;modular&lt;/em&gt;. It is straightforward to show that if a given interpretation \(\rho\) is a partial function on the basic vocabulary of a language (if it never over-assigns values to the extension of any predicate in that language), then it remains so over every sentence in that language. Those sentences can be assigned gaps, but no gluts. Similarly, if an interpretation is decisive over the basic vocabulary of some language (it never under-assigns values to the extensions of any predicate in that language), then it remains so over every sentence of that language. These sentences can be assigned gluts, but no gaps. If an evaluation is &lt;em&gt;sharp&lt;/em&gt; (if it allows for neither gaps nor gluts in the interpretation of any predicate), then it remains so over the whole language.&lt;/p&gt;
+
+&lt;p&gt;Relational evaluations are a natural model for &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;. They show it to be an elementary generalisation of classical logic, allowing for gaps between truth values and over-assignment of those values. The interpretation of the connectives and the quantifiers remains as classical as in two-valued logic, except for the generalisation to allow for gaps and gluts between the two semantic values.&lt;/p&gt;
+
+&lt;h3 id=&#34;fde-and-four-values&#34;&gt;FDE and four values&lt;/h3&gt;
+
+&lt;p&gt;We can also see &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; in another light, not as a logic allowing for gaps and gluts between two truth values, but as a logic allowing for &lt;em&gt;four&lt;/em&gt; semantic values. For clarity, we will write these four values: \(t\), \(b\), \(n\) and \(f\). We can translate between the two-valued and four-valued languages as follows. Given a relational valuation \(\rho\) we define a functional valuation \(v\) which assigns&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\(v(A)=t\) iff \(A\rho 1\) but not \(A{\rho} 0\)&lt;/li&gt;
+&lt;li&gt;\(v(A)=b\) iff \(A\rho 1\) and \(A\rho 0\)&lt;/li&gt;
+&lt;li&gt;\(v(A)=f\) iff \(A\rho 0\) but not \(A{\rho} 1\)&lt;/li&gt;
+&lt;li&gt;\(v(A)=n\) iff neither \(A{\rho} 1\) nor \(A{\rho} 0\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It follows then, that&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\(A\rho 1\) iff \(v(A)=t\) or \(v(A)=b\), and&lt;/li&gt;
+&lt;li&gt;\(A\rho 0\) iff \(v(A)=f\) or \(v(A)=b\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Evaluation relations that are partial functions can be understood as functional evaluations taking semantic values from \(t,n,f\) &amp;mdash; and the evaluation clauses in this case give us the familiar logic &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt;: Kleene&amp;rsquo;s strong three valued logic. Evaluation relations that are decisive, allowing for no gaps, can be understood as taking semantic values from \(t,b,f\) &amp;mdash; and the evaluation clauses in this case give us the familiar logic &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt;: Priest&amp;rsquo;s logic of paradox. In what follows, I will move between functional and relational vocabulary as seems appropriate.&lt;/p&gt;
+
+&lt;p&gt;\(\def\ydash{\succ}\)&lt;/p&gt;
+
+&lt;h3 id=&#34;fde-and-sequents&#34;&gt;FDE and Sequents&lt;/h3&gt;
+
+&lt;p&gt;There are many different ways we can use &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluations to analyse truth and consequence in the language of first order logic. One important notion goes like this: An interpretation \(\rho\) is said to be a &lt;em&gt;counterexample&lt;/em&gt; to the sequent \(X\ydash Y\) if and only if \(\rho\) relates each member of \(X\) to \(1\) while it relates no member of \(Y\) to \(1\). In other words, an interpretation provides a counterexample to a sequent if it shows some way that the sequent fails to preserve truth. Given some set \(\mathcal M\) of evaluations, a sequent is said to be \(\mathcal M\)-valid if it has no counterexamples in the set \(\mathcal M\). We reserve the term &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-valid for those sequents which have no counterexamples at all. A sequent is said to be &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt;-valid if it has no counterexamples among partial function evaluations, and a sequent is said to be &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt;-valid if it has no counterexamples among decisive valuations.&lt;/p&gt;
+
+&lt;p&gt;All this is very well known in the literature on non-classical logics&amp;mdash;see, for example (Priest &lt;a href=&#34;https://www.amazon.com/Introduction-Non-Classical-Logic-Introductions-Philosophy/dp/0521670268/consequentlyorg&#34;&gt;2008, Chapter 8&lt;/a&gt;) for details. The &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; validities include all of distributive lattice logic with a de Morgan negation.  Sequents such as these
+\[
+\neg (A\land B)\ydash \neg A\lor \neg B\quad
+ \neg (A\lor B)\ydash \neg A\land \neg B
+\]
+\[
+\neg A\lor \neg B\ydash \neg (A\land B)\quad
+\neg A\land \neg B\ydash \neg (A\lor B)
+\]
+\[
+A\ydash\neg\neg A \quad \neg\neg A\ydash A
+\]
+are  &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; valid. The next sequents are not valid in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;, but they are valid in &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt;:
+\[
+{A,\neg A\ydash~}\quad
+A\lor B,\neg A\ydash B
+\]
+In both cases, an &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; interpretation which relates \(A\) to both \(0\) and \(1\) (but which fails to relate \(B\) to \(1\)) serves as a counterexample.
+Similarly, the following sequents are &lt;em&gt;not&lt;/em&gt; valid in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;, but they are valid in &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt;:
+\[
+{\ydash~A,\neg A}\quad
+B\ydash A\land B,\neg A
+\]
+In both cases, an &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; interpretation which relates \(A\) to neither \(0\) nor \(1\) (but which relates \(B\) to \(1\)) serves as a counterexample.&lt;/p&gt;
+
+&lt;h3 id=&#34;fde-theories-and-bitheories&#34;&gt;FDE, Theories and Bitheories&lt;/h3&gt;
+
+&lt;p&gt;From sequents we move to theories. A the usual definition has it that a &lt;em&gt;theory&lt;/em&gt; may be defined as a set of sentences closed under a logical consequence relation. So, given some collection \(\mathcal M\) of interpretations,  \(T\) is an \(\mathcal M\)-theory if and only if whenever the sequent \(T\ydash A\) (where \(A\) is a single formula) is \(\mathcal M\)-valid, then \(A\) is a member of \(T\). \(\mathcal M\)-theories contain their own \(\mathcal M\)-consequences. We can think of theories as representing what is held to be true according to a certain stance&amp;mdash;a consequences of what is held true is also (implicitly) held true. Elsewhere (Restall 2013) I have argued that in logics like &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; we have good reason to consider not only what is held true, but what is held *un*true. Sequents give us a straightforward vocabulary for describing this. We say that the disjoint pair \(\langle T,U\rangle\) is an \(\mathcal M\)-&lt;em&gt;bitheory&lt;/em&gt; if and only if whenever the sequent \(T\ydash A,U\) (where \(A\) is a single formula) is \(\mathcal M\)-valid, then \(A\) is a member of \(T\), and whenever \(T,A\ydash U\) is \(\mathcal M\)-valid, then \(A\) is a member of \(U\). Now, \(\langle T,U\rangle\) is a pair, consisting of what is (according to that bitheory) held true (to be related to \(1\)) on the one hand and what is held untrue (to be unrelated to \(1\)), on the other.  Suppose \(\mathcal M&amp;rsquo;\subseteq\mathcal M\) is another set of interpretations. If we define \(T_{\mathcal M&amp;rsquo;}\) to be the set of all sentences true (related to \(1\)) in all \(\mathcal M&amp;rsquo;\)-interpretations and likewise \(U_{\mathcal M&amp;rsquo;}\) to be the set of all sentences untrue (not related to \(1\)) in those interpretations, then \(\langle T_{\mathcal M&amp;rsquo;},U_{\mathcal M&amp;rsquo;}\rangle\) is a \(\mathcal M\)-bitheory. Indeed, if \(\mathcal M&amp;rsquo;\) is a singleton set, consisting of one interpretation, then the bitheory \(\langle T_{\mathcal M&amp;rsquo;},U_{\mathcal M&amp;rsquo;}\rangle\) is a partition of the language, deciding every formula to be either true or untrue. If the set \(\mathcal M&amp;rsquo;\) is larger, containing interpretations which give a sentence \(A\) different verdicts, then the corresponding bitheory will no longer be a partition. If one interpretation judges \(A\) to be true, another judges it untrue, then \(A\) will neither feature in the left set nor the right set.&lt;/p&gt;
+
+&lt;h3 id=&#34;fde-and-truth&#34;&gt;FDE and Truth&lt;/h3&gt;
+
+&lt;p&gt;The puzzle under consideration in this note arises from the behaviour of paradoxical sentences in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;. The details of the paradoxes are not important to us, but regardless, let&amp;rsquo;s consider a concrete case, the paradoxes of truth. We will consider a transparent account of truth, so let us focus on first order languages in which we have a one-place predicate \(T\) for truth. Since the truth predicate is a &lt;em&gt;predicate&lt;/em&gt;, it will apply to objects in the domain. To allow for fixed points (sentences which ascribe truth or falsity to sentences in the language, including themselves) we extend the language with quotation names for sentences in that very same language. So, for each sentence \(A\) we have a name \(\ulcorner A\urcorner\). Fixed point constructions for truth in the style of Kripke, Brady, Woodruff and Gilmore generate &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-interpretations for a language in which the sentence \(A\) and the sentence \(T\ulcorner A\urcorner\) are assigned the same semantic values. We will call such interpretations &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;\(^T\) interpretations. The construction method for &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;\(^T\)-interpretations assigns the extension of \(T\) in stages, keeping the rest of the evaluation as given, including the denotation for constants. The details of the proof are not important to us, but one essential idea is useful: the notion of &lt;em&gt;preservation&lt;/em&gt; between evaluations. For two evaluations \(\rho\) and \(\rho&amp;rsquo;\), we have \(\rho\sqsubseteq\rho&amp;rsquo;\) if and only if whenever \(\rho\) relates an atomic formula to a given truth value \(0\) or \(1\), so does \(\rho&amp;rsquo;\). It is a straightforward induction on the complexity of formulas that this then extends to all of the formulas in the language: for any formula \(A\), if \(A\rho 0\) then \(A\rho&amp;rsquo; 0\) too, and if \(A\rho 1\) then \(A\rho&amp;rsquo; 1\) too. The evaluations \(\rho\) and \(\rho&amp;rsquo;\) may still differ, because \(\rho\) might leave a &lt;em&gt;gap&lt;/em&gt; where \(\rho&amp;rsquo;\) fills in a value, \(0\) or \(1\), or where \(\rho\) assigned only one value, \(\rho&amp;rsquo;\) might assign &lt;em&gt;both&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The only requirement on quotation names for this fixed point construction to succeed is that quotation names for different sentences are different. This means that the construction will work &lt;em&gt;whatever&lt;/em&gt; we take the denotation of other constants to be. So, let&amp;rsquo;s consider a language with a countable supply of constants \(\lambda,\lambda_1,\lambda_2,\ldots\) whose denotation can be freely set however we please.&lt;/p&gt;
+
+&lt;p&gt;So &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; is the set of relational &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluations for this language in which \(T\) is a fixed point&amp;mdash;that is, for any sentence \(A\), that sentence receives the same evaluation as \(T\ulcorner A\urcorner\). &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; can also be considered as a theory (or bitheory), if we wish to consider what holds (and fails to hold) in all such evaluations. We can do the same for &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;lp\(^T\)&lt;/span&gt;, when we restrict our attention to evaluations in which there are no truth value gluts or gaps respectively. Kripke&amp;rsquo;s original construction shows us how to make &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; evaluations, and the construction generalises to &lt;span class=&#34;caps&#34;&gt;lp\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; straightforwardly.&lt;/p&gt;
+
+&lt;p&gt;Now, to consider the behaviour of the paradoxical sentences, let&amp;rsquo;s fix the referent of the term \(\lambda\) to be the same as the referent of  the quotation name \(\ulcorner\neg T\lambda\urcorner\), containing the term \(\lambda\) itself. It follows then that \(T\lambda\) has the same value as \(T\ulcorner\neg T\lambda\urcorner\), which has the same value as \(\neg T\lambda\). \(\lambda\) denotes a liar sentence, which says of itself that it&amp;rsquo;s not true. That is, the sentence \(\neg T\lambda\) (and its mate, \(T\lambda\)) must be assigned the value \(b\) or \(n\), since it is a fixed point for negation. The fixed point construction allows us to generate interpretations for the truth predicate in which sentences like \(\neg T\lambda\) have the value \(n\), and interpretations where those sentences have the value \(b\)&amp;mdash;in fact, one can make the fixed point construction purely in &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; or in &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt;&amp;mdash;and there are also mixed models in which some paradoxical sentences have the value \(n\) and others the value \(b\).&lt;/p&gt;
+
+&lt;p&gt;So, if we take &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; to be an adequate &lt;em&gt;logic&lt;/em&gt; of truth, then it seems as if we should be agnostic about whether a liar sentence like \(\neg T\lambda\) has value \(n\) or \(b\), unless we can find some consideration which breaks the tie between them. This position was named ``agnostaletheism&amp;rdquo;, by Terence Parsons (&lt;a href=&#34;http://www.jstor.org/stable/40231701&#34;&gt;1990&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Perhaps there &lt;em&gt;is&lt;/em&gt; a tie-breaking consideration. If we were to be agnostic between assigning \(\neg T\lambda\) the value \(b\) and the value \(n\), this looks a lot like assigning the value \(n\). After all, according to both theories, we don&amp;rsquo;t assert \(T\lambda\) and we don&amp;rsquo;t assert its negation.  This is the puzzling question: Is there an instability in &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt;? Does &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; collapse into &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt;?&lt;/p&gt;
+
+&lt;h3 id=&#34;symmetry-in-fde-theories&#34;&gt;Symmetry in FDE Theories&lt;/h3&gt;
+
+&lt;p&gt;The profound symmetry between gaps and gluts in first degree entailment is manifest in the behaviour of the Routley star&amp;mdash;a function on evaluations&amp;mdash;introduced by Richard and Valerie Routley in the 1970s (Routley and Routley 1972). Given an evaluation \(\rho\), we can define its &lt;em&gt;dual&lt;/em&gt; evaluation \(\rho^\ast\) as follows:&lt;/p&gt;
+
+&lt;p&gt;For each \(n\)-place predicate \(F\), we set:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\(\langle d_1,\ldots,d_n\rangle\rho^\ast_F 1\) holds iff \(\langle d_1,\ldots,d_n\rangle\rho_F 0\) doesn&amp;rsquo;t hold.&lt;/li&gt;
+&lt;li&gt;\(\langle d_1,\ldots,d_n\rangle\rho^\ast_F 0\) holds iff \(\langle d_1,\ldots,d_n\rangle\rho_F 1\) doesn&amp;rsquo;t hold.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In other words, an atomic formula is &lt;em&gt;true&lt;/em&gt; according to \(\rho{^\ast}\) if and only if to \(\rho\) it is not false, and it is &lt;em&gt;false&lt;/em&gt; according to \(\rho{^\ast}\) if and only if to \(\rho\) it is not true. This means that atomic formulas which are \(t\) by \(\rho\)&amp;rsquo;s lights are also \(t\) by \(\rho^\ast\)&amp;rsquo;s, and similarly for \(f\). But a formula that is \(n\) according to \(\rho\) is \(b\) to \(\rho^\ast\), and a formula that is \(b\) according to \(\rho\) is \(n\) to \(\rho^\ast\). The dual evaluation turns gaps into gluts, and gluts into gaps, for atomic formulas.&lt;/p&gt;
+
+&lt;p&gt;This fact generalises to all of the formulas in the language of &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: For any formula \(A\) in the language of &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\(A\rho^\ast 1\) holds iff \(A\rho 0\) doesn&amp;rsquo;t hold.&lt;/li&gt;
+&lt;li&gt;\(A\rho^\ast 0\) holds iff \(A\rho 1\) doesn&amp;rsquo;t hold.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This fact is established by a simple induction on the complexity of the formula \(A\). The crucial feature of the connectives that makes this proof work is the balance between the positive and negative conditions in an evaluation \(\rho\). For example, with conjunction we have&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 1\) iff \(A\rho_\alpha 1\) and \(B\rho_\alpha 1\)&lt;/li&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 0\) iff \(A\rho_\alpha 0\) or \(B\rho_\alpha 0\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So we can proceed as follows (assuming that the fact holds for the simpler formulas \(A\) and \(B\)), \((A\land B)\rho^\ast_\alpha 1\) iff \(A\rho^\ast_\alpha 1\) and \(B\rho^\ast_\alpha 1\) iff \(A\rho_\alpha 0\) doesn&amp;rsquo;t hold and \(B\rho_\alpha 0\) doesn&amp;rsquo;t hold, iff neither \(A\rho_\alpha 0\) nor \(B\rho_\alpha 0\) hold, iff \(A\land B\rho_\alpha 0\) doesn&amp;rsquo;t hold. We have appealed to the parallel between these two clauses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 1\) holds iff \(A\rho_\alpha 1\) and \(B\rho_\alpha 1\) don&amp;rsquo;t hold.&lt;/li&gt;
+&lt;li&gt;\((A\land B)\rho_\alpha 0\) doesn&amp;rsquo;t hold iff \(A\rho_\alpha 0\) and \(B\rho_\alpha 0\) don&amp;rsquo;t hold.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the same way, for example, with the existential quantifier:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\((\exists x)A\rho_\alpha 1\) holds iff \(A\rho_{\alpha[x:=d]} 1\) holds for some \(d\) in \(D\).&lt;/li&gt;
+&lt;li&gt;\((\exists x)A\rho_\alpha 0\) doesn&amp;rsquo;t hold iff \(A\rho_{\alpha[x:=d]} 0\) doesn&amp;rsquo;t hold for some \(d\) in \(D\).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and the same form of argument applies. What holds for the existential quantifier and conjunction holds for the other connectives and quantifier of first degree entailment.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Excursus&lt;/em&gt;: This argument would fail if we had connectives or quantifiers in our language whose truth and falsity conditions are less well matched. For example, we could have a connective which is conjunctive with regard to truth and disjunctive with regard to falsity:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\((A\times B)\rho_\alpha 1\) iff \(A\rho_\alpha 1\) and \(B\rho_\alpha 1\)&lt;/li&gt;
+&lt;li&gt;\((A\times B)\rho_\alpha 0\) iff \(A\rho_\alpha 0\) and \(B\rho_\alpha 0\)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given a evaluation \(\rho\) which relates the atomic formulas \(p\) to \(1\) only and \(q\) to \(0\) only, \(\rho^\ast\) does the same. According to both \(\rho\) and \(\rho^\ast\), \(p\times q\) is related to neither \(1\) nor \(0\), breaking the symmetry between gaps and gluts. &lt;em&gt;End of Excursus&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Routley star sends relational evaluations to relational evaluations. It does not send theories to theories. It is natural to define the star of a set of sentences as follows: For any set \(S\) of formulas, \(A\in S^\ast\) if and only if \(\neg A\not\in S\). However, the dual \(T^\ast\) of a theory  \(T\)is not always itself a theory. Take, for example, the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-theory \((\neg p\lor\neg q){\mathord\downarrow}\) consisting of all &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-consequences of \(\neg p\lor\neg q\) (it is the theory consisting of every sentence made true by by every evaluation \(\rho\) where either \(p\rho 0\) or \(q\rho 0\)). In particular, we have \(\neg p\lor\neg q\in (\neg p\lor\neg q){\mathord\downarrow}\) but \(\neg p\not\in (\neg p\lor\neg q){\mathord\downarrow}\) and \(\neg q\not\in (\neg p\lor\neg q){\mathord\downarrow}\). Now consider the dual set \((\neg p\lor\neg q){\mathord\downarrow}^\ast\). This is not a theory, because \(p\in{(\neg p\lor\neg q){\mathord\downarrow}^\ast}\) (since \(\neg p\not\in(\neg p\lor\neg q){\mathord\downarrow})\)) and \(q\in{(\neg p\lor\neg q){\mathord\downarrow}^\ast}\) (since \(\neg q\not\in(\neg p\lor\neg q){\mathord\downarrow})\)) but the conjunction is not in the set: \(p\land q\not\in{(\neg p\lor\neg q){\mathord\downarrow}^\ast}\) (since \(\neg p\lor\neg q\in(\neg p\lor\neg q){\mathord\downarrow})\) ensures that \(\neg(p\land q)\in(\neg p\lor\neg q){\mathord\downarrow}\) too).&lt;/p&gt;
+
+&lt;p&gt;However, it is straightforward to show the following fact, relating the Routley star and &lt;em&gt;bi&lt;/em&gt;-theories.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: For any \(\mathcal M\)-bitheory \(\langle T,U\rangle\), the pair \(\langle \overline{U^\ast},\overline{T^\ast}\rangle\) is an \(\mathcal M^\ast\)-bitheory, where \(\overline{U^\ast}\) and \(\overline{T^\ast}\) are the sets of sentences &lt;em&gt;not&lt;/em&gt; in \(U^\ast\) and \(T^\ast\) respectively.&lt;/p&gt;
+
+&lt;p&gt;Here is why: The interpretation \(\rho\) is a counterexample to \(T \ydash U\) has a counterexample iff \(\rho^\ast\) is a counterexample to \(\neg U \ydash \neg T\). It follows that \(\overline{U^\ast}\ydash A,\overline{T^\ast}\) fails at \(\rho^\ast\) iff \(\neg\overline{T^\ast},\neg A\ydash\neg\overline{U^\ast}\) fails at \(\rho\), but that means \(T,\neg A\ydash U\) fails at \(\rho^\ast\). So, \(\overline{U^\ast}\ydash A,\overline{T^\ast}\) holds in \(\mathcal M^\ast\) iff \(T,\neg A\ydash U\) holds in \(\mathcal M\). So, since \(\langle T,U\rangle\) is an \(\mathcal M\)-bitheory, we have \(\neg A\in U\), which means \(A\in \overline{U^\ast}\) as desired. The case for \(\overline{U^\ast},A\ydash \overline{T^\ast}\) to \(A\in\overline{T^\ast}\) is dual.&lt;/p&gt;
+
+&lt;p&gt;Armed with these facts concerning the Routley star, we can attend to the behaviour of our theories (and bitheories) with gaps and gluts.&lt;/p&gt;
+
+&lt;h3 id=&#34;two-kinds-of-incompleteness&#34;&gt;Two Kinds of Incompleteness&lt;/h3&gt;
+
+&lt;p&gt;Theories in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; can be incomplete in two distinct ways. Consider the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt;-theory consisting of every sentence true in those evaluations which relate \(p\) to \(1\) and relate \(q\) to neither \(0\) nor \(1\), and which relate \(r\) to either \(1\) or \(0\). This set of sentences contains \(p\) and it doesn&amp;rsquo;t contain \(\neg p\). It holds \(p\) to be &lt;em&gt;true&lt;/em&gt;. However, it is incomplete concerning \(q\) and \(r\)&amp;mdash;the theory doesn&amp;rsquo;t contain \(q\) or \(\neg q\), and it also doesn&amp;rsquo;t contain \(r\) or \(\neg r\). However, the theory has &lt;em&gt;settled&lt;/em&gt; \(q\) to be neither true nor false. (In all of the evaluations, \(q\) receives the value \(n\).) On the other hand, the value of \(r\) is &lt;em&gt;unsettled&lt;/em&gt;. In some evaluations, \(r\) is true, in others it is false.  In this way, &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; allows for two different kinds of incompleteness.&lt;/p&gt;
+
+&lt;p&gt;Now consider theories like &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt;. Recall, &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; is given by all &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluations for which \(T\ulcorner A\urcorner\) and \(A\) receive the same value, and  &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; is given by all &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; valuations with the same property. If we focus on the &lt;em&gt;theories&lt;/em&gt; determined by each class of valuations, we see that a liar sentence like \(T\lambda\) is &lt;em&gt;incomplete&lt;/em&gt; in both theories. In &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt;, it is because in any such valuation, \(T\lambda\) receives the value \(n\)&amp;mdash;it is never true. In &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; it is because in any such valuation, \(T\lambda\) either receives the value \(n\) or the value \(b\). In some valuations it is true (those where it is \(b\)) and in others, it fails to be true. Again, the theory is incomplete concerning \(T\lambda\).&lt;/p&gt;
+
+&lt;p&gt;Is there any way to distinguish these theories or distinguish this incompleteness?&lt;/p&gt;
+
+&lt;p&gt;In one sense, the answer will be &lt;em&gt;no&lt;/em&gt;. The following fact contains the core of the reason why:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: For any &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; evaluation \(\rho\), the theory determined by \(\rho\) and the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; theory determined by the two evaluations \(\rho\) and \(\rho^\ast\) are identical.&lt;/p&gt;
+
+&lt;p&gt;It is easy to see that \(\rho\sqsubseteq \rho^\ast\) in the case where \(\rho\) is a &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; evaluation. It follows that the truths according to \(\rho\) are exactly the truths according to both \(\rho\) and \(\rho^\ast\).&lt;/p&gt;
+
+&lt;p&gt;This fact &lt;em&gt;generalises&lt;/em&gt;. Consider an evaluation \(\rho\), which may involve both gaps and gluts. We can define the evaluation \(\rho^{n}\), which assigns \(n\) to any atomic formula assigned either \(n\) or \(b\) by \(\rho\), and which leaves \(t\) and \(f\) fixed. It is straightforward to see that \(\rho^{n}\sqsubseteq \rho\). We can also define the evaluation \(\rho^{b}\), which assigns \(b\) to any atomic formula assigned either \(n\) or \(b\) by \(\rho\), and which leaves \(t\) and \(f\) fixed. In this case, we have \(\rho\sqsubseteq \rho^b\). So, in general any &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluation \(\rho\) is sandwiched between a &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; evaluation and an &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt; evaluation like so: \(\rho^n\sqsubseteq\rho\sqsubseteq \rho^b\).&lt;/p&gt;
+
+&lt;p&gt;The generalisation of our previous fact can now be stated:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: For any &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluation \(\rho\), the &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; theory determined by \(\rho^{n}\) and the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; theory determined by the two evaluations \(\rho\) and \(\rho^{n}\) are identical.&lt;/p&gt;
+
+&lt;p&gt;The proof is as before: Now \(\rho^n\sqsubseteq \rho\), so it follows that the truths according to \(\rho^n\) are exactly the truths according to both \(\rho^n\) and \(\rho\).&lt;/p&gt;
+
+&lt;p&gt;Now, the operation of sending all gaps and gluts either to &lt;em&gt;gaps&lt;/em&gt; or to &lt;em&gt;gluts&lt;/em&gt; does not disturb the logic of truth.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: If \(\rho\) is an &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; evaluation, then so are \(\rho^n\) and \(\rho^b\).&lt;/p&gt;
+
+&lt;p&gt;The only way that \(\rho^n\) could fail to be an an &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; evaluation is if for some formula \(A\), the values in \(\rho^n\) of \(A\) and \(T\ulcorner A\urcorner\) differ. But if values of two formulas differ in \(\rho^n\), they also differ in \(\rho\). (The same holds for \(\rho^b\), too.)&lt;/p&gt;
+
+&lt;p&gt;Now we can state our general fact, concerning truth theories in &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt;. The basic idea is that the theories are identical, since theories that take the paradoxical sentences to be \(n\) and those that are agnostic between \(n\) and \(b\) take the same claims to be &lt;em&gt;true&lt;/em&gt;. This is fair enough as far as it goes, but stated in this bald way, it does not go very far at all. The theories &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; &lt;em&gt;obviously&lt;/em&gt; have the same theorems&amp;mdash;they both have &lt;em&gt;no&lt;/em&gt; theorems. The &lt;em&gt;silent&lt;/em&gt; evaluation which sends absolutely every every formula to \(n\) is a &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; (and hence, &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt;) evaluation, and this shows that both &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; have no theorems at all. So, merely showing that &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; and &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; share theorems does not say very much at all. We can do much better than this.&lt;/p&gt;
+
+&lt;p&gt;Suppose we have a set \(\mathcal M\) of evaluations, such that whenever \(\rho\in\mathcal M\) we also have \(\rho^n\in \mathcal M\). Let \(\mathcal M^n\) be the set of &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; evaluations in \(\mathcal M\)&amp;mdash;so \({\mathcal M^n}\) is \(\lbrace\rho^n:\rho\in\mathcal M\rbrace\). We have the following result:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: The theory \(T_\mathcal{M}\) of sentences true in all evaluations in \(\mathcal{M}\) is identical to the theory \(T_{\mathcal{M}^n}\), of sentences  in all evaluations in \(\mathcal{M}^n\).&lt;/p&gt;
+
+&lt;p&gt;Clearly \(T_\mathcal{M}\subseteq T_{\mathcal M^n}\). To show the converse, suppose the formula \(A\) is not in \(T_\mathcal{M}\). So, it fails to be true on some evaluation \(\rho\in\mathcal{M}\). It also fails in \(\rho^n\), which is in \(\mathcal{M^n}\).&lt;/p&gt;
+
+&lt;p&gt;So, for example, if we have some &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; valuation \(\rho\) for a language without the truth predicate, and we consider the set \(\mathcal M\) of all &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; evaluations, extending \(\rho\) with a truth predicate. Here, grounded \(T\)-sentences will receive values as determined by the underlying valuation \(\rho\), while other sentences will vary among all four values, \(t\), \(f\), \(n\) and \(b\), constrained only by the requirement that \(A\) and \(T\ulcorner A\urcorner\) agree in value. The set \(\mathcal M^n\) is the subset of such evaluations in which the \(T\)-sentences receive the values \(t\), \(f\) or \(n\), not \(b\). Our fact tells us the theories of \(\mathcal M\) and \(\mathcal M^n\) are indistinguishable. At the level of theories, we cannot distinguish between paradoxical sentences determinately receiving a gap value, and agnosticism between gaps and gluts.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, we don&amp;rsquo;t need to remain at the level of &lt;em&gt;theories&lt;/em&gt;. The sets \(\mathcal M\) and \(\mathcal M^n\) determine the same set of theorems, but they determine different sets of cotheorems. While they rule &lt;em&gt;in&lt;/em&gt; the same sentences, they rule out different sentences. The liar sentence \(\neg T\lambda\) is &lt;em&gt;true&lt;/em&gt; in some valuations in \(\mathcal M\) (those that assign it the value \(b\)) while it is true in no valuations in \(\mathcal M^n\). In all valuations in \(\mathcal M^n\) a liar sentence must receive the value \(n\), so it is true in no valuation at all.  The &lt;em&gt;untruths&lt;/em&gt; of \(\mathcal M\) differ from the untruths of \(\mathcal M^n\).&lt;/p&gt;
+
+&lt;p&gt;If we attend to bitheories, the symmetry between gaps and gluts is completely restored. For our facts concerning gaps, we have matching facts concerning gluts.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: For any &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; evaluation \(\rho\), the &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt; cotheory determined by \(\rho^{b}\) (the formulas \(U_{\rho^b}\) untrue in \(\rho^b\)) and the &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; cotheory determined by the two evaluations \(\rho\) and \(\rho^{b}\) (the formulas \(U_{\lbrace\rho,\rho^b\rbrace}\)) are identical.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;fact&lt;/span&gt;: If \(\mathcal M\) is a set of valuations where for every \(\rho\) in \(\mathcal M\) the valuation\(\rho^b\) is also in \(\mathcal M\), then the cotheory \(U_\mathcal{M}\) of sentences untrue in all evaluations in \(\mathcal{M}\) is identical to the cotheory \(U_{\mathcal{M}^b}\), of sentences untrue in all evaluations in \(\mathcal{M}^b\).&lt;/p&gt;
+
+&lt;p&gt;Symmetry is regained, and we can distinguish between agnostalethism concerning paradoxical sentences and those views which assign them a gap, or assign them a glut. Glut views are distinguished from agnostaletheism as &lt;em&gt;theories&lt;/em&gt;&amp;mdash;they hold different things to be true, while gap views are distinguished from
+agnostaletheism as &lt;em&gt;cotheories&lt;/em&gt;&amp;mdash;they hold different things to be untrue.&lt;/p&gt;
+
+&lt;p&gt;That is all well and good when it comes to formally distinguishing these three views of paradoxical sentences. However, the puzzle wasn&amp;rsquo;t just a puzzle about the formal development of these views. It is also a puzzle concerning what it is to &lt;em&gt;hold&lt;/em&gt; those views, and this issue remains, even if we reject the model theory and the technical devices of theories, cotheories and bitheories.&lt;/p&gt;
+
+&lt;h3 id=&#34;assertion-and-denial-in-fde-k3-and-lp&#34;&gt;Assertion and Denial in FDE, K3 and LP&lt;/h3&gt;
+
+&lt;p&gt;To answer the puzzle in those terms, we should say something about the speech acts of assertion and denial, or the cognitive states of accepting and rejecting. These are the practical analogues of the theoretical and abstract notions of theory and cotheory.  To connect talk of accepting and rejecting (or assertion and denial) with logical notions, we need some kind of bridge principle. A principle I have endorsed elsewhere (Restall &lt;a href=&#34;http://consequently.org/writing/multipleconclusions/&#34;&gt;2005&lt;/a&gt;, &lt;a href=&#34;http://consequently.org/writing/adnct&#34;&gt;2013&lt;/a&gt;, &lt;a href=&#34;http://consequently.org/writing/assertiondenialparadox/&#34;&gt;2015&lt;/a&gt;) goes like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;bridge principle 1&lt;/span&gt;: If the sequent \(X\ydash Y\) is valid, then don&amp;rsquo;t accept (or assert) every member of \(X\) and reject (or deny) every member of \(Y\).&lt;/p&gt;
+
+&lt;p&gt;To constrain what you accept and reject in line with such a bridge principle is to maintain a kind of coherence in your cognitive state. Since \(A\lor B\ydash A,B\) is valid, you would not accept the disjunction \(A\lor B\) and reject both disjuncts \(A\) and \(B\). If (as &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt; would have it) \(\ydash C\lor \neg C\) is valid, you would not reject that instance of the law of the excluded middle. If (as &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; would have it) \(D\land\neg D\ydash\) is valid, you would not accept that contradiction.&lt;/p&gt;
+
+&lt;p&gt;With this bridge principle at hand, we can distinguish the agnostaletheist (who uses a range of &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; valuations to define validity), the &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt;-theorist (who restricts her attention to &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; valuations) and the &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt;-theorist (who restricts his attention to &lt;span class=&#34;caps&#34;&gt;lp\(^T\)&lt;/span&gt; valuations). The &lt;span class=&#34;caps&#34;&gt;k3&lt;/span&gt; theorist will not accept any contradiction. Contradictions are never true in any evaluation of theirs. The &lt;span class=&#34;caps&#34;&gt;lp&lt;/span&gt; theorist will never reject any excluded middle. Excluded middle disjunctions are never untrue in their evaluations. The &lt;span class=&#34;caps&#34;&gt;fde&lt;/span&gt; theorist, on the other hand, can reject excluded middles and accept contradictions. That concerns &lt;em&gt;validity&lt;/em&gt; and the first bridge principle, which amounts to a kind of coherence (or consistency) principle.&lt;/p&gt;
+
+&lt;p&gt;To accept a contingent &lt;em&gt;theory&lt;/em&gt;, or better, the &lt;em&gt;bitheory&lt;/em&gt; \(\langle T,U\rangle\) is to constrain your acceptings and rejectings further.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;caps&#34;&gt;bridge principle 2&lt;/span&gt;: To accept a bitheory \(\langle T,U\rangle\) is to accept each member of \(T\) and to reject each member of \(U\).&lt;/p&gt;
+
+&lt;p&gt;This constraint is compatible with the first bridge principle if pair \(\langle T,U\rangle\) is indeed a bitheory. In that case, the sequent \(T\ydash U\) is not valid (if it were, then each formula \(A\) would be in \(T\), since \(T\ydash A,U\) is valid, and in \(U\), since \(T,A\ydash U\) is valid, but that is impossible, since \(T\) and \(U\) are, by definition, disjoint), so there is no issue with accepting all of \(T\) and rejecting all of \(U\).&lt;/p&gt;
+
+&lt;p&gt;If we consider our three different views of the truth predicate (1) &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt; allowing both gaps and gluts, (2) &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt; allowing only gaps, and (3) &lt;span class=&#34;caps&#34;&gt;lp\(^T\)&lt;/span&gt; allowing only gluts as determining bitheories, we can see the difference in our acceptings and rejectings if we adopt &lt;em&gt;bridge principle 2&lt;/em&gt; for each bitheory in turn. If we accept &lt;span class=&#34;caps&#34;&gt;k3\(^T\)&lt;/span&gt;, we reject all contradictions, even those involving the liar sentence \(T\lambda\land\neg T\lambda\). If we accept &lt;span class=&#34;caps&#34;&gt;lp\(^T\)&lt;/span&gt;, we accept all excluded middles, including the excluded middle involving the liar: \(T\lambda\lor\neg T\lambda\). But the agnostalethic position, accepting &lt;span class=&#34;caps&#34;&gt;fde\(^T\)&lt;/span&gt;, commits us to neither: we are free to accept
+the contradiction  \(T\lambda\land\neg T\lambda\) or to reject the disjunction  \(T\lambda\lor\neg T\lambda\).&lt;/p&gt;
+
+&lt;p&gt;So, an agnostaletheist and a gap theorist indeed agree on what to accept, but they disagree on what is to be rejected. In a similar way, an agnostaletheist and an glut theorist agree on what to reject, but they disagree on what to accept. Keeping the symmetry between accepting and rejecting in view, we have parity between gaps and gluts, and the agnostalethic position can be distinguished from its two neighbours.&lt;/p&gt;
+
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;Terence Parsons (1990), “&lt;a href=&#34;http://www.jstor.org/stable/40231701&#34;&gt;True Contradictions&lt;/a&gt;”
+&lt;em&gt;Canadian Journal of Philosophy&lt;/em&gt; 20:3, 335-353.&lt;/p&gt;
+
+&lt;p&gt;Graham Priest (2008), &lt;a href=&#34;https://www.amazon.com/Introduction-Non-Classical-Logic-Introductions-Philosophy/dp/0521670268/consequentlyorg&#34;&gt;&lt;em&gt;An Introduction to Non-Classical Logic&lt;/em&gt;: &lt;em&gt;From If to Is&lt;/em&gt;&lt;/a&gt;, Second Edition, Cambridge University Press.&lt;/p&gt;
+
+&lt;p&gt;Greg Restall (2005) “&lt;a href=&#34;http://consequently.org/writing/multipleconclusions/&#34;&gt;Multiple Conclusions&lt;/a&gt;,” pages 189–205 in &lt;em&gt;Logic, Methodology and Philosophy of Science&lt;/em&gt;: &lt;em&gt;Proceedings of the Twelfth International Congress&lt;/em&gt;, edited by Petr Hajek, Luis Valdes-Villanueva and Dag Westerstahl, Kings&amp;rsquo; College Publications.&lt;/p&gt;
+
+&lt;p&gt;Greg Restall (2013) “&lt;a href=&#34;http://consequently.org/writing/adnct&#34;&gt;Assertion, Denial and Non-Classical Theories&lt;/a&gt;,” pp. 81–99 in &lt;em&gt;Paraconsistency&lt;/em&gt;: &lt;em&gt;Logic and Applications&lt;/em&gt;, edited by Koji Tanaka, Francesco Berto, Edwin Mares and Francesco Paoli.&lt;/p&gt;
+
+&lt;p&gt;Greg Restall (2015) “&lt;a href=&#34;http://consequently.org/writing/assertiondenialparadox/&#34;&gt;Assertion, Denial, Accepting, Rejecting, Symmetry and Paradox&lt;/a&gt;,” pages 310-321 in Foundations of Logical Consequence, edited by Colin R. Caret and Ole T. Hjortland, Oxford University Press.&lt;/p&gt;
+
+&lt;p&gt;Richard Routley and Val Routley (1972) “&lt;a href=&#34;http://www.jstor.org/stable/2214309&#34;&gt;The Semantics of First Degree Entailment&lt;/a&gt;,” &lt;em&gt;No&amp;ucirc;s&lt;/em&gt; 6:4, 335&amp;ndash;359.&lt;/p&gt;]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>I have a campaign poster on my picket fence</title>
+      <link>http://consequently.org/news/2016/the-poster-on-my-fence/</link>
+      <pubDate>Wed, 15 Jun 2016 21:23:20 &#43;1100</pubDate>
+      
+      <guid>http://consequently.org/news/2016/the-poster-on-my-fence/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;For the first time in my home owning career, the picket fence outside my home sports a how-to-vote sign.&lt;/p&gt;
+
+&lt;p&gt;This is a change for me. I&amp;rsquo;m a member of no political party, and I&amp;rsquo;ve never encouraged my neighbours to vote in any particular way. For almost all of my life, I&amp;rsquo;ve lived in safe Labor seats, from growing up in working class Brisbane to living in the inner north of Melbourne, my members of Federal Parliament have all been members of the ALP in safe seats. (Only short sojourns in Toowong and Marsfield found me in conservative territory.) My vote in my electorate hasn&amp;rsquo;t made a difference over the years.&lt;/p&gt;
+
+&lt;p&gt;More importantly, I think that there is much more to politics than voting. It&amp;rsquo;s one thing to distribute a few votes once every few years in to record your voice about how we are governed. There are plenty of other, more effective ways to take part in our common life, both locally, and globally. Broader political action can take many different forms, beyond party politics. Different forms of political action include investigating and exposing injustice or corruption, campaigning for change, making proposals for different ways to do things, protesting, raising awareness, building alternative communities and political structures and resisting injustice—through to covert and overt struggle and revolution. Politics is a complicated business with many different strands.&lt;/p&gt;
+
+&lt;p&gt;So, given all of that, why do I have a campaign poster on my fence?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This election, I’ve decided to add my small voice to the cacophony of this long election campaign—not because I have fallen in love with electoral politics, and not because I&amp;rsquo;m devoted to any of the candidates or political parties on offer. The poster on my suburban picket fence is from the &lt;a href=&#34;https://austrlaianaid.org/&#34;&gt;Campaign for Australian Aid&lt;/a&gt;. It doesn&amp;rsquo;t feature the smiling face of a political candidate, but rather, the smiling faces of a group of schoolchildren in Myanmar, who attend a school supported by &lt;a href=&#34;https://www.worldvision.com.au/&#34;&gt;World Vision&lt;/a&gt; and &lt;a href=&#34;http://australianaid.org/&#34;&gt;Australian Aid&lt;/a&gt;, and the poster says “&lt;a href=&#34;https://australianaid.org/pledge&#34;&gt;Vote for Us&lt;/a&gt;.”&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;http://consequently.org/images/vote-for-us-large.jpg&#34; alt=&#34;Vote For Us—the poster on my picket fence&#34;&gt;
+    &lt;figcaption&gt;My fence and its campaign poster&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The lead-up to this most recent federal election has seen an &lt;a href=&#34;https://stoptheclock.org.au&#34;&gt;unprecedented cut&lt;/a&gt; in Australia&amp;rsquo;s aid budget, with the Coalition government carving yet more from its already slim allocation&amp;mdash;to an &lt;a href=&#34;http://www.theguardian.com/australia-news/2016/may/04/budget-cut-of-224m-leaves-foreign-aid-at-record-low-say-aid-groups&#34;&gt;historic low of &lt;b&gt;0.23%&lt;/b&gt; of our Gross National Income&lt;/a&gt;, at a time when other countries &lt;a href=&#34;https://theconversation.com/savage-budget-cuts-pull-australia-down-in-foreign-aid-rankings-58854&#34;&gt;manage to be significantly more generous&lt;/a&gt;. We are nowhere near our stated  target of 0.7% of GNI, and we&amp;rsquo;re getting further from it. This decline must stop.&lt;/p&gt;
+
+&lt;p&gt;You can argue whether any individual aid program is the best we could do with the money, but if you want to find waste in our spending, look elsewhere. Aid programs funding education, health or agricultural intiatives in neighbouring countries—no matter how badly managed—cannot waste the kind of money we manage throw away on massive expenditure on weapons, like submarines or fighter planes. Our country&amp;rsquo;s reflex reaction to look inward, to ignore our neighbours and tighten our borders is a worrying sign, and it&amp;rsquo;s one we should resist in all its forms.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m encouraging my local neighbours to keep our &lt;em&gt;country&amp;rsquo;s&lt;/em&gt; neighbours in mind when they cast their votes&amp;mdash;don&amp;rsquo;t vote for a candidate or for a party that ignores our neighbours, or who places short term self interest above the interests of others.&lt;/p&gt;
+
+&lt;p&gt;I like the poster on my picket fence, not only because the smiling faces of the schoolkids in Myanmar are a refreshing change from the smiling faces of party candidates, but because it reminds and challenges us about our place in the world. Our political actions, whether our votes or our voices, can aim at for more than our own narrow self interest. Challenges over climate change, food insecurity, and refugee movements will only increase in the years ahead. To meet these challenges, we will need the cooperation of our neighbours.  We can start acting just a little bit more like a good neighbour now. It&amp;rsquo;s the least we could do.&lt;/p&gt;
+
+&lt;p&gt;If you want to know more about the Campaign for Australian Aid, visit &lt;a href=&#34;https://australianaid.org&#34;&gt;https://australianaid.org&lt;/a&gt;, and consider the wider world when you cast your vote.&lt;/p&gt;]]></description>
+    </item>
+    
+  </channel>
+</rss>
