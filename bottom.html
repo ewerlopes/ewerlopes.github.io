@@ -1,11 +1,28 @@
-<html>
 <div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
     <div class="units-row units-padding">
         <div class="unit-40">
             <h3><a id="about">about</a></h3>
+
+            <!-- This script sets the avatar path correctly -->
+            <script language="javascript">
+                function getRoot(path){
+                    var res = path.split("/");
+                    for (var i = 0; i < res.length; i++){
+                        if (res[i] == "ewerlopes.github.io"){
+                            return res.slice(0, i+1).join("/");
+                        }
+                    }
+                }
+                var host = location.href;   // Get file path
+                host = getRoot(host);
+                var avatar_location = host.concat("/img/avatar2.jpg");
+                document.getElementById("my_avatar").setAttribute("src",avatar_location);
+            </script>
+
             <figure class="image-left">
-                <img class="avatar" src="img/avatar2.jpg" height="120" width="120">
+                <img class="avatar" src="" height="120" width="120" id="my_avatar"/>
             </figure>
+
             <p>
             	I&rsquo;m <em>Ewerton L. S. de Oliveira</em>, and this is my personal website.
             	&para;I received the <em>M.Sc. degree</em> in <em>Computer Science</em> from the <a href="http://www.ufpb.br">
@@ -67,4 +84,3 @@
 <footer id="footer">
     <section class="wrapper small">The site was inspired by <a href="http://consequently.org">Greg Restall's</a> website.</section>
 </footer>
-</html>

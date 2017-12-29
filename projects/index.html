@@ -29,6 +29,9 @@
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script> <!-- enables bottom.html -->
+
 </head>
 
 <body>
@@ -99,67 +102,14 @@
 
 <hr class="separator">
 
-<div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
-<div class="units-row units-padding">
-<div class="unit-40">
-<h3><a id="about">about</a></h3>
-	<figure class="image-left">
-		<img class="avatar" src="../img/avatar2.jpg" height="120" width="120">
-	</figure>
-	<p>
-		I&rsquo;m <em>Ewerton Oliveira</em>, and this is my personal website. I am a <em>Ph.D student</em> at
-		<a href="https://www.polimi.it/home/">Politecnico di Milano</a> currently doing research
-		in Machine Learning and Robotics. &para; This website style is heavily based on
-		<a href="http://consequently.org">Greg Restall's</a> website.
-	</p>
+<!--Bottom section: About, elsewhere, subscribe and search bar.-->
+<div id="bottom-section-placeholder"></div>
+<script>
+$(function(){
+  $("#bottom-section-placeholder").load("../bottom.html");
+});
+</script>
+<!--end of Bottom section-->
 </div>
-<div class="unit-30">
-<h3>elsewhere</h3>
-<ul class="compact fa-ul">
-<li><i class="fa-li fa fa-university fa-fw" style="color:#b24;font-size:80%;padding-top:6px;"></i>Department of Electronics, Information and Bioengineering, Politecnico di Milano, Via Ponzio 34/5, 20133 Milano, Italy.</li>
-<li><i class="fa-li fa fa-envelope fa-fw" style="color:#b24;font-size:80%;padding-top:6px;"></i><a href="mailto:ewerton.lopes@polimi.it">ewerton.lopes@polimi.it</a></li>
-<li><i class="fa-li fa fa-twitter-square fa-fw" style="color:#b24;font-size:80%;padding-top:6px;"></i><a href="http://twitter.com/ewerlopes">@ewerlopes</a> on Twitter.</li>
-<li><i class="fa-li fa fa-instagram fa-fw" style="color:#b24;font-size:80%;padding-top:6px;"></i><a href="http://instagram.com/ewerlopes">@ewerlopes</a> on Instagram.</li>
-<li><i class="fa-li fa fa-linkedin-square fa-fw" style="color:#b24;font-size:80%;padding-top:6px;"></i><a href="http://www.linkedin.com/in/ewerlopes">@ewerlopes</a> on LinkedIn.</li>
-<li><i class=""></li>
-</ul>
-</div>
-<div class="unit-30">
-				<h3>subscribe</h3>
-					<p>
-						To receive updates from this site, you can
-						subscribe to the <a href="index.xml.rss">
-						<i class="fa fa-rss-square" style="color:#b24;">
-						</i>&nbsp;RSS feed</a> of all updates to the site
-						in an RSS feed reader, or follow me on Twitter at
-						<a href="http://twitter.com/ewerlopes">
-						<i class="fa fa-twitter-square" style="color:#b24;">
-						</i>&nbsp;@ewerlopes</a>, where I&rsquo;ll update you
-						if anything is posted.
-					</p>
-				<h3>search</h3>
-				<a id="searchsite">
-					<form method="get" action="https://duckduckgo.com/">
-				<input type="search" name="q" maxlength="255" placeholder="Search the site">
-			<input type="hidden" name="sites" value="https://ewerlopes.github.io"/>
-			   <input type="hidden" name="ka" value="Alegreya"/>
-			   <input type="hidden" name="k7" value="#faf8f8"/>
-			   <input type="hidden" name="kj" value="#b33"/>
-			   <input type="hidden" name="ky" value="#fafafa"/>
-			   <input type="hidden" name="kx" value="b"/>
-			   <input type="hidden" name="ko" value="-1"/>
-			   <input type="hidden" name="k1" value="-1"/>
-			   <input type="hidden" name="kt" value="Alegreya Sans"/>
-			   <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form></a>
-			</div>
-		</div>
-	</div>
-</div>
-
-<footer id="footer">
-<section class="wrapper small">The site was inspired by <a href="http://consequently.org">Greg Restall's</a> website.
-</section>
-</footer>
-
 </body>
 </html>
