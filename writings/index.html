@@ -35,23 +35,14 @@
 </head>
 
 <body>
-<div id="topbar">
-<div class="wrapper">
-	<header>
-		<nav class="navbar">
-			<ul>
-				<li class="hd"><a href="../index.html"><b>Bayesian Rationality</b></a></li>
-				<li><a href="../posts/index.html"><i class="fa fa-pencil"></i> Posts</a></li>
-				<li><span><a href="index.html"><i class="fa fa-bar-chart"></i> Writings</a></span></li>
-				<li><a href="../presentations/index.html"><i class="fa fa-comments-o"></i> Presentations</a></li>
-				<li><a href="../projects/index.html"><i class="fa fa-flask"></i> Projects</a></li>
-				<li><a href="index.html#searchsite"><i class="fa fa-search"></i> Search</a></li>
-				<li><a href="index.html#about"><i class="fa fa-user"></i> About</a></li>
-			</ul>
-		</nav>
-	</header>
-</div>
-</div>
+<!--Navbar.-->
+<div id="topbar"></div>
+<script>
+$(function(){
+  $("#topbar").load("../nav.html");
+});
+</script>
+<!--end of navbar-->
 
 <div class="wrapper">
 
