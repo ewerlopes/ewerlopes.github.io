@@ -4,6 +4,13 @@
     <script language="javascript">
         function getRootAndSetSpan(){
             var res = location.href.split("/"); // Get file path
+
+            if (res[res.length-2] == "ewerlopes.github.io"){
+                document.getElementById('home').style.color = '#fff';
+            } else{
+                document.getElementById(res[res.length-2]).style.color = '#fff';
+            }
+            
             for(var i=0; i<res.length; i++){
                 if (res[i] == "ewerlopes.github.io"){
                     return res.slice(0, i+1).join("/");
@@ -25,12 +32,12 @@
 		<nav class="navbar">
 			<ul>
                 <li class="hd"><a href="" id="home"><b>Bayesian Rationality</b></a></li>
-				<li><span style="color:#fff"><a href="" id="posts"><i class="fa fa-pencil"></i> Posts</a></span></li>
-				<li><span style="color:#ecc"><a href="" id="writings"><i class="fa fa-bar-chart"></i> Writings</a></span></li>
-				<li><span style="color:#ecc"><a href="" id="presentations"><i class="fa fa-comments-o"></i> Presentations</a></span></li>
-				<li><span style="color:#ecc"><a href="" id="projects"><i class="fa fa-flask"></i> Projects</a></span></li>
-				<li><span style="color:#ecc"><a href="index.html#searchsite"><i class="fa fa-search"></i> Search</a></span></li>
-				<li><span style="color:#ecc"><a href="index.html#about"><i class="fa fa-user"></i> About</a></span></li>
+				<li><a href="" id="posts"><i class="fa fa-pencil"></i> Posts</a></li>
+				<li><a href="" id="writings"><i class="fa fa-bar-chart"></i> Writings</a></li>
+				<li><a href="" id="presentations"><i class="fa fa-comments-o"></i> Presentations</a></li>
+				<li><a href="" id="projects"><i class="fa fa-flask"></i> Projects</a></li>
+				<li><a href="index.html#searchsite"><i class="fa fa-search"></i> Search</a></li>
+				<li><a href="index.html#about"><i class="fa fa-user"></i> About</a></li>
 			</ul>
 		</nav>
 	</header>
