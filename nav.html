@@ -2,15 +2,8 @@
 
     <!-- This script sets the navbar path correctly-->
     <script language="javascript">
-        function getRootAndSetSpan(){
+        function getRoot(){
             var res = location.href.split("/"); // Get file path
-
-            if (res[res.length-2] == "ewerlopes.github.io"){
-                document.getElementById('home').style.color = '#fff';
-            } else{
-                document.getElementById(res[res.length-2]).style.color = '#fff';
-            }
-            
             for(var i=0; i<res.length; i++){
                 if (res[i] == "ewerlopes.github.io"){
                     return res.slice(0, i+1).join("/");
@@ -18,13 +11,21 @@
             }
         }
 
-        var root = getRootAndSetSpan();
+        var root = getRoot();
 
         document.getElementById("home").setAttribute("href",root.concat("/index.html"));
         document.getElementById("posts").setAttribute("href",root.concat("/posts/index.html"));
         document.getElementById("writings").setAttribute("href",root.concat("/writings/index.html"));
         document.getElementById("presentations").setAttribute("href",root.concat("/presentations/index.html"));
         document.getElementById("projects").setAttribute("href",root.concat("/projects/index.html"));
+
+        // Set the topbar link color
+        var path = location.href.split("/");
+        if (path[path.length-2]== "ewerlopes.github.io"){
+            document.getElementById('home').style.color = '#fff';
+        } else{
+            document.getElementById(path[path.length-2]).style.color = '#fff';
+        }
 
     </script>
 
