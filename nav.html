@@ -2,36 +2,35 @@
 
     <!-- This script sets the navbar path correctly-->
     <script language="javascript">
-        function getRoot(elid,target){
+        function getRootAndSetSpan(){
             var res = location.href.split("/"); // Get file path
-            var ref = " ";
-            for (var i = 0; i < res.length; i++){
+            for(var i=0; i<res.length; i++){
                 if (res[i] == "ewerlopes.github.io"){
-                    ref = res.slice(0, i+1).join("/");
-                    break;
+                    return res.slice(0, i+1).join("/");
                 }
             }
-            document.getElementById(elid).setAttribute("href",ref.concat(target));
         }
 
-        getRoot("nav-home","/index.html");
-        getRoot("nav-posts","/posts/index.html");
-        getRoot("nav-writings","/writings/index.html");
-        getRoot("presentations","/presentations/index.html");
-        getRoot("projects","/projects/index.html");
+        var root = getRootAndSetSpan();
+
+        document.getElementById("home").setAttribute("href",root.concat("/index.html"));
+        document.getElementById("posts").setAttribute("href",root.concat("/posts/index.html"));
+        document.getElementById("writings").setAttribute("href",root.concat("/writings/index.html"));
+        document.getElementById("presentations").setAttribute("href",root.concat("/presentations/index.html"));
+        document.getElementById("projects").setAttribute("href",root.concat("/projects/index.html"));
 
     </script>
 
 	<header>
 		<nav class="navbar">
 			<ul>
-                <li class="hd"><a href="" id="nav-home"><b>Bayesian Rationality</b></a></li>
-				<li><a href="" id="nav-posts"><i class="fa fa-pencil"></i> Posts</a></li>
-				<li><a href="" id="nav-writings"><i class="fa fa-bar-chart"></i> Writings</a></li>
-				<li><a href="" id="presentations"><i class="fa fa-comments-o"></i> Presentations</a></li>
-				<li><a href="" id="projects"><i class="fa fa-flask"></i> Projects</a></li>
-				<li><a href="index.html#searchsite"><i class="fa fa-search"></i> Search</a></li>
-				<li><a href="index.html#about"><i class="fa fa-user"></i> About</a></li>
+                <li class="hd"><a href="" id="home"><b>Bayesian Rationality</b></a></li>
+				<li><span style="color:#fff"><a href="" id="posts"><i class="fa fa-pencil"></i> Posts</a></span></li>
+				<li><span style="color:#ecc"><a href="" id="writings"><i class="fa fa-bar-chart"></i> Writings</a></span></li>
+				<li><span style="color:#ecc"><a href="" id="presentations"><i class="fa fa-comments-o"></i> Presentations</a></span></li>
+				<li><span style="color:#ecc"><a href="" id="projects"><i class="fa fa-flask"></i> Projects</a></span></li>
+				<li><span style="color:#ecc"><a href="index.html#searchsite"><i class="fa fa-search"></i> Search</a></span></li>
+				<li><span style="color:#ecc"><a href="index.html#about"><i class="fa fa-user"></i> About</a></span></li>
 			</ul>
 		</nav>
 	</header>
