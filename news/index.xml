@@ -19,9 +19,9 @@
 	  </itunes:category>
 	  <itunes:keywords>Philosophy, Logic, mathematics, pdf, research, University, Greg Restall, Melbourne, Australia, Victoria</itunes:keywords>
 	  <itunes:explicit>no</itunes:explicit>
-	  <itunes:image href="http://localhost:1313/img/avatar2.jpg" />
+	  <itunes:image href="https://ewerlopes.github.io//img/avatar2.jpg" />
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://localhost:1313/news/</link>
+    <link>https://ewerlopes.github.io/news/</link>
     <language>en-us</language>
     
     
@@ -30,10 +30,10 @@
  
     <item>
       <title>A new site!</title>
-      <link>http://localhost:1313/news/2021/new-website/</link>
+      <link>https://ewerlopes.github.io/news/2021/new-website/</link>
       <pubDate>Sun, 31 Oct 2021 00:44:00 &#43;1000</pubDate>
       
-      <guid>http://localhost:1313/news/2021/new-website/</guid>
+      <guid>https://ewerlopes.github.io/news/2021/new-website/</guid>
       <description>&lt;![CDATA[&lt;p&gt;This is a test.&lt;/p&gt;
 ]]></description>
     </item>
@@ -41,10 +41,10 @@
  
     <item>
       <title>I&#39;ve started my personal site</title>
-      <link>http://localhost:1313/news/2017/start/</link>
+      <link>https://ewerlopes.github.io/news/2017/start/</link>
       <pubDate>Thu, 28 Dec 2017 22:10:00 &#43;1000</pubDate>
       
-      <guid>http://localhost:1313/news/2017/start/</guid>
+      <guid>https://ewerlopes.github.io/news/2017/start/</guid>
       <description>&lt;![CDATA[&lt;p&gt;Hi there! I would like to announce I will be writing technical posts on this
 website. Most of the design you see here is taken from the gorgeous &lt;!-- raw HTML omitted --&gt;consequently.org&lt;!-- raw HTML omitted --&gt; managed by &lt;!-- raw HTML omitted --&gt;Greg Restall&lt;!-- raw HTML omitted --&gt;, from who some years ago I took
 the course series &lt;!-- raw HTML omitted --&gt;Logic: language and information&lt;!-- raw HTML omitted --&gt; on &lt;!-- raw HTML omitted --&gt;Coursera&lt;!-- raw HTML omitted --&gt; and absolutely fell in love with his sensitivity in choosing beautiful fonts for the lecture

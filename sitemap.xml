@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/news/2021/new-website/</loc>
+    <loc>https://ewerlopes.github.io/news/2021/new-website/</loc>
     <lastmod>2021-10-31T00:44:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ewerlopes.github.io/</loc>
     <lastmod>2021-10-31T00:44:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>https://ewerlopes.github.io/news/</loc>
     <lastmod>2021-10-31T00:44:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/learning-mining-in-robogames/</loc>
+    <loc>https://ewerlopes.github.io/writing/learning-mining-in-robogames/</loc>
     <lastmod>2018-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/</loc>
+    <loc>https://ewerlopes.github.io/writing/</loc>
     <lastmod>2018-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/2017/start/</loc>
+    <loc>https://ewerlopes.github.io/news/2017/start/</loc>
     <lastmod>2017-12-28T22:10:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/modeling-player-activity-robogames/</loc>
+    <loc>https://ewerlopes.github.io/writing/modeling-player-activity-robogames/</loc>
     <lastmod>2017-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/presentation/2017/modeling-player-activity-in-robogames/</loc>
+    <loc>https://ewerlopes.github.io/presentation/2017/modeling-player-activity-in-robogames/</loc>
     <lastmod>2017-10-11T16:15:00+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/presentation/</loc>
+    <loc>https://ewerlopes.github.io/presentation/</loc>
     <lastmod>2017-10-11T16:15:00+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/presentation/2017/activity-recognition-in-robogames/</loc>
+    <loc>https://ewerlopes.github.io/presentation/2017/activity-recognition-in-robogames/</loc>
     <lastmod>2017-09-22T16:15:00+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/activity-recognition-robogames-copy/</loc>
+    <loc>https://ewerlopes.github.io/writing/activity-recognition-robogames-copy/</loc>
     <lastmod>2017-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ewerlopes.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ewerlopes.github.io/tags/</loc>
   </url>
 </urlset>

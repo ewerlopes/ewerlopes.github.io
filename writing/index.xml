@@ -19,9 +19,9 @@
 	  </itunes:category>
 	  <itunes:keywords>Philosophy, Logic, mathematics, pdf, research, University, Greg Restall, Melbourne, Australia, Victoria</itunes:keywords>
 	  <itunes:explicit>no</itunes:explicit>
-	  <itunes:image href="http://localhost:1313/img/avatar2.jpg" />
+	  <itunes:image href="https://ewerlopes.github.io//img/avatar2.jpg" />
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://localhost:1313/writing/</link>
+    <link>https://ewerlopes.github.io/writing/</link>
     <language>en-us</language>
     
     
@@ -30,10 +30,10 @@
  
     <item>
       <title>Learning and Mining Player Motion Profiles in Physically Interactive Robogames</title>
-      <link>http://localhost:1313/writing/learning-mining-in-robogames/</link>
+      <link>https://ewerlopes.github.io/writing/learning-mining-in-robogames/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/writing/learning-mining-in-robogames/</guid>
+      <guid>https://ewerlopes.github.io/writing/learning-mining-in-robogames/</guid>
       <description>&lt;![CDATA[&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Physically-Interactive RoboGames&lt;!-- raw HTML omitted --&gt; (PIRG) are an emerging application whose aim is to develop robotic agents able to interact and engage humans in a game situation. In this framework, learning a model of players&#39; activity is relevant both to understand their engagement, as well as to understand specific strategies they adopted, which in turn can foster game adaptation. Following such directions and given the lack of quantitative methods for player modeling in PIRG, we propose a methodology for representing players as a mixture of existing player&amp;rsquo;s types uncovered from data. This is done by dealing both with the intrinsic uncertainty associated with the setting and with the agent necessity to act in real time to support the game interaction. Our methodology first focuses on encoding time series data generated from player-robot interaction into images, in particular &lt;!-- raw HTML omitted --&gt;Gramian angular field images&lt;!-- raw HTML omitted --&gt;, to represent continuous data. To these, we apply latent Dirichlet allocation to summarize the player&amp;rsquo;s motion style as a probabilistic mixture of different styles discovered from data. This approach has been tested in a dataset collected from a real, physical robot game, where activity patterns are extracted by using a custom three-axis accelerometer sensor module. The obtained results suggest that the proposed system is able to provide a robust description for the player interaction.&lt;/p&gt;
 ]]></description>
     </item>
@@ -41,10 +41,10 @@
  
     <item>
       <title>Modeling Player Activity in a Physical Interactive Robot Game Scenario</title>
-      <link>http://localhost:1313/writing/modeling-player-activity-robogames/</link>
+      <link>https://ewerlopes.github.io/writing/modeling-player-activity-robogames/</link>
       <pubDate>Fri, 27 Oct 2017 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/writing/modeling-player-activity-robogames/</guid>
+      <guid>https://ewerlopes.github.io/writing/modeling-player-activity-robogames/</guid>
       <description>&lt;![CDATA[&lt;p&gt;We propose a quantitative human player model for &lt;!-- raw HTML omitted --&gt;Physically Interactive RoboGames&lt;!-- raw HTML omitted --&gt; that can account for the combination of the player activity (physical effort) and interaction level. The model is based on activity recognition and a description of the player interaction (proximity and body contraction index) with the robot co-player. Our approach has been tested on a dataset collected from a real, physical robot game, where activity patterns extracted by a custom 3-axis accelerometer sensor module and by the Microsoft Kinect sensor are used. The proposed model design aims at inspiring approaches that can consider the activity of a human player in lively games against robots and foster the design of robotic adaptive behavior capable of supporting her/his engagement in such type of games.&lt;/p&gt;
 ]]></description>
     </item>
@@ -52,10 +52,10 @@
  
     <item>
       <title>Activity recognition in a Physical Interactive RoboGame</title>
-      <link>http://localhost:1313/writing/activity-recognition-robogames-copy/</link>
+      <link>https://ewerlopes.github.io/writing/activity-recognition-robogames-copy/</link>
       <pubDate>Mon, 18 Sep 2017 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/writing/activity-recognition-robogames-copy/</guid>
+      <guid>https://ewerlopes.github.io/writing/activity-recognition-robogames-copy/</guid>
       <description>&lt;![CDATA[&lt;p&gt;In this paper, we investigate the possibility of human physical activity recognition in a robot game scenario. Being able to recognize types of activity is essential to enable robot behavior adaptation to support player engagement. Also, the introduction of this recognition system will allow for development of better models for prediction, planning and problem solving in PIRGs that can foster human-robot interaction. The experiments reported on this paper were performed on data collected from real in-game activity, where a human player faces a mobile robot. We use a custom single tri-axial accelerometer module attached to the player’s chest in order to capture motion information. The main characteristic of our approach is the extraction of features from patterns found on the motion variance rather than on raw data. Furthermore, we allow for the recognition of unconstrained motion given that we do not ask the players to perform target activities before hand: all detectable activities are derived from the free player motion during the game itself. To the best of our knowledge, this is the first paper to consider activity recognition in a physical interactive robogame.&lt;/p&gt;
 ]]></description>
     </item>
