@@ -1,0 +1,179 @@
+<rss version="2.0" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+      <title>Ewerton de Oliveira&#39;s website in Ewerton de Oliveira&#39;s website </title>
+	  <itunes:subtitle>Greg Restall's publications on logic and philosophy</itunes:subtitle>
+	  <itunes:author>Greg Restall</itunes:author>
+	  <itunes:owner>
+	  <itunes:name>Greg Restall</itunes:name>
+	  <itunes:email>greg@consequently.org</itunes:email>
+	  </itunes:owner>
+	  <itunes:category text="Education">
+	  <itunes:category text="Higher Education"/>
+	  </itunes:category>
+	  <itunes:keywords>Philosophy, Logic, mathematics, pdf, research, University, Greg Restall, Melbourne, Australia, Victoria</itunes:keywords>
+	  <itunes:explicit>no</itunes:explicit>
+	  <itunes:image href="http://localhost:1313/img/avatar2.jpg" />
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://localhost:1313/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 31 Oct 2021 22:37:24 -03</updated>
+
+
+<item>
+<title>News</title>
+<link>http://localhost:1313/news/</link>
+<pubDate>Sun, 31 Oct 2021 00:44:00 &#43;1000</pubDate>
+<guid>http://localhost:1313/news/</guid>
+<description></description>
+</item>
+    
+<item>
+<title>Ewerton de Oliveira&#39;s website</title>
+<link>http://localhost:1313/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/</guid>
+<description></description>
+</item>
+    
+<item>
+<title>A new site!</title>
+<link>http://localhost:1313/news/2021/new-website/</link>
+<pubDate>Sun, 31 Oct 2021 00:44:00 &#43;1000</pubDate>
+<guid>http://localhost:1313/news/2021/new-website/</guid>
+<description>&lt;p&gt;This is a test.&lt;/p&gt;
+</description>
+</item>
+    
+<item>
+<title>Writings</title>
+<link>http://localhost:1313/writing/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/writing/</guid>
+<description></description>
+</item>
+    
+<item>
+<title>Learning and Mining Player Motion Profiles in Physically Interactive Robogames</title>
+<link>http://localhost:1313/writing/learning-mining-in-robogames/</link>
+<pubDate>Mon, 26 Feb 2018 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/writing/learning-mining-in-robogames/</guid>
+<description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Physically-Interactive RoboGames&lt;!-- raw HTML omitted --&gt; (PIRG) are an emerging application whose aim is to develop robotic agents able to interact and engage humans in a game situation. In this framework, learning a model of players&#39; activity is relevant both to understand their engagement, as well as to understand specific strategies they adopted, which in turn can foster game adaptation. Following such directions and given the lack of quantitative methods for player modeling in PIRG, we propose a methodology for representing players as a mixture of existing player&amp;rsquo;s types uncovered from data. This is done by dealing both with the intrinsic uncertainty associated with the setting and with the agent necessity to act in real time to support the game interaction. Our methodology first focuses on encoding time series data generated from player-robot interaction into images, in particular &lt;!-- raw HTML omitted --&gt;Gramian angular field images&lt;!-- raw HTML omitted --&gt;, to represent continuous data. To these, we apply latent Dirichlet allocation to summarize the player&amp;rsquo;s motion style as a probabilistic mixture of different styles discovered from data. This approach has been tested in a dataset collected from a real, physical robot game, where activity patterns are extracted by using a custom three-axis accelerometer sensor module. The obtained results suggest that the proposed system is able to provide a robust description for the player interaction.&lt;/p&gt;
+</description>
+</item>
+    
+<item>
+<title>I&#39;ve started my personal site</title>
+<link>http://localhost:1313/news/2017/start/</link>
+<pubDate>Thu, 28 Dec 2017 22:10:00 &#43;1000</pubDate>
+<guid>http://localhost:1313/news/2017/start/</guid>
+<description>&lt;p&gt;Hi there! I would like to announce I will be writing technical posts on this
+website. Most of the design you see here is taken from the gorgeous &lt;!-- raw HTML omitted --&gt;consequently.org&lt;!-- raw HTML omitted --&gt; managed by &lt;!-- raw HTML omitted --&gt;Greg Restall&lt;!-- raw HTML omitted --&gt;, from who some years ago I took
+the course series &lt;!-- raw HTML omitted --&gt;Logic: language and information&lt;!-- raw HTML omitted --&gt; on &lt;!-- raw HTML omitted --&gt;Coursera&lt;!-- raw HTML omitted --&gt; and absolutely fell in love with his sensitivity in choosing beautiful fonts for the lecture
+notes. On his website, that same sensibility is kept, which is seen through
+the amazing choice of calligraphy set.&lt;/p&gt;
+&lt;p&gt;Anyway, I plan to write about &lt;!-- raw HTML omitted --&gt;Machine Learning&lt;!-- raw HTML omitted --&gt; (ML) subjects I am currently
+studying, including: &lt;!-- raw HTML omitted --&gt;Variational Inference&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Bayesian Optimization&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Gaussian
+Processes&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Deep Learning&lt;!-- raw HTML omitted --&gt;… In summary, anything related, but not limited to, ML…
+I will basically focus on probabilistic views and try to give a comprehensible
+explanation together with code (&lt;!-- raw HTML omitted --&gt;Ipython&lt;!-- raw HTML omitted --&gt; notebook style) and dummy-man math (i.e., I&amp;rsquo;ll try to use a &amp;ldquo;for dummy&amp;rdquo; style when explaining things).&lt;/p&gt;
+&lt;p&gt;The main objective is to use the site as a repository where to deposit my
+knowledge and be able to revisit when needed (since I keep forgetting things, :D).
+On the process I hope this is also going to be useful for someone else starting
+to learn these subjects.&lt;/p&gt;
+&lt;p&gt;Randomly, I will aso write about my hoobies: artistic calligraphy, ancient
+languages study (mainly Ancient Greek and Latin), as well as electronics&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Before closing this short first post, I would like to quote &lt;!-- raw HTML omitted --&gt;Brian Keng&lt;!-- raw HTML omitted --&gt;
+(you must definitely check out his &lt;!-- raw HTML omitted --&gt;blog&lt;!-- raw HTML omitted --&gt; and note the similarities with mine!) by saying that
+&lt;!-- raw HTML omitted --&gt;&amp;ldquo;For a long time I&amp;rsquo;ve resisted making a blog about anything technical because,
+to be frank, I didn&amp;rsquo;t feel like I was qualified. What makes me more qualified now?
+Nothing really, I&amp;rsquo;m just a bit less afraid of &lt;!-- raw HTML omitted --&gt;being wrong&lt;!-- raw HTML omitted --&gt;.&amp;quot;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Please, feel free to interact using the comment board as well as sending me e-mails
+or twitter messages.&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;
+</description>
+</item>
+    
+<item>
+<title>Modeling Player Activity in a Physical Interactive Robot Game Scenario</title>
+<link>http://localhost:1313/writing/modeling-player-activity-robogames/</link>
+<pubDate>Fri, 27 Oct 2017 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/writing/modeling-player-activity-robogames/</guid>
+<description>&lt;p&gt;We propose a quantitative human player model for &lt;!-- raw HTML omitted --&gt;Physically Interactive RoboGames&lt;!-- raw HTML omitted --&gt; that can account for the combination of the player activity (physical effort) and interaction level. The model is based on activity recognition and a description of the player interaction (proximity and body contraction index) with the robot co-player. Our approach has been tested on a dataset collected from a real, physical robot game, where activity patterns extracted by a custom 3-axis accelerometer sensor module and by the Microsoft Kinect sensor are used. The proposed model design aims at inspiring approaches that can consider the activity of a human player in lively games against robots and foster the design of robotic adaptive behavior capable of supporting her/his engagement in such type of games.&lt;/p&gt;
+</description>
+</item>
+    
+<item>
+<title>Presentations</title>
+<link>http://localhost:1313/presentation/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/presentation/</guid>
+<description></description>
+</item>
+    
+<item>
+<title>Modeling Player Activity in a Physical Interactive Robot Game Scenario</title>
+<link>http://localhost:1313/presentation/2017/modeling-player-activity-in-robogames/</link>
+<pubDate>Wed, 11 Oct 2017 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/presentation/2017/modeling-player-activity-in-robogames/</guid>
+<description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;: In this poster, I will present the ideas in our paper about a simple quantitative model for  players interaction in &lt;em&gt;robogames&lt;/em&gt;. Please, check out the accompanying paper.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hai-conference.net/hai2017/&#34;&gt;Link&lt;/a&gt; to conference website.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/proceedings/10.1145/3125739&#34;&gt;Link&lt;/a&gt; to conference proceedings.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/presentations/posters/modeling-player-activity-in-robogames.pdf&#34;&gt;Download&lt;/a&gt; poster.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+</item>
+    
+<item>
+<title>Activity recognition in a Physical Interactive RoboGame</title>
+<link>http://localhost:1313/presentation/2017/activity-recognition-in-robogames/</link>
+<pubDate>Fri, 22 Sep 2017 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/presentation/2017/activity-recognition-in-robogames/</guid>
+<description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;em&gt;Abstract&lt;/em&gt;: In this poster, I will present the ideas in our paper about a simple model to classify player’s activity in a &lt;em&gt;Physically Interactive RoboGame&lt;/em&gt;, using a 3-axis custom accelerometer
+positioned on player’s chest. Please, check out the accompanying paper.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://icdlepirob2017.wordpress.com/&#34;&gt;Link&lt;/a&gt; to conference website.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/8326423/proceeding&#34;&gt;Link&lt;/a&gt; to conference proceedings.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/presentations/posters/activity-recognition-in-robogames.pdf&#34;&gt;Download&lt;/a&gt; poster.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+</item>
+    
+<item>
+<title>Activity recognition in a Physical Interactive RoboGame</title>
+<link>http://localhost:1313/writing/activity-recognition-robogames-copy/</link>
+<pubDate>Mon, 18 Sep 2017 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/writing/activity-recognition-robogames-copy/</guid>
+<description>&lt;p&gt;In this paper, we investigate the possibility of human physical activity recognition in a robot game scenario. Being able to recognize types of activity is essential to enable robot behavior adaptation to support player engagement. Also, the introduction of this recognition system will allow for development of better models for prediction, planning and problem solving in PIRGs that can foster human-robot interaction. The experiments reported on this paper were performed on data collected from real in-game activity, where a human player faces a mobile robot. We use a custom single tri-axial accelerometer module attached to the player’s chest in order to capture motion information. The main characteristic of our approach is the extraction of features from patterns found on the motion variance rather than on raw data. Furthermore, we allow for the recognition of unconstrained motion given that we do not ask the players to perform target activities before hand: all detectable activities are derived from the free player motion during the game itself. To the best of our knowledge, this is the first paper to consider activity recognition in a physical interactive robogame.&lt;/p&gt;
+</description>
+</item>
+    
+<item>
+<title>Tags</title>
+<link>http://localhost:1313/tags/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/tags/</guid>
+<description></description>
+</item>
+    
+<item>
+<title>Categories</title>
+<link>http://localhost:1313/categories/</link>
+<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+<guid>http://localhost:1313/categories/</guid>
+<description></description>
+</item>
+    
+  </channel>
+</rss>

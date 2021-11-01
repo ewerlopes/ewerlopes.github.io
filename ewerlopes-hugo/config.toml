@@ -1,0 +1,7 @@
+baseurl = "http://localhost:1313"
+languageCode = "en-us"
+title = "Ewerton de Oliveira's website"
+
+[params]
+   description = "Ewerton de Oliveira's website"
+   author = "Ewerton de Oliveira"

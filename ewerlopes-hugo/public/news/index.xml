@@ -1,0 +1,76 @@
+<rss version="2.0" 
+  xmlns:dc="https://purl.org/dc/elements/1.1/"
+  xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="https://webns.net/mvcb/"
+  xmlns:atom="https://www.w3.org/2005/Atom"
+  xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:itunes="https://www.itunes.com/dtds/podcast-1.0.dtd">
+
+<channel>
+      <title>News in Ewerton de Oliveira&#39;s website </title>
+	  <itunes:subtitle>Greg Restall's publications on logic and philosophy</itunes:subtitle>
+	  <itunes:author>Greg Restall</itunes:author>
+	  <itunes:owner>
+	  <itunes:name>Greg Restall</itunes:name>
+	  <itunes:email>greg@consequently.org</itunes:email>
+	  </itunes:owner>
+	  <itunes:category text="Education">
+	  <itunes:category text="Higher Education"/>
+	  </itunes:category>
+	  <itunes:keywords>Philosophy, Logic, mathematics, pdf, research, University, Greg Restall, Melbourne, Australia, Victoria</itunes:keywords>
+	  <itunes:explicit>no</itunes:explicit>
+	  <itunes:image href="http://localhost:1313/img/avatar2.jpg" />
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://localhost:1313/news/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 31 Oct 2021 00:44:00 &#43;1000</updated>
+    
+ 
+    <item>
+      <title>A new site!</title>
+      <link>http://localhost:1313/news/2021/new-website/</link>
+      <pubDate>Sun, 31 Oct 2021 00:44:00 &#43;1000</pubDate>
+      
+      <guid>http://localhost:1313/news/2021/new-website/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;This is a test.&lt;/p&gt;
+]]></description>
+    </item>
+    
+ 
+    <item>
+      <title>I&#39;ve started my personal site</title>
+      <link>http://localhost:1313/news/2017/start/</link>
+      <pubDate>Thu, 28 Dec 2017 22:10:00 &#43;1000</pubDate>
+      
+      <guid>http://localhost:1313/news/2017/start/</guid>
+      <description>&lt;![CDATA[&lt;p&gt;Hi there! I would like to announce I will be writing technical posts on this
+website. Most of the design you see here is taken from the gorgeous &lt;!-- raw HTML omitted --&gt;consequently.org&lt;!-- raw HTML omitted --&gt; managed by &lt;!-- raw HTML omitted --&gt;Greg Restall&lt;!-- raw HTML omitted --&gt;, from who some years ago I took
+the course series &lt;!-- raw HTML omitted --&gt;Logic: language and information&lt;!-- raw HTML omitted --&gt; on &lt;!-- raw HTML omitted --&gt;Coursera&lt;!-- raw HTML omitted --&gt; and absolutely fell in love with his sensitivity in choosing beautiful fonts for the lecture
+notes. On his website, that same sensibility is kept, which is seen through
+the amazing choice of calligraphy set.&lt;/p&gt;
+&lt;p&gt;Anyway, I plan to write about &lt;!-- raw HTML omitted --&gt;Machine Learning&lt;!-- raw HTML omitted --&gt; (ML) subjects I am currently
+studying, including: &lt;!-- raw HTML omitted --&gt;Variational Inference&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Bayesian Optimization&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Gaussian
+Processes&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;Deep Learning&lt;!-- raw HTML omitted --&gt;… In summary, anything related, but not limited to, ML…
+I will basically focus on probabilistic views and try to give a comprehensible
+explanation together with code (&lt;!-- raw HTML omitted --&gt;Ipython&lt;!-- raw HTML omitted --&gt; notebook style) and dummy-man math (i.e., I&amp;rsquo;ll try to use a &amp;ldquo;for dummy&amp;rdquo; style when explaining things).&lt;/p&gt;
+&lt;p&gt;The main objective is to use the site as a repository where to deposit my
+knowledge and be able to revisit when needed (since I keep forgetting things, :D).
+On the process I hope this is also going to be useful for someone else starting
+to learn these subjects.&lt;/p&gt;
+&lt;p&gt;Randomly, I will aso write about my hoobies: artistic calligraphy, ancient
+languages study (mainly Ancient Greek and Latin), as well as electronics&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Before closing this short first post, I would like to quote &lt;!-- raw HTML omitted --&gt;Brian Keng&lt;!-- raw HTML omitted --&gt;
+(you must definitely check out his &lt;!-- raw HTML omitted --&gt;blog&lt;!-- raw HTML omitted --&gt; and note the similarities with mine!) by saying that
+&lt;!-- raw HTML omitted --&gt;&amp;ldquo;For a long time I&amp;rsquo;ve resisted making a blog about anything technical because,
+to be frank, I didn&amp;rsquo;t feel like I was qualified. What makes me more qualified now?
+Nothing really, I&amp;rsquo;m just a bit less afraid of &lt;!-- raw HTML omitted --&gt;being wrong&lt;!-- raw HTML omitted --&gt;.&amp;quot;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Please, feel free to interact using the comment board as well as sending me e-mails
+or twitter messages.&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;
+]]></description>
+    </item>
+    
+  </channel>
+</rss>

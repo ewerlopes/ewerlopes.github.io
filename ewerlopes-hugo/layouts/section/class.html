@@ -1,0 +1,70 @@
+{{ partial "head.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+<div id="topbar">
+<div class="wrapper">
+	<header>
+		<nav class="navbar">
+			<ul>
+				<li class="hd"><a href="{{ $baseurl }}"><b><i class="fa fa-home" aria-hidden="true"></i>
+				</b></a></li>
+				<li><a href="{{ $baseurl }}/news">News</a></li>
+				<li><a href="{{ $baseurl }}/writing">Writing</a></li>
+				<li><a href="{{ $baseurl }}/presentation">Presentations</a></li>
+				<li><span><a href="{{ $baseurl }}/class">Classes</a></span></li>
+				<li><a href="#about">About</a></li>
+				{{/*  <li><a href="#searchsite">Search</a></li>  */}}
+			</ul>
+		</nav>
+	</header>
+</div>
+</div>
+
+<div class="wrapper">
+
+<h2>Class Archive</h2>
+<div class="units-row">
+<div class="unit-70">
+{{ range .Data.Pages.GroupByDate "2006" }}
+<div class="units-row">
+<div class="unit-10">
+<h3>{{ .Key }}</h3>
+</div>
+<div class="unit-90">
+<ul class="fa-ul">
+{{ range .Pages }}
+        <li><i class="fa-li fa {{ if eq .Params.host "Coursera" }}fa-laptop {{ else }}fa-mortar-board {{ end }}fa-fw" style="color:#b00;font-size:80%;padding-top:6px;"></i><a href="{{ .Permalink }}">
+          <a href="{{ .Permalink }}"><span class="caps">{{ .Title }}</span></a>,
+		    {{if .Params.date}}
+				<h4>from <time>{{ .Params.date | dateFormat "January 2006" }} </time>
+			{{else}}
+				from TDB
+			{{end}}
+			{{if .Params.enddate}}
+				to <time>{{ .Params.enddate | dateFormat "January 2006" }} </time>
+			{{else}}
+				to TDB
+			{{end}}, through {{ .Params.host }}.
+			{{ partial "comingsoon.html" . }}{{ partial "nowon.html" . }} </h4>
+        </li>
+{{ end }}
+</ul>
+</div>
+</div>
+{{ end }}
+</div>
+<div class="unit-30">
+This page is an archive of classes.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<hr class="separator">
+
+{{ partial "whatisthis.html" . }}
+
+{{ partial "foot.html" . }}
+</body>
+</html>
