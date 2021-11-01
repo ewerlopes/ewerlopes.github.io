@@ -6,7 +6,8 @@
 	<header>
 		<nav class="navbar">
 			<ul>
-				<li class="hd"><span><a href="{{ $baseurl }}"><b>consequently.org</b></a></span></li>
+				<li class="hd"><span><a href="{{ $baseurl }}"><b><i class="fa fa-home" aria-hidden="true"></i>
+				</b></a></span></li>
 				<li><a href="{{ $baseurl }}/news">News</a></li>
 				<li><a href="{{ $baseurl }}/writing">Writing</a></li>
 				<li><a href="{{ $baseurl }}/presentation">Presentations</a></li>
@@ -29,8 +30,8 @@
 	There is no page here at the address you requested. Perhaps try a search to find what you are looking for?
 </p>
 				<form method="get" action="http://duckduckgo.com/">
-				<input type="search" name="q" maxlength="255" placeholder="Search consequently.org">
-			<input type="hidden" name="sites" value="consequently.org"/>
+				<input type="search" name="q" maxlength="255" placeholder="Search {{ $baseurl }}">
+			<input type="hidden" name="sites" value="{{ $baseurl }}"/>
 			   <input type="hidden" name="ka" value="Alegreya"/>
 			   <input type="hidden" name="k7" value="#faf8f8"/>
 			   <input type="hidden" name="kj" value="#b33"/>
