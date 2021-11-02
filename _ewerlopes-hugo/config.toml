@@ -5,3 +5,9 @@ title = "Ewerton de Oliveira's website"
 [params]
    description = "Ewerton de Oliveira's website"
    author = "Ewerton de Oliveira"
+
+# the block below is necessary to render raw html from *.md post files.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

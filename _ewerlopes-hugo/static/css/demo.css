@@ -67,6 +67,10 @@ hr {border-top: 1px solid #ecc; margin-top:5ex; margin-bottom: 5ex;}
 
 h2 {border-bottom: 1px solid #ecc;}
 
+.textornament{
+	text-align: center;
+}
+
 /* =Layout
 -----------------------------------------------------------------------------*/
 .wrapper {

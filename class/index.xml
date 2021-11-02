@@ -35,9 +35,10 @@
       
       <guid>https://ewerlopes.github.io/class/2021/ci/</guid>
       <description>&lt;![CDATA[&lt;p&gt;TBD.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;blockquote&gt;
+&lt;!--
+date = &#34;2021-10-31&#34;
+enddate = &#34;2021-10-31&#34;
+--&gt;&lt;blockquote&gt;
 &lt;/blockquote&gt;
 ]]></description>
     </item>
