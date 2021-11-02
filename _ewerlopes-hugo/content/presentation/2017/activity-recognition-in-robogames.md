@@ -6,11 +6,6 @@ publishdate = "2017-09-22"
 author = "Ewerton de Oliveira"
 +++
 
-<figure>
-	<img src="/images/platonism-nominalism-usual-talk.jpg" alt="A close-up view of the Old Quad and Arts West at the University of Melbourne">
-	<figcaption>My usual talk (a close-up view of the Old Quad and Arts West at the University of Melbourne).</figcaption>
-</figure>
-
 *Abstract*: In this poster, I will present the ideas in our paper about a simple model to classify player’s activity in a *Physically Interactive RoboGame*, using a 3-axis custom accelerometer
 positioned on player’s chest. Please, check out the accompanying paper.
 

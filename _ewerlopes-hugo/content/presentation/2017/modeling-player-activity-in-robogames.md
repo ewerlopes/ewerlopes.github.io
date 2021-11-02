@@ -6,11 +6,6 @@ publishdate = "2017-10-11"
 author = "Ewerton de Oliveira"
 +++
 
-<figure>
-	<img src="/images/platonism-nominalism-usual-talk.jpg" alt="A close-up view of the Old Quad and Arts West at the University of Melbourne">
-	<figcaption>My usual talk (a close-up view of the Old Quad and Arts West at the University of Melbourne).</figcaption>
-</figure>
-
 *Abstract*: In this poster, I will present the ideas in our paper about a simple quantitative model for  players interaction in *robogames*. Please, check out the accompanying paper.
 
 * [Link](https://hai-conference.net/hai2017/) to conference website.
