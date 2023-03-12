@@ -6,15 +6,52 @@
 
 {{ .Content }}
 
-<ul>
-  {{ $pages := .Pages }}
-  {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-  {{ range (where $pages "Section" "!=" "") }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>:
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
-  {{ end }}
-</ul>
+<div class="morse">
+  -. .. .-.. ... .- - .. ... -. .. ... .. --- .--. - .. -- ..- --
+</div>
+
+<div class="wrapper">
+
+  <div class="units-row">
+    <div class="unit-66">
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">
+          &nbsp;
+        </div>
+        <div class="unit-66">
+          <h2>Recent News</h2>
+        </div>
+      </div>
+      {{ $pages := .Pages }}
+      {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+      {{ range first 3 (where $pages.ByDate "Section" "!=" "").Reverse }}
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">
+          <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+          <h4>{{ .Date.Format "2 January 2006" }}</h4>
+        </div>
+        <div class="unit-66">
+          {{ if .Truncated }}
+          {{ .Summary }}
+          <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+          {{ else }}
+          {{ .Content }}
+          {{ end }}
+          <hr class="post-sep">
+        </div>
+      </div>
+
+      {{ end }}
+
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">&nbsp;</div>
+        <div class="unit-66">
+          <nav class="navbar navbar-right"><a href="news">&rarr; all news</a></nav>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 {{ partial "footer.html" . }}

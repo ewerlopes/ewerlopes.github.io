@@ -1,7 +1,23 @@
+/* =Typography
+-----------------------------------------------------------------------------*/
 body {
   font-family: 'Alegreya', 'Optima', 'Candara', 'Hoefler Text', Times, Serif;
 }
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Alegreya', 'Trebuchet MS', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	color: #b24;
+}
+h2, h3, h4, h5 {
+	font-weight: normal;
+	font-style: italic;
+}
+h2, h3 {
+	text-transform: lowercase;
+	font-family: 'Alegreya SC';
+	font-style: normal;
 }

@@ -22,6 +22,11 @@ hr {
   border-style: dashed;
   color: #ddd;
 }
+.post-sep{
+  border-top: 1px solid #ecc; 
+  margin-top:5ex; 
+  margin-bottom: 5ex;
+}
 
 /* code */
 pre {
@@ -58,3 +63,112 @@ em{
 
 a {color: #b24; text-decoration:none;}
 a:hover {text-decoration:underline;}
+
+.morse {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.wrapper {
+	padding: 0 10px;
+	width: 94%;
+	max-width: 1300px;
+	margin: auto;
+}
+#outer {
+	padding: 3em 0 1em 0;
+	margin: 1em 0 3em 0;
+	background: url(hero-image1.jpg) #282828;
+	background-size: cover;
+	background-position: 50% 50%;
+	box-shadow: 0 0 3px #333 inset;
+/*	border: 1px solid #000; */
+	color: #f2f2f2;
+	height: 200px;
+}
+#outer h2,
+#outer h3 {
+	color: #ccc;
+}
+
+/* =Grid
+-----------------------------------------------------------------------------*/
+.units-container:after,
+.units-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.units-container:after,
+.units-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.units-container {
+  /* it's the trick to not collapse padding-top in the child element */
+
+  padding-top: 1px;
+  margin-top: -1px;
+}
+.units-row {
+  margin-bottom: 1.65em;
+}
+
+.width-33,
+.unit-33 {
+  width: 33.3%;
+}
+.width-66,
+.unit-66 {
+  width: 66.6%;
+}
+
+.units-row {
+  margin-bottom: 1.65em;
+}
+
+.units-row .unit-66,
+.units-row .unit-33
+{
+  float: left;
+  margin-left: 3%;
+}
+
+.units-row .unit-66:first-child
+.units-row .unit-33:first-child {
+  margin-left: 0;
+}
+
+.units-row .unit-66 {
+  width: 65.66666666666666%;
+}
+.units-row .unit-33 {
+  width: 31.333333333333332%;
+}
+
+.units-padding .unit-66,
+.units-padding .unit-33 {
+  padding: 1.65em;
+}
+
+.units-split .unit-66,
+.units-split .unit-33 {
+  margin-left: 0;
+}
+
+.units-split .unit-66 {
+  width: 66.6%;
+}
+.units-split .unit-33 {
+  width: 33.3%;
+}
+
+.dateblock {
+	text-align:right;
+}
+.dateblock h4 {color: #b24}
