@@ -1,0 +1,65 @@
+{{ partial "header.html" . }}
+
+{{if not .IsHome }}
+<h1>{{ .Title | markdownify }}</h1>
+{{ end }}
+
+{{ .Content }}
+
+<div class="morse">
+  -. .. .-.. ... .- - .. ... -. .. ... .. --- .--. - .. -- ..- --
+</div>
+
+<div class="wrapper">
+
+  <div class="units-row">
+    <div class="unit-100">
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">
+          &nbsp;
+        </div>
+        <div class="unit-66">
+          <h2>Recent Posts</h2>
+        </div>
+      </div>
+      {{ $pages := .Pages }}
+      {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+      {{ range first 3 (where $pages.ByDate "Section" "!=" "").Reverse }}
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">
+          <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+          <h4>{{ .Date.Format "2 January 2006" }}</h4>
+        </div>
+        <div class="unit-66">
+          {{ if .Truncated }}
+          {{ .Summary }}
+          <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+          {{ else }}
+          {{ .Content }}
+          {{ end }}
+          <hr class="post-sep">
+        </div>
+      </div>
+
+      {{ end }}
+
+      <div class="units-row-end">
+        <div class="unit-33 dateblock">&nbsp;</div>
+        <div class="unit-66">
+          <nav class="navbar navbar-right"><a href="news">&rarr; all posts</a></nav>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="morse">
+  -. .. .-.. ... .- - .. ... -. .. ... .. --- .--. - .. -- ..- --
+</div>
+
+{{ if .IsHome }}
+  {{ partial "whatisthis.html" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}
