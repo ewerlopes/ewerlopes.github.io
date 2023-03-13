@@ -1,11 +1,9 @@
-+++
-date = "2022-06-17T16:06:00-03:00"
-title = "The unreasonable power of the KL divergence"
-description = "A few ideas on the power of KL divergence."
-draft = false
-math = true
-largeimage = false
-+++
+---
+title: "The unreasonable power of the KL divergence"
+date: "2022-06-17"
+description: "A few ideas on the power of KL divergence."
+draft: true
+---
 
 <p class=textornament>
     
@@ -20,8 +18,8 @@ largeimage = false
 </span>,
 <input type="checkbox" id="sn-1" class="margin-toggle"/>
 <span class="sidenote">Or basically any other type of inference. 😆</span>
-chances are you may have bumped into a quantity known as <em>KL divergence</em> -- short for Kullback-Leibler divergence.
-This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, I am going to enter in the use of the divergence in the framework of Variational Inference and open up the way to talk about how we can do approximate inference with it by means of Expectation Propagation. But first, let's start as usual: with a definition.
+chances are you have heard about <em>KL divergence</em> -- short for Kullback-Leibler divergence.
+This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we'll find ourselves dealing with <em>Variational Inference</em> and with a little more patience dealing with <em>Expectation Propagation</em>. But first, let's start as usual: with a definition.
 
 What is KL anyway? You might ask. For starters, this is how we compute it:
 

@@ -18,16 +18,19 @@ menu:
     - name: About
       url: "about/"
       weight: 2
+    - name: "Archive"
+      url: "post/"
+      weight: 3
     - name: Categories
       url: "categories/"
-      weight: 3
+      weight: 4
     - name: Tags
       url: "tags/"
-      weight: 4
+      weight: 5
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Ewerton de Oliveira](https://www.linkedin.com/in/ewerlopes/) 2019 -- {Year} | [Github](https://github.com/ewerlopes) | [Twitter](https://twitter.com/ewerlopes)"
+  footer: "&copy; [Ewerton de Oliveira](https://www.linkedin.com/in/ewerlopes/) 2017 -- {Year}"
 
 markup:
   highlight:

@@ -13,13 +13,13 @@
 <div class="wrapper">
 
   <div class="units-row">
-    <div class="unit-66">
+    <div class="unit-100">
       <div class="units-row-end">
         <div class="unit-33 dateblock">
           &nbsp;
         </div>
         <div class="unit-66">
-          <h2>Recent News</h2>
+          <h2>Recent Posts</h2>
         </div>
       </div>
       {{ $pages := .Pages }}
@@ -46,12 +46,20 @@
       <div class="units-row-end">
         <div class="unit-33 dateblock">&nbsp;</div>
         <div class="unit-66">
-          <nav class="navbar navbar-right"><a href="news">&rarr; all news</a></nav>
+          <nav class="navbar navbar-right"><a href="news">&rarr; all posts</a></nav>
         </div>
       </div>
 
     </div>
   </div>
 </div>
+
+<div class="morse">
+  -. .. .-.. ... .- - .. ... -. .. ... .. --- .--. - .. -- ..- --
+</div>
+
+{{ if .IsHome }}
+  {{ partial "whatisthis.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}
