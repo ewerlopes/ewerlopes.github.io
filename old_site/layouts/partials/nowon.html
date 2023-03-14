@@ -1,4 +1,0 @@
-{{/*  {{ if (le .Date.Unix now.Unix) }}{{ if (le now.Unix (add .Date.Unix .Params.duration)) }}<span class="badge badge-small badge-green">now on</span>{{ end }}{{ end }}  */}}
-{{ if .Params.isdraft}}<span class="badge badge-small badge-red">drafting</span>{{ end }}
-{{ if ge .Date.Unix now.Unix }}{{ if (le .Date.Unix (add now.Unix 7776000)) }}<span class="badge badge-small badge-yellow">coming soon</span>{{ end }}{{ end }}
-{{ if and (not .Params.isdraft) (le .Date.Unix now.Unix) }}{{ if (le now.Unix (add .Date.Unix .Params.duration)) }}<span class="badge badge-small badge-green">now on</span>{{ end }}{{ end }}
