@@ -5,14 +5,6 @@ description: "A few ideas on the power of KL divergence."
 draft: true
 ---
 
-<p class=textornament>
-    
-</p>
-
-<figure style="float: center;" class=ornament-left>
-    <img src="/ornaments/roman-ornament.png" title="Speltz, Alexander / Styles of ornament: exhibited in designs, and arranged in historical order, with descriptive text. ([1906]) The Roman ornament. Credits: digicoll.library.wisc.edu"/>
-</figure>
-
 <span class="newthought">When doing Bayesian Inference</span>
 <span><label for="sn-1" class="margin-toggle sidenote-number">
 </span>,
@@ -58,4 +50,4 @@ D_{KL}(P||Q) & =  \big[ - \sum_{x \in \mathcal{X}}P(x)\log{\left(Q(x)\right)} \b
 \end{aligned}
 \end{equation}
 
-That is my favorite way of thinking about KL: As a divergence (a.k.a. distance) of average information w.r.t. the first argument of the KL, i.e., $P$ in $D_{KL}(P||Q)$ or $Q$ in $D_{KL}(Q||P)$. 
+That is my favorite way of thinking about KL: As a divergence (a.k.a. distance) of average information w.r.t. the first argument of the KL, i.e., $P$ in $D_{KL}(P||Q)$ or $Q$ in $D_{KL}(Q||P)$.
