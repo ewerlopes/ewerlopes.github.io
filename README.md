@@ -1,0 +1,1 @@
+'/docs' contains the published version of the site in 'half-bayesianism'.
