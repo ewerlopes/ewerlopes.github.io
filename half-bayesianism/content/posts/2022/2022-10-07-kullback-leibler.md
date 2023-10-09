@@ -1,25 +1,21 @@
 ---
-title: "The unreasonable power of the KL divergence"
-date: "2022-06-17"
-description: "A few ideas on the power of KL divergence."
+title: The unreasonable power of the KL divergence
+author: Ewerton de Oliveira
+subtitle: A few ideas on the power of KL divergence
+description: A few ideas on the power of KL divergence.
+date: 2022-10-07
+math: true
+categories:
+  - bayesian
+  - inference
+tags:
+  - optimization
+  - cost-functions
 draft: true
 ---
-
-<p class=textornament>
-    
-</p>
-
-<figure style="float: center;" class=ornament-left>
-    <img src="/ornaments/roman-ornament.png" title="Speltz, Alexander / Styles of ornament: exhibited in designs, and arranged in historical order, with descriptive text. ([1906]) The Roman ornament. Credits: digicoll.library.wisc.edu"/>
-</figure>
-
-<span class="newthought">When doing Bayesian Inference</span>
-<span><label for="sn-1" class="margin-toggle sidenote-number">
-</span>,
-<input type="checkbox" id="sn-1" class="margin-toggle"/>
-<span class="sidenote">Or basically any other type of inference. 😆</span>
-chances are you have heard about <em>KL divergence</em> -- short for Kullback-Leibler divergence.
-This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we'll find ourselves dealing with <em>Variational Inference</em> and with a little more patience dealing with <em>Expectation Propagation</em>. But first, let's start as usual: with a definition.
+When doing Bayesian Inference, or basically any other type of inference,
+chances are you have heard about *KL divergence* -- short for Kullback-Leibler divergence.
+This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we'll find ourselves dealing with Variational Inference and with a little more patience dealing with Expectation Propagation. But first, let's start as usual: with a definition.
 
 What is KL anyway? You might ask. For starters, this is how we compute it:
 
@@ -27,10 +23,7 @@ What is KL anyway? You might ask. For starters, this is how we compute it:
 D_{KL}(P||Q) = \sum_{x \in \mathcal{X}}P(x)\log{\left(\frac{P(x)}{Q(x)}\right)}
 \end{equation}
 
-, where $P$ and $Q$ are two discrete probability distributions defined on the same probability space $\mathcal{X}$. Equivalently, we often use<span><label for="sn-2" class="margin-toggle sidenote-number">
-</span>
-<input type="checkbox" id="sn-2" class="margin-toggle"/>
-<span class="sidenote">As usual, integrals replace the summation for continuous random variables, where $P$ and $Q$ will be densities.</span>:
+, where $P$ and $Q$ are two discrete probability distributions defined on the same probability space $\mathcal{X}$. Equivalently, using integrals to replace the summation for continuous random variables where $P$ and $Q$ will be densities, we often use:
 
 \begin{equation}
 D_{KL}(P||Q) = - \sum_{x \in \mathcal{X}}P(x)\log{\left(\frac{Q(x)}{P(x)}\right)}
@@ -58,4 +51,4 @@ D_{KL}(P||Q) & =  \big[ - \sum_{x \in \mathcal{X}}P(x)\log{\left(Q(x)\right)} \b
 \end{aligned}
 \end{equation}
 
-That is my favorite way of thinking about KL: As a divergence (a.k.a. distance) of average information w.r.t. the first argument of the KL, i.e., $P$ in $D_{KL}(P||Q)$ or $Q$ in $D_{KL}(Q||P)$. 
+That is my favorite way of thinking about KL: As a divergence (a.k.a. distance) of average information w.r.t. the first argument of the KL, i.e., $P$ in $D_{KL}(P||Q)$ or $Q$ in $D_{KL}(Q||P)$.

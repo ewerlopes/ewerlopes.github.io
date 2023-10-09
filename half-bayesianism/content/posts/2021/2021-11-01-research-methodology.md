@@ -6,9 +6,9 @@ date: 2021-11-01
 Lastmod: 2023-10-07
 draft: False
 categories:
-  - study
+  - methodology
 tags:
-  - methodologies
+  - research
 ---
 
 <p><span class="newthought">If you are reading this post</span>, you are probably a researcher like me (or someone who happens to like reading about science); Better, you must be one of my students!
