@@ -116,6 +116,56 @@ You can also achieve the same result by using the fact that $-D_{KL}(P||Q) \le 0
 
 , where the first inequality comes fom the fact the $\log{x} \le x − 1$ for all $x > 0$.
 
-Well; There you have it! From this point on you're good to explore [other points of view](https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence) to KL and build an even stronger intuition, which also includes [other proofs](https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative). But, before we wrap up the post, we better explore the unreasonable power of KL in inference. Let's explore how it had been used to define an important bound for inference.
+Well; There you have it! From this point on you're good to explore [other points of view](https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence) to KL and build an even stronger intuition, which also includes [other proofs](https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative). But, before we wrap up the post, we better see the divergence in practice, via some inference mechanism. Let's explore how it has been used to define an important bound: the ELBO, short for "Evidence Lower Bound".
 
-Let's say you have a distribution $P(\boldsymbol{Z}|\boldsymbol{X})$ of observed random variables $\boldsymbol{X}$  and latent variables $\boldsymbol{Z}$. In this case the latent variables.
+Let's say you have a posterior, $P(\boldsymbol{Z}|\boldsymbol{X})$, of observed random variables $\boldsymbol{X}$ and latent variables $\boldsymbol{Z}$ -- they are taken as sets of variables in case you did not notice the boldface 😊. You may recognize this as the central task in probabilistic inference: model the behavior of latent variables of interest via expectations computed w.r.t. the distribution of the observed variables.
+
+Sometimes, however, the computation of the posterior is intractable due to several factors. Among the most popular reasons, are the lack of analytical form for highly complex required integrals in the posterior and high dimensionality leading to costly numerical integrations.
+
+In another post, we will start digging into "Variational Inference" as a deterministic form of approximated inference in probabilistic models. For now, it suffices to consider the posterior $P(\boldsymbol{Z}|\boldsymbol{X})$ as intractable and opt for some approximation with a simpler distribution. Guess what?! KL can help! We'll opt for using a distribution $Q(\boldsymbol{Z})$ to estimate our posterior. For that we need a measure of quality of the estimation, and we are gonna see that KL is a good candidate for it. Here is how we begin:
+
+\begin{equation}
+D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z}|\boldsymbol{X})) = \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z}|\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)}
+\end{equation}
+
+Therefore, using the fact that conditional probability rule:
+
+\begin{equation}
+\begin{aligned}
+D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z}|\boldsymbol{X})) &= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{P(\boldsymbol{X})}\cdot\frac{1}{Q(\boldsymbol{Z})}\right)}
+\newline
+&= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\cdot\frac{1}{P(\boldsymbol{X})}\right)}
+\newline
+&= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\left(\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)} + \log{\left(\frac{1}{P(\boldsymbol{X})}\right)} \right)
+\newline
+&= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\left(\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)} - \log{\left(P(\boldsymbol{X})\right)} \right)
+\newline
+&= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)} + \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(P(\boldsymbol{X})\right)}
+\newline
+&= - \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)} + \log{\left(P(\boldsymbol{X})\right)}
+\end{aligned}
+\end{equation}
+
+, where we have used the fact that the summation of the entire support of $Q(Z)$ equals $1$ in the last equality.
+
+We now isolate $P(\boldsymbol{X})$:
+
+\begin{equation}
+\begin{aligned}
+D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z}|\boldsymbol{X})) + \sum_{x \in \mathcal{Z}}Q(\boldsymbol{Z})\log{\left(\frac{P(\boldsymbol{Z},\boldsymbol{X})}{Q(\boldsymbol{Z})}\right)} &= \log{\left(P(\boldsymbol{X})\right)}
+\newline
+D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z}|\boldsymbol{X})) - D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z},\boldsymbol{X})) &= \log{\left(P(\boldsymbol{X})\right)}
+\end{aligned}
+\end{equation}
+
+For convenience, we will rename the terms above as:
+
+\begin{equation}
+D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
+\end{equation}
+
+In $(13)$ we notice something interesting:
+
+* the first term is always positive (By $(9)$ and $(10)$).
+* The second term, called the **Evidence Lower Bound** is always negative.
+* The RHS is always less than zero, since $P(\boldsymbol{X})$ is a distribution and $log(x) < 0$ for $x \in [0, 1]$.
