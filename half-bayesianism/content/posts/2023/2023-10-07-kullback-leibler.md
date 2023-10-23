@@ -1,5 +1,5 @@
 ---
-title: The unreasonable power of the KL divergence
+title: The reasonable power of the KL divergence
 author: Ewerton de Oliveira
 subtitle: A few ideas on the power of KL divergence
 description: A few ideas on the power of KL divergence.
@@ -17,7 +17,7 @@ tags:
 draft: false
 ---
 When doing Bayesian Inference, or basically any other type of inference,
-chances are you have heard about **KL divergence** -- short for Kullback-Leibler divergence.
+chances are you have heard about **KL divergence** -- short for [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).
 This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we'll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let's start as usual: with a definition.
 
 What is KL anyway? You might ask. For starters, this is how we compute it:
@@ -158,14 +158,34 @@ D_{KL}(Q(\boldsymbol{Z})||P(\boldsymbol{Z}|\boldsymbol{X})) - D_{KL}(Q(\boldsymb
 \end{aligned}
 \end{equation}
 
-For convenience, we will rename the terms above as:
+We notice something interesting:
+
+* The first term is always positive (By $(9)$ and $(10)$).
+* The second term, called the **Evidence Lower Bound**, is always negative.
+* The RHS is always less than zero, since $P(\boldsymbol{X})$ is a distribution and $log(x) < 0$ for $x \in [0, 1]$. From $P(\boldsymbol{Z}|\boldsymbol{X})$ it's given and therefore fixed.
+
+For convenience, we will rename the terms in $(13)$ as:
 
 \begin{equation}
 D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
 \end{equation}
 
-In $(13)$ we notice something interesting:
+Now, we can observe the behavior of these quantities by playing with some values exercising what we observed so far, and considering the $\log{\left(P(\boldsymbol{X})\right)}$ fixed at $-4$:
 
-* the first term is always positive (By $(9)$ and $(10)$).
-* The second term, called the **Evidence Lower Bound** is always negative.
-* The RHS is always less than zero, since $P(\boldsymbol{X})$ is a distribution and $log(x) < 0$ for $x \in [0, 1]$.
+{{<table "table table-striped table-bordered">}}
+|  $D_{KL}$ | $\mathcal{L}$  | $\log{\left(P(\boldsymbol{X})\right)}$  |
+|:---------------:|:---------------:|:---------------:|
+|  4 | -8  | -4  |
+| 3  | -7  | -4  |
+| 2  | -6  | -4  |
+{{</table>}}
+
+Therefore, because $P(\boldsymbol{X})$ is fixed in the context of the posterior, $\mathcal{L}$ "controls the KL divergence", acting like a lower bound. This is done via inverse proportion: if one goes up the other must go down. This has an immediate advantage that by making the lower bound $\mathcal{L}$ less negative, i.e. larger, we reduce the KL divergence, which consequently makes the approximation $P(\boldsymbol{Z}|\boldsymbol{X})$ by $P(\boldsymbol{Z})$ better.
+
+This is really a keypoint. *When approximating the posterior, instead of minimizing the KL divergence we can resort to maximizing the lower bound $\mathcal{L}$*. This may not sound like much, but often it's much, much easier to deal with the lower bound than with the KL directly. This is because most of the time we have the joint probability underlying the posterior and in that we don't need to deal with intractable marginalizations.
+
+How you actually maximize the lower bound is what will instantiate the theory and make you achieve wonderful things. A full adventure into the realm of bayesian inference via deterministic approximation methods like "Variational Inference" is certainly a huge topic and one I hope to cover in more detail in a separate post. For now, I wanted to give you a glimpse on how KL appears in inference so that you would further develop your own intuition about the divergence. From the above, we shall be able to understand the basic role of KL in $(12)$. We are measuring the surprise in the approximation, and in doing so we prefer having it low, which would mean a better approximation.
+
+KL is really pervasive across the information theory literature (yes, that includes ML, AI, etc.). At the time of this post, generative AI is being discussed everywhere, and all CEOs, engineers and researchers, across a large sector of the working force, are talking about it during their happy hours on a Friday and Saturday night. Even there, you will notice KL's presence. For example, during [Reinforcement Learning with Human Feedback](https://arxiv.org/pdf/2203.02155.pdf) (RLHF), a technique used to improve (fine-tune) Large Language Models in the direction of human feedback, one uses KL to anchor model response adaptation to the previously trained model, avoiding unstable learning grounded in adaptations that are too aggressive.
+
+Keep learning.
