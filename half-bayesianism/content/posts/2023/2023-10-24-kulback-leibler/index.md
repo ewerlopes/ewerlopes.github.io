@@ -15,6 +15,9 @@ tags:
   - generative-ai
 draft: false
 ---
+
+{{< img src="images/KL.png" height="50" width="100" align="center" title="Fathers of KL." >}}
+
 When doing Bayesian Inference, or any other type of inference,
 chances are you have heard about **KL divergence** -- short for [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).
 This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we'll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let's start as usual: with a definition.
