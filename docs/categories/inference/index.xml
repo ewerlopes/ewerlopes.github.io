@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inference on Half-bayesianism</title>
+    <link>https://ewerlopes.github.io/categories/inference/</link>
+    <description>Recent content in inference on Half-bayesianism</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ewerlopes.github.io/categories/inference/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The reasonable power of the KL divergence</title>
+      <link>https://ewerlopes.github.io/posts/2023/2023-10-07-kullback-leibler/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ewerlopes.github.io/posts/2023/2023-10-07-kullback-leibler/</guid>
+      <description>When doing Bayesian Inference, or any other type of inference, chances are you have heard about KL divergence &amp;ndash; short for Kullback-Leibler divergence. This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&amp;rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation.</description>
+    </item>
+    
+  </channel>
+</rss>
