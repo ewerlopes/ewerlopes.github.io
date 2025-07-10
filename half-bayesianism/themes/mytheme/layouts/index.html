@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<div class="blog-index">
+    {{ $posts := where .Site.RegularPages "Params.lang" .Params.lang }}
+    {{ $posts := where $posts "File.BaseFileName" "ne" "about" }}
+    {{ $sorted := sort $posts "Date" "desc" }}
+    {{ range first 5 $sorted }}
+        {{ partial "post_snippet.html" . }}
+    {{ end }}
+</div>
+
+{{ end }}

@@ -1,0 +1,27 @@
+{{ $author := index site.Data.authors .Params.author }}
+{{ $lang := .Params.lang }}
+<div>
+    {{ if eq $lang "pt" }}
+    <span class="post_date">Citação</span>
+    <div class="footnotes">
+        {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Publicado em {{ .Permalink }}, acesso
+        em {{ now.Format "02/01/2006" }}.
+    </div>
+    {{ else }}
+    <span class="post_date">Citation</span>
+    <div class="footnotes">
+        {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Retrieved {{ now.Format "January 02, 2006" }}, from {{ .Permalink }}.
+    </div>
+    {{ end }}
+    <br>
+    <div class="bibtex-entry">
+        @misc{deoliveira{{ .Date.Format "2006" }}{{ .Params.ref }}-blogpost,
+        author = {de Oliveira, Ewerton},
+        title = {{ .Title }},
+        year = {{ .Date.Format "2006" }},
+        url = {{ .Permalink }},
+        note = {Accessed: {{ now.Format "2006-01-02" }}}
+        }
+    </div>
+    <br>
+</div>

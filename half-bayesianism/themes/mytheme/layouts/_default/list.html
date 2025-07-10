@@ -1,0 +1,8 @@
+{{ define "main" }}
+
+{{ $posts := where .Site.RegularPages "Params.lang" .Params.lang }}
+{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    {{ partial "postsByDate.html" . }}
+
+{{ end }}
+

@@ -1,9 +1,10 @@
 ---
 title: The reasonable power of the KL divergence
-author: Ewerton de Oliveira
-subtitle: From intuition to deterministic inference
-description: A few ideas on the power of KL divergence.
 date: 2023-10-24
+author: ewerlopes
+subtitle: From intuition to deterministic inference
+description: A few ideas on the power of KL divergence
+language: en
 math: true
 categories:
   - bayesian
@@ -15,8 +16,6 @@ tags:
   - generative-ai
 draft: false
 ---
-
-{{< img src="images/KL.png" height="50" width="100" align="center" title="Fathers of KL." >}}
 
 When doing Bayesian Inference, or any other type of inference,
 chances are you have heard about **KL divergence** -- short for [Kullback-Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence).

@@ -1,8 +1,10 @@
 ---
 title: My recommended research methodology
-subtitle: I few advices on how to organize a research effort
-author: Ewerton de Oliveira
+subtitle: A few advices on how to organize a research effort
+description: A few advices on how to organize a research effort
+author: ewerlopes
 date: 2021-11-01
+language: en
 Lastmod: 2023-10-07
 draft: False
 categories:
