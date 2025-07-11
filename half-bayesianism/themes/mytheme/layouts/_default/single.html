@@ -1,21 +1,23 @@
 {{ define "main" }}
 <div class="row" style="margin-bottom: 20px;">
-    {{ if eq .Lang "pt" }}
-    {{ $m := sub (int (time .Date).Month) 1 }}
-    <time class="meta post_date full">{{ .Date.Format "02" }} {{ index site.Data.dates.pt.months $m }} {{ .Date.Format "2006" }}</time>
-    {{ else }}
-    <time class="meta post_date full">{{ .Date.Format "Jan 2, 2006" }}</time>
-    {{ end }}
-    <h2 class="post-title in-post-title">{{ .Title }}</h2>
-    <p class="small description" style="margin-bottom: 18px;">{{ .Params.description }}</p>
-    <ul style="text-align:center">
-        {{ range .Params.tags }}
-        <a href="{{ " /blog/" | relURL }}{{ . }}">
-            <li class="tag green">#{{ . }}</li>
-        </a>
+    {{- if not (or (isset .Params "noMeta") .Params.noMeta) }}
+        {{ if eq .Lang "pt" }}
+        {{ $m := sub (int (time .Date).Month) 1 }}
+        <time class="meta post_date full">{{ .Date.Format "02" }} {{ index site.Data.dates.pt.months $m }} {{ .Date.Format "2006" }}</time>
+        {{ else }}
+        <time class="meta post_date full">{{ .Date.Format "Jan 2, 2006" }}</time>
         {{ end }}
-    </ul>
-    <footer></footer>
+        <h2 class="post-title in-post-title">{{ .Title }}</h2>
+        <p class="small description" style="margin-bottom: 18px;">{{ .Params.description }}</p>
+        <ul style="text-align:center">
+            {{ range .Params.tags }}
+            <a href="{{ " /posts/" | relURL }}{{ . }}">
+                <li class="tag green">#{{ . }}</li>
+            </a>
+            {{ end }}
+        </ul>
+        <footer></footer>
+    {{- end }}
 </div>
 
 {{ if .Params.toc }}

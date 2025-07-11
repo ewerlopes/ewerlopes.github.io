@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative-Ai on Half-bayesianism</title>
+    <link>http://localhost:1313/tags/generative-ai/</link>
+    <description>Recent content in Generative-Ai on Half-bayesianism</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/generative-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The reasonable power of the KL divergence</title>
+      <link>http://localhost:1313/posts/2023/2023-10-24-kulback-leibler/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023/2023-10-24-kulback-leibler/</guid>
+      <description>&lt;p&gt;When doing Bayesian Inference, or any other type of inference,&#xA;chances are you have heard about &lt;strong&gt;KL divergence&lt;/strong&gt; &amp;ndash; short for &lt;a href=&#34;https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence&#34;&gt;Kullback-Leibler divergence&lt;/a&gt;.&#xA;This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&amp;rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let&amp;rsquo;s start as usual: with a definition.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

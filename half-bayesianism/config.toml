@@ -18,7 +18,7 @@ title = 'Half-bayesianism'
 
             [[languages.en.menu.main]]
                 name = "about"
-                url = "/about/index.html"
+                url = "/about/"
                 weight = 3
 
             [[languages.en.menu.main]]
@@ -30,27 +30,27 @@ title = 'Half-bayesianism'
                 url = "/categories/"
                 weight = 1
 
-    [languages.pt]
-        contentDir = 'content/pt'
-        languageCode = 'pt'
-        languageName = 'Portuguese'
-        weight = 20
-        [languages.pt.menu]
-            [[languages.pt.menu.main]]
-                name = "posts"
-                url = "/posts/"
-                weight = 4
+    # [languages.pt]
+    #     contentDir = 'content/pt'
+    #     languageCode = 'pt'
+    #     languageName = 'Portuguese'
+    #     weight = 20
+    #     [languages.pt.menu]
+    #         [[languages.pt.menu.main]]
+    #             name = "posts"
+    #             url = "/posts/"
+    #             weight = 4
 
-            [[languages.pt.menu.main]]
-                name = "sobre"
-                url = "/about/"
-                weight = 3
+    #         [[languages.pt.menu.main]]
+    #             name = "sobre"
+    #             url = "/about/"
+    #             weight = 3
 
-            [[languages.pt.menu.main]]
-                name = "tags"
-                url = "/tags/"
-                weight = 2
-            [[languages.pt.menu.main]]
-                name = "categorias"
-                url = "/categories/"
-                weight = 1
+    #         [[languages.pt.menu.main]]
+    #             name = "tags"
+    #             url = "/tags/"
+    #             weight = 2
+    #         [[languages.pt.menu.main]]
+    #             name = "categorias"
+    #             url = "/categories/"
+    #             weight = 1

@@ -1,10 +1,10 @@
 ewerlopes:
     name: Ewerton de Oliveira
-    publish_name:   Ewerton de Oliveira
+    publish_name: Ewerton de Oliveira
     email: ewerlopes@gmail.com
     web: http://twitter.com/ewerlopes
     bio:
       pt: Cientista de Dados
       eng: Data Scientist
-    avatar: /about/profil.jpg
+    avatar: "/images/profilepic.jpeg"
     slug:
