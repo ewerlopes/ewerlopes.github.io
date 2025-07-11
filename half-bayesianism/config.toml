@@ -1,6 +1,6 @@
 baseURL = 'https://ewerlopes.github.io/'
 languageCode = 'en-us'
-theme = 'mytheme'
+theme = 'moneda'
 title = 'Half-bayesianism'
 
 # Navigation
