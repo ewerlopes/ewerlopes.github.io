@@ -18,7 +18,7 @@ title = 'Half-bayesianism'
 
             [[languages.en.menu.main]]
                 name = "about"
-                url = "/about/"
+                url = "/about"
                 weight = 3
 
             [[languages.en.menu.main]]
