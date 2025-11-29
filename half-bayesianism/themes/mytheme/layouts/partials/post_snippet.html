@@ -1,0 +1,36 @@
+<article class="post_card post">
+    <header class="post_header">
+        <h2 class="post-title reduced-margin"></h2>
+            <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <ul class="tag" style="display:block"></ul>
+                {{- with .Params.tags }}
+                {{- range . }}
+                <li class="tag green">#{{ . }}</li>
+                {{- end }}
+                {{- end }}
+            </ul>
+        </h2>
+        {{ if eq .Params.lang "pt" }}
+        {{ $m := sub (time .Date).Month 1 }}
+        <time class="post_date" style="display:block; margin-top:8px;text-align: left;">
+            {{ .Date.Format "02 " }}
+            {{ index site.Data.dates.pt.months $m }}
+            {{ .Date.Format " 2006" }}
+        </time>
+        {{ else }}
+        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">{{ .Date.Format "02 January 2006" }}</time>
+        {{ end }}
+    </header>
+    {{ with .ReadingTime}}<span> • {{ . }} minute read</span>{{ end }}
+    <!-- <div class="post_excerpt">
+        <p>
+            {{ if .Params.description }}
+            {{ .Params.description }}
+            {{ else }}
+            {{ .Summary }}
+            {{ end }}
+            <a class="read-more" href="{{ .RelPermalink }}"> » </a>
+        </p>
+        <a class="btn btn-default" href="{{ .RelPermalink }}">{{ site.Params.excerpt_link }}</a>
+    </div> -->
+</article>
