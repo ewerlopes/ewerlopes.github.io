@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Half-bayesianism</title>
+    <link>https://ewerlopes.github.io/tags/updates/</link>
+    <description>Recent content in Updates on Half-bayesianism</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 22:10:00 -0300</lastBuildDate>
+    <atom:link href="https://ewerlopes.github.io/tags/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I&#39;ve started my personal site</title>
+      <link>https://ewerlopes.github.io/posts/2021/2021-10-01-start/</link>
+      <pubDate>Fri, 01 Oct 2021 22:10:00 -0300</pubDate>
+      <guid>https://ewerlopes.github.io/posts/2021/2021-10-01-start/</guid>
+      <description>&lt;p&gt;Hi there! I would like to announce I will be writing technical posts on this&#xA;website. Most of the design you see here is taken from the gorgeous &lt;a href=&#34;https://consequently.org&#34;&gt;consequently.org&lt;/a&gt; managed by &lt;em&gt;Greg Restall&lt;/em&gt;, from whom some years ago I took&#xA;the course series &lt;em&gt;Logic: language and information&lt;/em&gt; on &lt;a href=&#34;https://www.coursera.org&#34;&gt;Coursera&lt;/a&gt; and absolutely fell in love with his sensitivity in choosing beautiful fonts for the lecture&#xA;notes. On his website, that same sensibility is kept, which is seen through&#xA;the amazing choice of calligraphy set.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
