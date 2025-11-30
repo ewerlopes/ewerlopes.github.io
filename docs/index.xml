@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Half-bayesianism</title>
+    <title>Home on Half-bayesianism</title>
     <link>https://ewerlopes.github.io/</link>
-    <description>Recent content on Half-bayesianism</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Home on Half-bayesianism</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ewerlopes.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ewerlopes.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The reasonable power of the KL divergence</title>
       <link>https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/</guid>
-      <description>When doing Bayesian Inference, or any other type of inference, chances are you have heard about KL divergence &amp;ndash; short for Kullback-Leibler divergence. This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&amp;rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation.</description>
+      <description>&lt;p&gt;When doing Bayesian Inference, or any other type of inference,&#xA;chances are you have heard about &lt;strong&gt;KL divergence&lt;/strong&gt; &amp;ndash; short for &lt;a href=&#34;https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence&#34;&gt;Kullback-Leibler divergence&lt;/a&gt;.&#xA;This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&amp;rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let&amp;rsquo;s start as usual: with a definition.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My recommended research methodology</title>
       <link>https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/</guid>
-      <description>Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.
-Right! Let&amp;rsquo;s get down to business.
-We all have heard people talk about the importance of time management. Rarely this subject, like proper civil education, is discussed with greater detail or practice during formal training.</description>
+      <description>&lt;p&gt;If you are reading this post, you are probably a researcher like me (or someone who happens to like reading about science); Better, you must be one of my students!&lt;/p&gt;&#xA;&lt;p&gt;Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.&lt;/p&gt;&#xA;&lt;p&gt;Right! Let&amp;rsquo;s get down to business.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://ewerlopes.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/about/</guid>
-      <description>🎯 My Interests I have a deep interest in the probabilistic perspective to machine learning and artificial intelligence, especially in the identification of causal mechanisms via statistical quantities from data (aka Causal Inference). Other topics of interest include (but are not limited to):
- Learning Theory (bandits, game theory, statistical learning theory, etc.) Optimization (convex and non-convex optimization, matrix/tensor methods, sparsity, etc.) Probabilistic Inference (Bayesian methods, graphical models, Monte Carlo methods, etc.</description>
+      <description>&lt;style&gt;&#xA;.profile {&#xA;  float: left;&#xA;  width: 200px;&#xA;  max-width: 35%;&#xA;  height: auto;&#xA;  margin: 0 20px 10px 0;&#xA;  border-radius: 6px;&#xA;  object-fit: cover;&#xA;}&#xA;@media (max-width: 600px) {&#xA;  .profile {&#xA;    float: none;&#xA;    display: block;&#xA;    margin: 0 auto 1rem;&#xA;    width: 40%;&#xA;    max-width: 160px;&#xA;  }&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;img class=&#34;profile&#34; src=&#34;https://ewerlopes.github.io/images/profilepic.jpeg&#34; alt=&#34;Ewerton&#34;&gt;&#xA;&#xA;&lt;p&gt;&#xA;Hi there! If you got here, assume you want to know more about me. &amp;para; I am Ewerton and I received the Bachelor and M.Sc. degree in Computer Science from the Federal University of Paraíba (Brazil), in 2013 and 2015 respectively. &amp;para; I collected my Ph.D from the &lt;a href=&#34;https://www.deib.polimi.it/eng/home-page&#34;&gt;Department of Electronics, Information and Bioengineering&lt;/a&gt; at &lt;a href=&#34;https://www.polimi.it/en/&#34;&gt;Politecnico di Milano&lt;/a&gt; (Italy) in 2019, where during &lt;a href=&#34;https://github.com/ewerlopes/phd_robogame&#34;&gt;my research&lt;/a&gt; I concentrated efforts on the design of smarter Physically Interactive Robot Games through the application of Artificial Intelligence and Probabilistic Machine Learning methods to support high quality Human-Robot interaction during play.&#xA;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

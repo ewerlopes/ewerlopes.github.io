@@ -4,44 +4,37 @@
     <title>Tags on Half-bayesianism</title>
     <link>https://ewerlopes.github.io/tags/</link>
     <description>Recent content in Tags on Half-bayesianism</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ewerlopes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ewerlopes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cost-functions</title>
+      <title>Cost-Functions</title>
       <link>https://ewerlopes.github.io/tags/cost-functions/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/tags/cost-functions/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>generative-ai</title>
+      <title>Generative-Ai</title>
       <link>https://ewerlopes.github.io/tags/generative-ai/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>optimization</title>
+      <title>Optimization</title>
       <link>https://ewerlopes.github.io/tags/optimization/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/tags/optimization/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>research</title>
+      <title>Research</title>
       <link>https://ewerlopes.github.io/tags/research/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/tags/research/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

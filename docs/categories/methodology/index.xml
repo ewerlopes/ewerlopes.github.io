@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>methodology on Half-bayesianism</title>
+    <title>Methodology on Half-bayesianism</title>
     <link>https://ewerlopes.github.io/categories/methodology/</link>
-    <description>Recent content in methodology on Half-bayesianism</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Methodology on Half-bayesianism</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ewerlopes.github.io/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ewerlopes.github.io/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My recommended research methodology</title>
       <link>https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/</guid>
-      <description>Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.
-Right! Let&amp;rsquo;s get down to business.
-We all have heard people talk about the importance of time management. Rarely this subject, like proper civil education, is discussed with greater detail or practice during formal training.</description>
+      <description>&lt;p&gt;If you are reading this post, you are probably a researcher like me (or someone who happens to like reading about science); Better, you must be one of my students!&lt;/p&gt;&#xA;&lt;p&gt;Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.&lt;/p&gt;&#xA;&lt;p&gt;Right! Let&amp;rsquo;s get down to business.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,216 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.92.2" />
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content=""
-  />
-  
+<head>
+	<meta name="generator" content="Hugo 0.152.2">
+
+    <title>Home | Half-bayesianism</title>
     
-      <title>Half-bayesianism</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
     
-  
-  <link rel="stylesheet" href="/css/reset.css"/>
-  <link rel="stylesheet" href="/css/font.css"/>
-  <link rel="stylesheet" href="/css/smigle.css"/>
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: 'none',
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                displayMath: [['$$','$$'], ['\\[','\\]']],
+                processEscapes: true,
+                processEnvironments: true,
+            },
+            TeX: {
+                equationNumbers: {
+                    autoNumber: "AMS"
+                },
+            },
+            'HTML-CSS': {
+                imageFont: null
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 </head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="grid twelve">
+                <span class="logo"><a href="/" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
+                <br>
+                
+                
+                
+                
+                    
+                        <a class="menu_element" href="/posts/">posts</a>
+                    
+                        <a class="menu_element" href="/about">about</a>
+                    
+                        <a class="menu_element" href="/tags/">tags</a>
+                    
+                        <a class="menu_element" href="/categories/">categories</a>
+                    
+                
 
-  <body>
-    <div id="root">
-      <header>
-  <div id="brand">
-    <a class="icon-link" href="https://ewerlopes.github.io/">
-      <img
-        class="icon"
-        src="/images/avatar.jpeg"
-      />
-    </a>
-    <div class="text">
-      <a href="https://ewerlopes.github.io/"><h1>Half-bayesianism</h1></a>
-      <h3>De causa computatrorum</h3>
-    </div>
-  </div>
-  <nav>
-    
-      
+                <br><br>
+                <footer class="post_meta"></footer>
+            </div>
+        </div>
+
+        <style>
+        .frontimage {
+            float: left;
+            width: 200px;
+            max-width: 35%;
+            height: auto;
+            margin: 0 20px 10px 0;
+            border-radius: 6px;
+            object-fit: cover;
+            display: block;
+            border: 2px solid black;  
+        }
+        @media (max-width: 600px) {
+            .frontimage {
+            float: none;
+            display: block;
+            margin: 0 auto 1rem;
+            width: 40%;
+            max-width: 160px;
+            border: 2px solid black;  
+            }
+        }
+        </style>
+
         
-        <a href="/"><b>Home</b></a>
-      
-         | 
-        <a href="/about/"><b>About</b></a>
-      
-         | 
-        <a href="/posts/"><b>Posts</b></a>
-      
-         | 
-        <a href="/categories/"><b>Categories</b></a>
-      
-         | 
-        <a href="/tags/"><b>Tags</b></a>
-      
-    
-  </nav>
-  <hr />
-</header>
+        <img class="frontimage" id="frontImage" src="" alt="frontImage">
 
-      <div id="content">
+        <script>
+            const images = [
+            "/images/classics/Raffael_069.jpg",
+            "/images/classics/Raffael_059.jpg",
+            "/images/classics/Raffael_067.jpg",
+            "/images/classics/330px-Raffael_061.jpg",
+            "/images/classics/330px-Raffael_062.jpg",
+            "/images/classics/330px-Raffael_066.jpg",
+            "/images/classics/330px-Raffael_066.jpg",
+            "/images/classics/330px-Raffael_070.jpg",
+            "/images/classics/Averroes_closeup.jpg"
+
+            ];
+
+            let lastIndex = -1;
+
+            function getRandomImage() {
+            let index;
+            do {
+                index = Math.floor(Math.random() * images.length);
+            } while (index === lastIndex);
+            lastIndex = index;
+            return images[index];
+            }
+
+            document.getElementById('frontImage').src = getRandomImage();
+        </script>
+
         
-	<main>
-		
-		
-			<article class="summary">
-  <a href="https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/">
-    <h1 class="title">The reasonable power of the KL divergence</h1>
-    <h3 class="subtitle">From intuition to deterministic inference</h3>
-  </a>
-  
+            <p>Salve! Haec de causa computratorum est! ¶ I am a <strong>computer scientist</strong> with a passion for ancient languages (Latin and Greek). ¶ For a long time I&rsquo;ve resisted making a blog about anything technical [or otherwise] because, to be frank, I didn&rsquo;t feel like I was qualified. What makes me more qualified now? Nothing really, I&rsquo;m just <strong>a bit less afraid of <a href="https://xkcd.com/386/">being wrong</a></strong>. <strong>Opinions expressed here are my own and do not reflect those of my employer</strong>.</p>
 
+        
 
+        
 
+        
 
+<div class="blog-index">
 
-
-
-
-
-  
-
-
-<div class="post-meta">
-  <strong>
-    <span>Posted on</span>
-    <time>2023-10-24</time>
-    <span>in</span>
+    <header class="index-header" style="margin-top: 50px;">
+        <h2>Recent Writing</h2>
+    </header>
     
-      <a href="/categories/bayesian">bayesian</a>, 
-      <a href="/categories/inference">inference</a>, 
-      <a href="/categories/divergence-measures">divergence-measures</a>
-  </strong>
- <span> • 1909 words</span>
- <span> • 9 minute read</span>
-  
-    <div>
-      <span>Tags:</span>
-      
-        <a href="/tags/optimization">optimization</a>, 
-        <a href="/tags/cost-functions">cost-functions</a>, 
-        <a href="/tags/generative-ai">generative-ai</a>
-    </div>
-  
-</div>
-
-  <div class="content">
-    <p>When doing Bayesian Inference, or any other type of inference, chances are you have heard about KL divergence &ndash; short for Kullback-Leibler divergence. This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation.</p>
     
-      <a href="https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/">Read more...</a>
     
-  </div>
+    
+        <article class="post_card post">
+    <header class="post_header">
+        <h2 class="post-title reduced-margin"></h2>
+            <a class="post-title" href="/posts/2023/2023-10-24-kulback-leibler/">The reasonable power of the KL divergence</a>
+            <ul class="tag" style="display:block"></ul>
+                <li class="tag green">#optimization</li>
+                <li class="tag green">#cost-functions</li>
+                <li class="tag green">#generative-ai</li>
+            </ul>
+        </h2>
+        
+        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">24 October 2023</time>
+        
+    </header>
+    <span> • 9 minute read</span>
+    
 </article>
 
-		
-			<article class="summary">
-  <a href="https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/">
-    <h1 class="title">My recommended research methodology</h1>
-    <h3 class="subtitle">I few advices on how to organize a research effort</h3>
-  </a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="post-meta">
-  <strong>
-    <span>Posted on</span>
-    <time>2021-11-01</time>
-    <span>in</span>
     
-      <a href="/categories/methodology">methodology</a>
-  </strong>
- <span> • 925 words</span>
- <span> • 5 minute read</span>
-  
-    <div>
-      <span>Tags:</span>
-      
-        <a href="/tags/research">research</a>
-    </div>
-  
-</div>
-
-  <div class="content">
-    <p>Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.
-Right! Let&rsquo;s get down to business.
-We all have heard people talk about the importance of time management. Rarely this subject, like proper civil education, is discussed with greater detail or practice during formal training.</p>
+        <article class="post_card post">
+    <header class="post_header">
+        <h2 class="post-title reduced-margin"></h2>
+            <a class="post-title" href="/posts/2021/2021-11-01-research-methodology/">My recommended research methodology</a>
+            <ul class="tag" style="display:block"></ul>
+                <li class="tag green">#research</li>
+            </ul>
+        </h2>
+        
+        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">01 November 2021</time>
+        
+    </header>
+    <span> • 5 minute read</span>
     
-      <a href="https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/">Read more...</a>
-    
-  </div>
 </article>
 
-		
-		<div>
-  
-  1 of 1
-  
+    
 </div>
 
-	</main>
 
-      </div>
-      <footer>
-  <hr />
-  
-    <p id="social">
-      Find me around the web:
-      <br />
-      
-        
-        <a href="https://github.com/ewerlopes">GitHub</a>
-      
-         | 
-        <a href="https://www.linkedin.com/in/ewerlopes/">LinkedIn</a>
-      
-         | 
-        <a href="https://twitter.com/ewerlopes">Twitter</a>
-      
-    </p>
-  
-  <p class="copyright">
-    Copyright © 2023
-    <a href="https://ewerlopes.github.io/"><strong>Ewerton de Oliveira</strong></a>.
-    This work is licensed under the
-    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
-  </p>
-  <p class="builtWith">
-    Built with
-    <a href="http://www.gohugo.io/">Hugo</a>,
-    using the theme
-    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>,
-    which was influenced by the theme
-    <a href="https://github.com/sumnerevans/smol">smol</a>.
-  </p>
-</footer>
 
+        <footer>
+            <ul>
+                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li><a class="footer_element" href="/feed.xml"><i class="fa fa-rss fa-lg"></i></a></li>
+            </ul>
+        </footer>
     </div>
-  </body>
+</body>
 </html>
