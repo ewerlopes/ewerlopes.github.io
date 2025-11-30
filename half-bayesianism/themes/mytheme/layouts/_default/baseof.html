@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+
+    <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{ "css/main.css" | relURL }}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
+
+    <!-- code highlighting https://highlightjs.org/ -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: 'none',
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                displayMath: [['$$','$$'], ['\\[','\\]']],
+                processEscapes: true,
+                processEnvironments: true,
+            },
+            TeX: {
+                equationNumbers: {
+                    autoNumber: "AMS"
+                },
+            },
+            'HTML-CSS': {
+                imageFont: null
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="grid twelve">
+                <span class="logo"><a href="{{ "/" | relURL }}" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
+                <br>
+                <!-- Multi languages for posts/pages -->
+                {{ with .Translations }}
+                    {{ range . }}
+                        <a class="menu_element" href="{{ .RelPermalink }}">{{ .Lang }}</a>
+                    {{ end }}
+                {{ end }}
+                <!-- <a class="menu_element" href="{{ "/" | relURL }}"> / </a> -->
+                {{ with .Site.Menus.main  }}
+                    {{ range . }}
+                        <a class="menu_element" href="{{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
+                {{ end }}
+
+                <br><br>
+                <footer class="post_meta"></footer>
+            </div>
+        </div>
+
+        <style>
+        .frontimage {
+            float: left;
+            width: 200px;
+            max-width: 35%;
+            height: auto;
+            margin: 0 20px 10px 0;
+            border-radius: 6px;
+            object-fit: cover;
+            display: block;
+            border: 2px solid black; /* Added black edge */
+        }
+        @media (max-width: 600px) {
+            .frontimage {
+            float: none;
+            display: block;
+            margin: 0 auto 1rem;
+            width: 40%;
+            max-width: 160px;
+            border: 2px solid black; /* Added black edge */
+            }
+        }
+        </style>
+
+        {{ if eq .Kind "home" }}
+        <img class="frontimage" id="frontImage" src="" alt="frontImage">
+
+        <script>
+            const images = [
+            "/images/classics/Raffael_069.jpg",
+            "/images/classics/Raffael_059.jpg",
+            "/images/classics/Raffael_067.jpg",
+            "/images/classics/330px-Raffael_061.jpg",
+            "/images/classics/330px-Raffael_062.jpg",
+            "/images/classics/330px-Raffael_066.jpg",
+            "/images/classics/330px-Raffael_066.jpg",
+            "/images/classics/330px-Raffael_070.jpg",
+            "/images/classics/Averroes_closeup.jpg"
+
+            ];
+
+            let lastIndex = -1;
+
+            function getRandomImage() {
+            let index;
+            do {
+                index = Math.floor(Math.random() * images.length);
+            } while (index === lastIndex);
+            lastIndex = index;
+            return images[index];
+            }
+
+            document.getElementById('frontImage').src = getRandomImage();
+        </script>
+
+        {{ range where .Site.Pages "Title" "Home" }}
+            {{ .Content }}
+        {{ end }}
+
+        {{ end }}
+
+        {{ block "main" . }}{{ .Content }}{{ end }}
+
+        <footer>
+            <ul>
+                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li><a class="footer_element" href="{{ "feed.xml" | relURL }}"><i class="fa fa-rss fa-lg"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

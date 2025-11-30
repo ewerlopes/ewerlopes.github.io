@@ -1,0 +1,26 @@
+baseURL = 'https://ewerlopes.github.io/'
+languageCode = 'en-us'
+theme = 'mytheme'
+title = 'Half-bayesianism'
+
+# Navigation
+[menu]
+    [[menu.main]]
+        name = "posts"
+        url = "/posts/"
+        weight = 1
+
+    [[menu.main]]
+        name = "about"
+        url = "/about"
+        weight = 2
+
+    [[menu.main]]
+        name = "tags"
+        url = "/tags/"
+        weight = 3
+
+    [[menu.main]]
+        name = "categories"
+        url = "/categories/"
+        weight = 4
