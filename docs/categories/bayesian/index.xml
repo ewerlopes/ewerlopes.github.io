@@ -10,16 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Wed, 02 Jul 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://ewerlopes.github.io/categories/bayesian/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>On Moment Matching</title>
-				<link>https://ewerlopes.github.io/posts/2025/2025-07-02-moment-matching/</link>
-				<pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/posts/2025/2025-07-02-moment-matching/</guid>
-				<description>&lt;p&gt;I am not sure about you, but I certainly lost track of how many times I re-read this passage from Chris Bishop&amp;rsquo;s classical Pattern Recognition &amp;amp; Machine Learning book:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;More generally, it is straightforward to obtain the required expectations_ for any member of the exponential family, provided it can be normalized, because the expected statistics can be related to the derivatives of the normalization coefficient, as given by (2.226)&amp;rdquo; (Chapter 10, p. 508).&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>The reasonable power of the KL divergence</title>
 				<link>https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/</link>
