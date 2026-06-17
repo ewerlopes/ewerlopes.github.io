@@ -1,16 +1,16 @@
 {{ $title := .Title | lower }}
-{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-<ul id="terms">
-  {{ range $key, $value := .Data.Terms.ByCount }}
+<div class="section-heading">
+    <span class="heading-label">$ ls </span><span class="heading-value">{{ $title }}/</span>
+</div>
+<ul class="term-cloud">
+{{ range $key, $value := .Data.Terms.ByCount }}
     {{ if ($value.Name) }}
-      <li class="term">
-        <a
-          href="{{ $title | relURL }}/{{ $value.Name | urlize }}"
-        >
-          <span>{{ $value.Name }}</span>
-          <span> ({{ $value.Count }})</span>
+    <li>
+        <a href="{{ $title | relURL }}/{{ $value.Name | urlize }}">
+            <span>{{ $value.Name }}</span>
+            <span class="term-count">({{ $value.Count }})</span>
         </a>
-      </li>
+    </li>
     {{ end }}
-  {{ end }}
+{{ end }}
 </ul>

@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The reasonable power of the KL divergence | Half-bayesianism</title>
-    
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
     
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             showProcessingMessages: false,
@@ -35,89 +34,69 @@
             }
         });
     </script>
+
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
     <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="grid twelve">
-                <span class="logo"><a href="/" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
-                <br>
-                
-                
-                
-                
-                    
-                        <a class="menu_element" href="/posts/">posts</a>
-                    
-                        <a class="menu_element" href="/about">about</a>
-                    
-                        <a class="menu_element" href="/tags/">tags</a>
-                    
-                        <a class="menu_element" href="/categories/">categories</a>
-                    
-                
-
-                <br><br>
-                <footer class="post_meta"></footer>
-            </div>
-        </div>
-
-        <style>
-        .frontimage {
-            float: left;
-            width: 200px;
-            max-width: 35%;
-            height: auto;
-            margin: 0 20px 10px 0;
-            border-radius: 6px;
-            object-fit: cover;
-            display: block;
-            border: 2px solid black;  
-        }
-        @media (max-width: 600px) {
-            .frontimage {
-            float: none;
-            display: block;
-            margin: 0 auto 1rem;
-            width: 40%;
-            max-width: 160px;
-            border: 2px solid black;  
-            }
-        }
-        </style>
-
-        
-
-        
-<div class="row" style="margin-bottom: 20px;">
-        
-        <time class="meta post_date full">Oct 24, 2023</time>
-        
-        <h2 class="post-title in-post-title">The reasonable power of the KL divergence</h2>
-        <p class="small description" style="margin-bottom: 18px;">A few ideas on the power of KL divergence</p>
-        <ul style="text-align:center">
-            
-            <a href="/tags/optimization">
-                <li class="tag green">#optimization</li>
+        <header class="site-header">
+            <a href="/" class="site-title-link">
+                <pre class="site-title-ascii"> ██                 ██   ████   ██                                         ██                    ██                    
+░██                ░██  ░██░   ░██                 ██   ██                ░░                    ░░                     
+░██       ██████   ░██ ██████  ░██       ██████   ░░██ ██   █████   ██████ ██  ██████   ███████  ██  ██████ ██████████ 
+░██████  ░░░░░░██  ░██░░░██░   ░██████  ░░░░░░██   ░░███   ██░░░██ ██░░░░ ░██ ░░░░░░██ ░░██░░░██░██ ██░░░░ ░░██░░██░░██
+░██░░░██  ███████  ░██  ░██    ░██░░░██  ███████    ░██   ░███████░░█████ ░██  ███████  ░██  ░██░██░░█████  ░██ ░██ ░██
+░██  ░██ ██░░░░██  ░██  ░██    ░██  ░██ ██░░░░██    ██    ░██░░░░  ░░░░░██░██ ██░░░░██  ░██  ░██░██ ░░░░░██ ░██ ░██ ░██
+░██  ░██░░████████ ███  ░██    ░██████ ░░████████  ██     ░░██████ ██████ ░██░░████████ ███  ░██░██ ██████  ███ ░██ ░██
+░░   ░░  ░░░░░░░░ ░░░   ░░     ░░░░░    ░░░░░░░░  ░░       ░░░░░░ ░░░░░░  ░░  ░░░░░░░░ ░░░   ░░ ░░ ░░░░░░  ░░░  ░░  ░░ </pre>
+                <div class="site-subtitle">a blog about machine learning &amp; bayesian inference</div>
             </a>
+            <nav class="site-nav">
+                
+                
+                    
+                        <a href="/posts/">posts</a>
+                    
+                        <a href="/about">about</a>
+                    
+                        <a href="/tags/">tags</a>
+                    
+                        <a href="/categories/">categories</a>
+                    
+                
+            </nav>
+            <hr class="nav-separator">
+        </header>
+
+        
+
+        <main class="content">
             
-            <a href="/tags/cost-functions">
-                <li class="tag green">#cost-functions</li>
-            </a>
-            
-            <a href="/tags/generative-ai">
-                <li class="tag green">#generative-ai</li>
-            </a>
-            
-        </ul>
-        <footer></footer>
+
+<div class="post-meta-bar">
+    
+    <time>Oct 24, 2023</time>
+    
+</div>
+
+<h1 class="post-title-single">The reasonable power of the KL divergence</h1>
+
+
+<p class="post-description">A few ideas on the power of KL divergence</p>
+
+
+
+<div class="post-tag-list">
+    <a href="/tags/optimization">#optimization</a><a href="/tags/cost-functions">#cost-functions</a><a href="/tags/generative-ai">#generative-ai</a>
 </div>
 
 
 
-<div class="post">
+
+
+<div class="post-content">
     <p>When doing Bayesian Inference, or any other type of inference,
 chances are you have heard about <strong>KL divergence</strong> &ndash; short for <a href="https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence">Kullback-Leibler divergence</a>.
 This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let&rsquo;s start as usual: with a definition.</p>
@@ -233,30 +212,30 @@ D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
 \end{equation}</p>
 <p>Now, we can observe the behaviour of these quantities by playing with some values exercising what we observed so far and considering the $\log{\left(P(\boldsymbol{X})\right)}$ fixed at $-4$:</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center">$D_{KL}$</th>
-          <th style="text-align: center">$\mathcal{L}$</th>
-          <th style="text-align: center">$\log{\left(P(\boldsymbol{X})\right)}$</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">4</td>
-          <td style="text-align: center">-8</td>
-          <td style="text-align: center">-4</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">3</td>
-          <td style="text-align: center">-7</td>
-          <td style="text-align: center">-4</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">2</td>
-          <td style="text-align: center">-6</td>
-          <td style="text-align: center">-4</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center">$D_{KL}$</th>
+					<th style="text-align: center">$\mathcal{L}$</th>
+					<th style="text-align: center">$\log{\left(P(\boldsymbol{X})\right)}$</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">4</td>
+					<td style="text-align: center">-8</td>
+					<td style="text-align: center">-4</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">3</td>
+					<td style="text-align: center">-7</td>
+					<td style="text-align: center">-4</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">2</td>
+					<td style="text-align: center">-6</td>
+					<td style="text-align: center">-4</td>
+			</tr>
+	</tbody>
 </table>
 <p>Therefore, because $P(\boldsymbol{X})$ is fixed in the context of the posterior, $\mathcal{L}$ &ldquo;controls the KL divergence&rdquo;, acting like a lower bound. This is done via inverse proportion: if one goes up the other must go down. This has an immediate advantage that by making the lower bound $\mathcal{L}$ less negative, i.e. larger, we reduce the KL divergence, which consequently makes the approximation of $P(\boldsymbol{Z}|\boldsymbol{X})$ by $P(\boldsymbol{Z})$ better.</p>
 <p>This is a key point. <em>When approximating the posterior, instead of minimizing the KL divergence with the problematic posterior we can resort to maximizing the lower bound $\mathcal{L}$</em>. This may not sound like much, but often it&rsquo;s much, much easier to deal with the lower bound than with the KL directly. This is because most of the time we have the joint probability underlying the posterior and in that, we don&rsquo;t need to deal with intractable marginalizations. From the above, we shall be able to understand the basic role of KL in $(12)$. We are measuring the surprise in the approximation, and in doing so we prefer having it low, which would mean a better approximation. Since approximations are pervasive in the computing world, it&rsquo;s reasonable to see that property being carried over to KL.</p>
@@ -269,63 +248,49 @@ D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
 
     
     
-    <div class="full-article-footer">
+    <div class="post-footer">
         
 
-<div class="article-footer">
+<div class="author-card">
     
-    <div class="avatar-module">
-        <img class="avatar" height="100px" src="/images/profilepic.jpeg">
+    <img src="/images/profilepic.jpeg" alt="Ewerton de Oliveira">
+    
+    <div>
+        <div class="author-label">Written by</div>
+        <div class="author-name"><a href="/about/">Ewerton de Oliveira</a></div>
+        <p class="author-bio">Data Scientist</p>
     </div>
-    
-    <p>
-        
-        <span class="post_date">Written by</span>
-        
-        <br>
-        <a class="author-link" href="/about/">Ewerton de Oliveira</a>
-        <br>
-        
-        Data Scientist
-        
-    </p>
 </div>
 
         
 
-<div>
+<div class="citation-block">
+    <div class="citation-label">Citation</div>
     
-    <span class="post_date">Citation</span>
-    <div class="footnotes">
-        Ewerton de Oliveira (2023). "The reasonable power of the KL divergence". Retrieved November 29, 2025, from https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/.
-    </div>
+    Ewerton de Oliveira (2023). "The reasonable power of the KL divergence". Retrieved June 16, 2026, from https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/.
     
-    <br>
-    <div class="bibtex-entry">
-        @misc{deoliveira2023-blogpost,
-        author = {de Oliveira, Ewerton},
-        title = The reasonable power of the KL divergence,
-        year = 2023,
-        url = https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/,
-        note = {Accessed: 2025-11-29}
-        }
-    </div>
-    <br>
 </div>
+<div class="bibtex-block">@misc{deoliveira2023-blogpost,
+    author = {de Oliveira, Ewerton},
+    title = The reasonable power of the KL divergence,
+    year = 2023,
+    url = https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/,
+    note = {Accessed: 2026-06-16}
+}</div>
+
     </div>
     
 
 
+        </main>
 
-
-
-        <footer>
-            <ul>
-                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                <li><a class="footer_element" href="/feed.xml"><i class="fa fa-rss fa-lg"></i></a></li>
+        <footer class="site-footer">
+            <ul class="site-footer-links">
+                <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
+                <li><a href="https://github.com/ewerlopes">→ github</a></li>
+                <li><a href="https://twitter.com/ewerlopes">→ twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>
     </div>

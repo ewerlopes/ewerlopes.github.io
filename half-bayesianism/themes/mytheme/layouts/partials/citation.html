@@ -1,27 +1,17 @@
 {{ $author := index site.Data.authors .Params.author }}
 {{ $lang := .Params.lang }}
-<div>
+<div class="citation-block">
+    <div class="citation-label">{{ if eq $lang "pt" }}Citação{{ else }}Citation{{ end }}</div>
     {{ if eq $lang "pt" }}
-    <span class="post_date">Citação</span>
-    <div class="footnotes">
-        {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Publicado em {{ .Permalink }}, acesso
-        em {{ now.Format "02/01/2006" }}.
-    </div>
+    {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Publicado em {{ .Permalink }}, acesso em {{ now.Format "02/01/2006" }}.
     {{ else }}
-    <span class="post_date">Citation</span>
-    <div class="footnotes">
-        {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Retrieved {{ now.Format "January 02, 2006" }}, from {{ .Permalink }}.
-    </div>
+    {{ $author.publish_name }} ({{ .Date.Format "2006" }}). "{{ .Title }}". Retrieved {{ now.Format "January 02, 2006" }}, from {{ .Permalink }}.
     {{ end }}
-    <br>
-    <div class="bibtex-entry">
-        @misc{deoliveira{{ .Date.Format "2006" }}{{ .Params.ref }}-blogpost,
-        author = {de Oliveira, Ewerton},
-        title = {{ .Title }},
-        year = {{ .Date.Format "2006" }},
-        url = {{ .Permalink }},
-        note = {Accessed: {{ now.Format "2006-01-02" }}}
-        }
-    </div>
-    <br>
 </div>
+<div class="bibtex-block">@misc{deoliveira{{ .Date.Format "2006" }}{{ .Params.ref }}-blogpost,
+    author = {de Oliveira, Ewerton},
+    title = {{ .Title }},
+    year = {{ .Date.Format "2006" }},
+    url = {{ .Permalink }},
+    note = {Accessed: {{ now.Format "2006-01-02" }}}
+}</div>

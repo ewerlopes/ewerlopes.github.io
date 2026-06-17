@@ -1,24 +1,12 @@
 {{ $author := index site.Data.authors .Params.author }}
 {{ $lang := .Params.lang }}
-<div class="article-footer">
+<div class="author-card">
     {{ if $author.avatar }}
-    <div class="avatar-module">
-        <img class="avatar" height="100px" src="{{ $author.avatar | relURL }}">
-    </div>
+    <img src="{{ $author.avatar | relURL }}" alt="{{ $author.name }}">
     {{ end }}
-    <p>
-        {{ if eq $lang "pt" }}
-        <span class="post_date">Escrito por</span>
-        {{ else }}
-        <span class="post_date">Written by</span>
-        {{ end }}
-        <br>
-        <a class="author-link" href="{{ "/about/" | relURL }}{{ $author.slug }}">{{ $author.name }}</a>
-        <br>
-        {{ if eq $lang "pt" }}
-        {{ $author.bio.pt }}
-        {{ else }}
-        {{ $author.bio.eng }}
-        {{ end }}
-    </p>
+    <div>
+        <div class="author-label">{{ if eq $lang "pt" }}Escrito por{{ else }}Written by{{ end }}</div>
+        <div class="author-name"><a href="{{ "/about/" | relURL }}">{{ $author.name }}</a></div>
+        <p class="author-bio">{{ if eq $lang "pt" }}{{ $author.bio.pt }}{{ else }}{{ $author.bio.eng }}{{ end }}</p>
+    </div>
 </div>

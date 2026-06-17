@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cost-Functions | Half-bayesianism</title>
-    
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
     
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             showProcessingMessages: false,
@@ -35,91 +34,75 @@
             }
         });
     </script>
+
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
     <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="grid twelve">
-                <span class="logo"><a href="/" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
-                <br>
-                
-                
+        <header class="site-header">
+            <a href="/" class="site-title-link">
+                <pre class="site-title-ascii"> ██                 ██   ████   ██                                         ██                    ██                    
+░██                ░██  ░██░   ░██                 ██   ██                ░░                    ░░                     
+░██       ██████   ░██ ██████  ░██       ██████   ░░██ ██   █████   ██████ ██  ██████   ███████  ██  ██████ ██████████ 
+░██████  ░░░░░░██  ░██░░░██░   ░██████  ░░░░░░██   ░░███   ██░░░██ ██░░░░ ░██ ░░░░░░██ ░░██░░░██░██ ██░░░░ ░░██░░██░░██
+░██░░░██  ███████  ░██  ░██    ░██░░░██  ███████    ░██   ░███████░░█████ ░██  ███████  ░██  ░██░██░░█████  ░██ ░██ ░██
+░██  ░██ ██░░░░██  ░██  ░██    ░██  ░██ ██░░░░██    ██    ░██░░░░  ░░░░░██░██ ██░░░░██  ░██  ░██░██ ░░░░░██ ░██ ░██ ░██
+░██  ░██░░████████ ███  ░██    ░██████ ░░████████  ██     ░░██████ ██████ ░██░░████████ ███  ░██░██ ██████  ███ ░██ ░██
+░░   ░░  ░░░░░░░░ ░░░   ░░     ░░░░░    ░░░░░░░░  ░░       ░░░░░░ ░░░░░░  ░░  ░░░░░░░░ ░░░   ░░ ░░ ░░░░░░  ░░░  ░░  ░░ </pre>
+                <div class="site-subtitle">a blog about machine learning &amp; bayesian inference</div>
+            </a>
+            <nav class="site-nav">
                 
                 
                     
-                        <a class="menu_element" href="/posts/">posts</a>
+                        <a href="/posts/">posts</a>
                     
-                        <a class="menu_element" href="/about">about</a>
+                        <a href="/about">about</a>
                     
-                        <a class="menu_element" href="/tags/">tags</a>
+                        <a href="/tags/">tags</a>
                     
-                        <a class="menu_element" href="/categories/">categories</a>
+                        <a href="/categories/">categories</a>
                     
                 
-
-                <br><br>
-                <footer class="post_meta"></footer>
-            </div>
-        </div>
-
-        <style>
-        .frontimage {
-            float: left;
-            width: 200px;
-            max-width: 35%;
-            height: auto;
-            margin: 0 20px 10px 0;
-            border-radius: 6px;
-            object-fit: cover;
-            display: block;
-            border: 2px solid black;  
-        }
-        @media (max-width: 600px) {
-            .frontimage {
-            float: none;
-            display: block;
-            margin: 0 auto 1rem;
-            width: 40%;
-            max-width: 160px;
-            border: 2px solid black;  
-            }
-        }
-        </style>
+            </nav>
+            <hr class="nav-separator">
+        </header>
 
         
 
-        
+        <main class="content">
+            
+
+<div class="section-heading">
+    <span class="heading-label">$ ls </span><span class="heading-value">cost-functions/</span>
+</div>
 
 
-<h1>Cost-Functions</h1>
+<div class="posts-year-group">
+    <h3>2023</h3>
+    <ul>
     
-  <h3>2023</h3>
-  <ul id="postsByDate">
+        <li>
+            <span class="date">Oct 24</span>
+            <span class="title"><a href="/posts/2023/2023-10-24-kulback-leibler/">The reasonable power of the KL divergence</a></span>
+        </li>
     
-      <li>
-        <div class="date">
-          Oct 24
-        </div>
-        <div class="title">
-          <a href="/posts/2023/2023-10-24-kulback-leibler/">The reasonable power of the KL divergence</a>
-        </div>
-      </li>
-    
-  </ul>
+    </ul>
+</div>
 
 
 
+        </main>
 
-
-        <footer>
-            <ul>
-                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                <li><a class="footer_element" href="/feed.xml"><i class="fa fa-rss fa-lg"></i></a></li>
+        <footer class="site-footer">
+            <ul class="site-footer-links">
+                <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
+                <li><a href="https://github.com/ewerlopes">→ github</a></li>
+                <li><a href="https://twitter.com/ewerlopes">→ twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>
     </div>

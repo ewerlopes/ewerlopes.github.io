@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My recommended research methodology | Half-bayesianism</title>
-    
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
     
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             showProcessingMessages: false,
@@ -35,81 +34,69 @@
             }
         });
     </script>
+
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
     <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="grid twelve">
-                <span class="logo"><a href="/" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
-                <br>
-                
-                
-                
-                
-                    
-                        <a class="menu_element" href="/posts/">posts</a>
-                    
-                        <a class="menu_element" href="/about">about</a>
-                    
-                        <a class="menu_element" href="/tags/">tags</a>
-                    
-                        <a class="menu_element" href="/categories/">categories</a>
-                    
-                
-
-                <br><br>
-                <footer class="post_meta"></footer>
-            </div>
-        </div>
-
-        <style>
-        .frontimage {
-            float: left;
-            width: 200px;
-            max-width: 35%;
-            height: auto;
-            margin: 0 20px 10px 0;
-            border-radius: 6px;
-            object-fit: cover;
-            display: block;
-            border: 2px solid black;  
-        }
-        @media (max-width: 600px) {
-            .frontimage {
-            float: none;
-            display: block;
-            margin: 0 auto 1rem;
-            width: 40%;
-            max-width: 160px;
-            border: 2px solid black;  
-            }
-        }
-        </style>
-
-        
-
-        
-<div class="row" style="margin-bottom: 20px;">
-        
-        <time class="meta post_date full">Nov 1, 2021</time>
-        
-        <h2 class="post-title in-post-title">My recommended research methodology</h2>
-        <p class="small description" style="margin-bottom: 18px;">A few advices on how to organize a research effort</p>
-        <ul style="text-align:center">
-            
-            <a href="/tags/research">
-                <li class="tag green">#research</li>
+        <header class="site-header">
+            <a href="/" class="site-title-link">
+                <pre class="site-title-ascii"> ██                 ██   ████   ██                                         ██                    ██                    
+░██                ░██  ░██░   ░██                 ██   ██                ░░                    ░░                     
+░██       ██████   ░██ ██████  ░██       ██████   ░░██ ██   █████   ██████ ██  ██████   ███████  ██  ██████ ██████████ 
+░██████  ░░░░░░██  ░██░░░██░   ░██████  ░░░░░░██   ░░███   ██░░░██ ██░░░░ ░██ ░░░░░░██ ░░██░░░██░██ ██░░░░ ░░██░░██░░██
+░██░░░██  ███████  ░██  ░██    ░██░░░██  ███████    ░██   ░███████░░█████ ░██  ███████  ░██  ░██░██░░█████  ░██ ░██ ░██
+░██  ░██ ██░░░░██  ░██  ░██    ░██  ░██ ██░░░░██    ██    ░██░░░░  ░░░░░██░██ ██░░░░██  ░██  ░██░██ ░░░░░██ ░██ ░██ ░██
+░██  ░██░░████████ ███  ░██    ░██████ ░░████████  ██     ░░██████ ██████ ░██░░████████ ███  ░██░██ ██████  ███ ░██ ░██
+░░   ░░  ░░░░░░░░ ░░░   ░░     ░░░░░    ░░░░░░░░  ░░       ░░░░░░ ░░░░░░  ░░  ░░░░░░░░ ░░░   ░░ ░░ ░░░░░░  ░░░  ░░  ░░ </pre>
+                <div class="site-subtitle">a blog about machine learning &amp; bayesian inference</div>
             </a>
+            <nav class="site-nav">
+                
+                
+                    
+                        <a href="/posts/">posts</a>
+                    
+                        <a href="/about">about</a>
+                    
+                        <a href="/tags/">tags</a>
+                    
+                        <a href="/categories/">categories</a>
+                    
+                
+            </nav>
+            <hr class="nav-separator">
+        </header>
+
+        
+
+        <main class="content">
             
-        </ul>
-        <footer></footer>
+
+<div class="post-meta-bar">
+    
+    <time>Nov 1, 2021</time>
+    
+</div>
+
+<h1 class="post-title-single">My recommended research methodology</h1>
+
+
+<p class="post-description">A few advices on how to organize a research effort</p>
+
+
+
+<div class="post-tag-list">
+    <a href="/tags/research">#research</a>
 </div>
 
 
 
-<div class="post">
+
+
+<div class="post-content">
     <p>If you are reading this post, you are probably a researcher like me (or someone who happens to like reading about science); Better, you must be one of my students!</p>
 <p>Fact is: research is a complex process. When done right, it is just art; when done poorly, it may have far-reaching consequences across multiple dimensions; it can bring one to a hideous spiral of psychological issues.</p>
 <p>Right! Let&rsquo;s get down to business.</p>
@@ -146,63 +133,49 @@
 
     
     
-    <div class="full-article-footer">
+    <div class="post-footer">
         
 
-<div class="article-footer">
+<div class="author-card">
     
-    <div class="avatar-module">
-        <img class="avatar" height="100px" src="/images/profilepic.jpeg">
+    <img src="/images/profilepic.jpeg" alt="Ewerton de Oliveira">
+    
+    <div>
+        <div class="author-label">Written by</div>
+        <div class="author-name"><a href="/about/">Ewerton de Oliveira</a></div>
+        <p class="author-bio">Data Scientist</p>
     </div>
-    
-    <p>
-        
-        <span class="post_date">Written by</span>
-        
-        <br>
-        <a class="author-link" href="/about/">Ewerton de Oliveira</a>
-        <br>
-        
-        Data Scientist
-        
-    </p>
 </div>
 
         
 
-<div>
+<div class="citation-block">
+    <div class="citation-label">Citation</div>
     
-    <span class="post_date">Citation</span>
-    <div class="footnotes">
-        Ewerton de Oliveira (2021). "My recommended research methodology". Retrieved November 29, 2025, from https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/.
-    </div>
+    Ewerton de Oliveira (2021). "My recommended research methodology". Retrieved June 16, 2026, from https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/.
     
-    <br>
-    <div class="bibtex-entry">
-        @misc{deoliveira2021-blogpost,
-        author = {de Oliveira, Ewerton},
-        title = My recommended research methodology,
-        year = 2021,
-        url = https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/,
-        note = {Accessed: 2025-11-29}
-        }
-    </div>
-    <br>
 </div>
+<div class="bibtex-block">@misc{deoliveira2021-blogpost,
+    author = {de Oliveira, Ewerton},
+    title = My recommended research methodology,
+    year = 2021,
+    url = https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/,
+    note = {Accessed: 2026-06-16}
+}</div>
+
     </div>
     
 
 
+        </main>
 
-
-
-        <footer>
-            <ul>
-                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                <li><a class="footer_element" href="/feed.xml"><i class="fa fa-rss fa-lg"></i></a></li>
+        <footer class="site-footer">
+            <ul class="site-footer-links">
+                <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
+                <li><a href="https://github.com/ewerlopes">→ github</a></li>
+                <li><a href="https://twitter.com/ewerlopes">→ twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>
     </div>

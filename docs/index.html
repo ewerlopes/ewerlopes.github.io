@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
-
+	<meta name="generator" content="Hugo 0.162.1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Half-bayesianism</title>
-    
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 
     
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             showProcessingMessages: false,
@@ -36,172 +35,132 @@
             }
         });
     </script>
+
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
     <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="grid twelve">
-                <span class="logo"><a href="/" style="text-decoration: none; color: inherit;">Half-Bayesianism</a></span>
-                <br>
-                
-                
+        <header class="site-header">
+            <a href="/" class="site-title-link">
+                <pre class="site-title-ascii"> ██                 ██   ████   ██                                         ██                    ██                    
+░██                ░██  ░██░   ░██                 ██   ██                ░░                    ░░                     
+░██       ██████   ░██ ██████  ░██       ██████   ░░██ ██   █████   ██████ ██  ██████   ███████  ██  ██████ ██████████ 
+░██████  ░░░░░░██  ░██░░░██░   ░██████  ░░░░░░██   ░░███   ██░░░██ ██░░░░ ░██ ░░░░░░██ ░░██░░░██░██ ██░░░░ ░░██░░██░░██
+░██░░░██  ███████  ░██  ░██    ░██░░░██  ███████    ░██   ░███████░░█████ ░██  ███████  ░██  ░██░██░░█████  ░██ ░██ ░██
+░██  ░██ ██░░░░██  ░██  ░██    ░██  ░██ ██░░░░██    ██    ░██░░░░  ░░░░░██░██ ██░░░░██  ░██  ░██░██ ░░░░░██ ░██ ░██ ░██
+░██  ░██░░████████ ███  ░██    ░██████ ░░████████  ██     ░░██████ ██████ ░██░░████████ ███  ░██░██ ██████  ███ ░██ ░██
+░░   ░░  ░░░░░░░░ ░░░   ░░     ░░░░░    ░░░░░░░░  ░░       ░░░░░░ ░░░░░░  ░░  ░░░░░░░░ ░░░   ░░ ░░ ░░░░░░  ░░░  ░░  ░░ </pre>
+                <div class="site-subtitle">a blog about machine learning &amp; bayesian inference</div>
+            </a>
+            <nav class="site-nav">
                 
                 
                     
-                        <a class="menu_element" href="/posts/">posts</a>
+                        <a href="/posts/">posts</a>
                     
-                        <a class="menu_element" href="/about">about</a>
+                        <a href="/about">about</a>
                     
-                        <a class="menu_element" href="/tags/">tags</a>
+                        <a href="/tags/">tags</a>
                     
-                        <a class="menu_element" href="/categories/">categories</a>
+                        <a href="/categories/">categories</a>
                     
                 
+            </nav>
+            <hr class="nav-separator">
+        </header>
 
-                <br><br>
-                <footer class="post_meta"></footer>
-            </div>
+        
+        <div class="home-bio">
+            <img class="frontimage" id="frontImage" src="" alt="">
+            <script>
+                const images = [
+                    "/images/classics/Raffael_069.jpg",
+                    "/images/classics/Raffael_059.jpg",
+                    "/images/classics/Raffael_067.jpg",
+                    "/images/classics/330px-Raffael_061.jpg",
+                    "/images/classics/330px-Raffael_062.jpg",
+                    "/images/classics/330px-Raffael_066.jpg",
+                    "/images/classics/330px-Raffael_066.jpg",
+                    "/images/classics/330px-Raffael_070.jpg",
+                    "/images/classics/Averroes_closeup.jpg"
+                ];
+                let lastIndex = -1;
+                function getRandomImage() {
+                    let index;
+                    do { index = Math.floor(Math.random() * images.length); }
+                    while (index === lastIndex);
+                    lastIndex = index;
+                    return images[index];
+                }
+                document.getElementById('frontImage').src = getRandomImage();
+            </script>
+            
+                <p>Salve! Haec de causa computratorum est! ¶ I am a <strong>computer scientist</strong> with a passion for ancient languages (Latin and Greek). ¶ For a long time I&rsquo;ve resisted making a blog about anything technical [or otherwise] because, to be frank, I didn&rsquo;t feel like I was qualified. What makes me more qualified now? Nothing really, I&rsquo;m just <strong>a bit less afraid of <a href="https://xkcd.com/386/">being wrong</a></strong>. ¶ Note that the <strong>opinions expressed here are my own and do not reflect those of my employer</strong>.</p>
+
+            
         </div>
-
-        <style>
-        .frontimage {
-            float: left;
-            width: 200px;
-            max-width: 35%;
-            height: auto;
-            margin: 0 20px 10px 0;
-            border-radius: 6px;
-            object-fit: cover;
-            display: block;
-            border: 2px solid black;  
-        }
-        @media (max-width: 600px) {
-            .frontimage {
-            float: none;
-            display: block;
-            margin: 0 auto 1rem;
-            width: 40%;
-            max-width: 160px;
-            border: 2px solid black;  
-            }
-        }
-        </style>
-
-        
-        <img class="frontimage" id="frontImage" src="" alt="frontImage">
-
-        <script>
-            const images = [
-            "/images/classics/Raffael_069.jpg",
-            "/images/classics/Raffael_059.jpg",
-            "/images/classics/Raffael_067.jpg",
-            "/images/classics/330px-Raffael_061.jpg",
-            "/images/classics/330px-Raffael_062.jpg",
-            "/images/classics/330px-Raffael_066.jpg",
-            "/images/classics/330px-Raffael_066.jpg",
-            "/images/classics/330px-Raffael_070.jpg",
-            "/images/classics/Averroes_closeup.jpg"
-
-            ];
-
-            let lastIndex = -1;
-
-            function getRandomImage() {
-            let index;
-            do {
-                index = Math.floor(Math.random() * images.length);
-            } while (index === lastIndex);
-            lastIndex = index;
-            return images[index];
-            }
-
-            document.getElementById('frontImage').src = getRandomImage();
-        </script>
-
-        
-            <p>Salve! Haec de causa computratorum est! ¶ I am a <strong>computer scientist</strong> with a passion for ancient languages (Latin and Greek). ¶ For a long time I&rsquo;ve resisted making a blog about anything technical [or otherwise] because, to be frank, I didn&rsquo;t feel like I was qualified. What makes me more qualified now? Nothing really, I&rsquo;m just <strong>a bit less afraid of <a href="https://xkcd.com/386/">being wrong</a></strong>. ¶ Note that the <strong>opinions expressed here are my own and do not reflect those of my employer</strong>.</p>
-
         
 
+        <main class="content">
+            
+
+
+
+<ul class="post-list">
+
+    <li>
+        <time class="post-date">Jul 2, 2025</time>
+        <a class="post-title-link" href="/posts/2025/2025-07-02-moment-matching/">On Moment Matching</a>
         
-
+        <div class="post-tags">
+            <a href="/tags/posterior-approximation">#posterior-approximation</a><a href="/tags/kl-divergence">#kl-divergence</a><a href="/tags/exponential-family">#exponential-family</a>
+        </div>
         
+    </li>
 
-<div class="blog-index">
-
-    <header class="index-header" style="margin-top: 50px;">
-        <h2>Recent Writing</h2>
-    </header>
-    
-    
-    
-    
-        <article class="post_card post">
-    <header class="post_header">
-        <h2 class="post-title reduced-margin"></h2>
-            <a class="post-title" href="/posts/2023/2023-10-24-kulback-leibler/">The reasonable power of the KL divergence</a>
-            <ul class="tag" style="display:block"></ul>
-                <li class="tag green">#optimization</li>
-                <li class="tag green">#cost-functions</li>
-                <li class="tag green">#generative-ai</li>
-            </ul>
-        </h2>
+    <li>
+        <time class="post-date">Oct 24, 2023</time>
+        <a class="post-title-link" href="/posts/2023/2023-10-24-kulback-leibler/">The reasonable power of the KL divergence</a>
         
-        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">24 October 2023</time>
+        <div class="post-tags">
+            <a href="/tags/optimization">#optimization</a><a href="/tags/cost-functions">#cost-functions</a><a href="/tags/generative-ai">#generative-ai</a>
+        </div>
         
-    </header>
-    <span> • 9 minute read</span>
-    
-</article>
+    </li>
 
-    
-        <article class="post_card post">
-    <header class="post_header">
-        <h2 class="post-title reduced-margin"></h2>
-            <a class="post-title" href="/posts/2021/2021-11-01-research-methodology/">My recommended research methodology</a>
-            <ul class="tag" style="display:block"></ul>
-                <li class="tag green">#research</li>
-            </ul>
-        </h2>
+    <li>
+        <time class="post-date">Nov 1, 2021</time>
+        <a class="post-title-link" href="/posts/2021/2021-11-01-research-methodology/">My recommended research methodology</a>
         
-        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">01 November 2021</time>
+        <div class="post-tags">
+            <a href="/tags/research">#research</a>
+        </div>
         
-    </header>
-    <span> • 5 minute read</span>
-    
-</article>
+    </li>
 
-    
-        <article class="post_card post">
-    <header class="post_header">
-        <h2 class="post-title reduced-margin"></h2>
-            <a class="post-title" href="/posts/2021/2021-10-01-start/">I&#39;ve started my personal site</a>
-            <ul class="tag" style="display:block"></ul>
-                <li class="tag green">#updates</li>
-            </ul>
-        </h2>
+    <li>
+        <time class="post-date">Oct 1, 2021</time>
+        <a class="post-title-link" href="/posts/2021/2021-10-01-start/">I&#39;ve started my personal site</a>
         
-        <time class="post_date" style="display:block; margin-top:8px; text-align: left;">01 October 2021</time>
+        <div class="post-tags">
+            <a href="/tags/updates">#updates</a>
+        </div>
         
-    </header>
-    <span> • 2 minute read</span>
-    
-</article>
+    </li>
 
-    
-</div>
+</ul>
 
+        </main>
 
-
-        <footer>
-            <ul>
-                <li><a class="footer_element" href="mailto:ewerlopes@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://github.com/ewerlopes"><i class="fa fa-github fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://twitter.com/ewerlopes"><i class="fa fa-twitter fa-lg"></i></a></li>
-                <li><a class="footer_element" href="https://www.linkedin.com/in/ewerlopes"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                <li><a class="footer_element" href="/feed.xml"><i class="fa fa-rss fa-lg"></i></a></li>
+        <footer class="site-footer">
+            <ul class="site-footer-links">
+                <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
+                <li><a href="https://github.com/ewerlopes">→ github</a></li>
+                <li><a href="https://twitter.com/ewerlopes">→ twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>
     </div>

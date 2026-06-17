@@ -1,6 +1,6 @@
 {{ define "main" }}
-  <main id="categories">
-    {{ with .Title }}<h1>{{ "Category: " }}{{ . }}</h1>{{ end }}
-    {{ partial "postsByDate.html" . }}
-  </main>
+<div class="section-heading">
+    <span class="heading-label">$ ls </span><span class="heading-value">categories/{{ lower .Title }}/</span>
+</div>
+{{ partial "postsByDate.html" . }}
 {{ end }}
