@@ -626,47 +626,10 @@ h1:first-child, h2:first-child, h3:first-child {
 }
 
 .home-bio {
-  position: relative;
   margin-bottom: 40px;
   padding: 20px 24px;
   border: 1px solid var(--border-subtle);
   display: flow-root;
-}
-
-.home-bio::before {
-  content: '┌\A└';
-  position: absolute;
-  top: -1px;
-  bottom: -1px;
-  left: -1px;
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  color: var(--border-subtle);
-  line-height: 1;
-  white-space: pre-line;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.home-bio::after {
-  content: '┐\A┘';
-  position: absolute;
-  top: -1px;
-  bottom: -1px;
-  right: -1px;
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  color: var(--border-subtle);
-  line-height: 1;
-  white-space: pre-line;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  pointer-events: none;
-  z-index: 1;
 }
 
 .home-bio p {
