@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The reasonable power of the KL divergence | Half-bayesianism</title>
@@ -99,7 +99,8 @@
 
 <div class="post-content">
     <p>When doing Bayesian Inference, or any other type of inference,
-chances are you have heard about <strong>KL divergence</strong> &ndash; short for <a href="https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence">Kullback-Leibler divergence</a>.
+chances are you have heard about <strong>KL divergence</strong> &ndash; short for <a href="https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence" target="_blank" rel="noopener noreferrer">Kullback-Leibler divergence</a>
+.
 This quantity has been pervasive in machine learning and artificial intelligence and in this post I would like to explore with you, the reader, some reasons for why this is so, especially for probabilistic inference. Eventually, we&rsquo;ll find ourselves dealing with Variational Inference and with a little more patience, with Expectation Propagation. But first, let&rsquo;s start as usual: with a definition.</p>
 <p>What is KL anyway? You might ask. For starters, this is how we compute it:</p>
 <p>\begin{equation}
@@ -145,7 +146,8 @@ D_{KL}(P||Q) &amp; = \big[ - \sum_{x \in \mathcal{X}}P(x)\log{\left(Q(x)\right)}
 the <strong>cross entropy</strong> between $P(x)$ and $Q(x)$. One way to think about cross-entropy is as the expected surprise of drawing from $P(x)$ when modelling it as $Q(x)$. And yet, the surprise of using $Q$ in the &ldquo;reality&rdquo; defined by $P$. And yet, as if &ldquo;$Q(x)$ would be a map in the territory defined by $P(x)$&rdquo;&hellip; and yet&hellip;</p>
 <p>That&rsquo;s it! To measure unnecessary surprise by approximating $P(x)$ by $Q(x)$ we use KL! This is one of the reasons why the divergence is so ubiquitous.</p>
 <p>This drives everything home! And $(7)$ shall scream the fact that $H_{(P(x), Q(x))} \ge H_{P(x)}$ because a suboptimal model $Q(x)$ will (on average) surprise us more than the reference model $P(x)$. That&rsquo;s where the concept of &ldquo;divergence&rdquo; comes from. We&rsquo;re just trying to describe the additional surprise $Q$ will add in w.r.t the reference $P$.</p>
-<p>It&rsquo;s then time to see an important property: <strong>KL is always positive!</strong>; There are several ways to prove it. Here, we can do that using two observations. First, if $Q$ doesn&rsquo;t add any average surprise in the reality defined by $P$, then it follows that $H_{(P(x), Q(x))} = H_{P(x)}$. Second, we need to see whether the cross entropy of $P$ and $Q$ can be smaller than the entropy of $P$. It turns out, <a href="https://en.wikipedia.org/wiki/Gibbs'_inequality">Gibb&rsquo;s Inequality</a>, has the answer:</p>
+<p>It&rsquo;s then time to see an important property: <strong>KL is always positive!</strong>; There are several ways to prove it. Here, we can do that using two observations. First, if $Q$ doesn&rsquo;t add any average surprise in the reality defined by $P$, then it follows that $H_{(P(x), Q(x))} = H_{P(x)}$. Second, we need to see whether the cross entropy of $P$ and $Q$ can be smaller than the entropy of $P$. It turns out, <a href="https://en.wikipedia.org/wiki/Gibbs%27_inequality" target="_blank" rel="noopener noreferrer">Gibb&rsquo;s Inequality</a>
+, has the answer:</p>
 <p>\begin{equation}
 -\sum_{x \in \mathcal{X}}P(x)\log{\left(P(x)\right)} \le -\sum_{x \in \mathcal{X}}P(x)\log{\left(Q(x)\right)}
 \end{equation}</p>
@@ -169,7 +171,9 @@ the <strong>cross entropy</strong> between $P(x)$ and $Q(x)$. One way to think a
 \end{aligned}
 \end{equation}</p>
 <p>, where the first inequality comes fom the fact the $\log{x} \le x − 1$ for all $x &gt; 0$.</p>
-<p>From this point on you&rsquo;re good to explore <a href="https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence">other points of view</a> and <a href="https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative">other proofs</a> to KL and build an even stronger intuition for its pervasiveness. Before that though, we better explore it a bit more, via some inference mechanism. Let&rsquo;s see how it has been used to define an important bound: the ELBO, short for &ldquo;Evidence Lower Bound&rdquo;.</p>
+<p>From this point on you&rsquo;re good to explore <a href="https://www.lesswrong.com/posts/no5jDTut5Byjqb4j5/six-and-a-half-intuitions-for-kl-divergence" target="_blank" rel="noopener noreferrer">other points of view</a>
+ and <a href="https://stats.stackexchange.com/questions/335197/why-kl-divergence-is-non-negative" target="_blank" rel="noopener noreferrer">other proofs</a>
+ to KL and build an even stronger intuition for its pervasiveness. Before that though, we better explore it a bit more, via some inference mechanism. Let&rsquo;s see how it has been used to define an important bound: the ELBO, short for &ldquo;Evidence Lower Bound&rdquo;.</p>
 <p>Let&rsquo;s say you have a posterior, $P(\boldsymbol{Z}|\boldsymbol{X})$, of observed random variables $\boldsymbol{X}$ and latent variables $\boldsymbol{Z}$ &ndash; they are taken as sets of variables in case you did not notice the boldface 😊. You may recognize this as the central task in probabilistic inference: model the behaviour of latent variables of interest via expectations computed w.r.t. the distribution of the observed variables.</p>
 <p>Sometimes, however, the computation of the posterior is intractable due to several factors. Among the most popular reasons, are the lack of analytical form for highly complex required integrals in the posterior and high dimensionality leading to costly numerical integrations.</p>
 <p>In another post, we will start digging into &ldquo;Variational Inference&rdquo; as a deterministic form of approximated inference in probabilistic models. For now, it suffices to consider the posterior $P(\boldsymbol{Z}|\boldsymbol{X})$ as intractable and opt for some approximation with a simpler distribution. Guess what?! KL can help! We&rsquo;ll opt for using a distribution $Q(\boldsymbol{Z})$ to estimate our posterior. For that, we need a measure of the quality of the estimation, and we are gonna see that KL is a good candidate for it. Here is how we begin:</p>
@@ -241,7 +245,8 @@ D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
 <p>Therefore, because $P(\boldsymbol{X})$ is fixed in the context of the posterior, $\mathcal{L}$ &ldquo;controls the KL divergence&rdquo;, acting like a lower bound. This is done via inverse proportion: if one goes up the other must go down. This has an immediate advantage that by making the lower bound $\mathcal{L}$ less negative, i.e. larger, we reduce the KL divergence, which consequently makes the approximation of $P(\boldsymbol{Z}|\boldsymbol{X})$ by $P(\boldsymbol{Z})$ better.</p>
 <p>This is a key point. <em>When approximating the posterior, instead of minimizing the KL divergence with the problematic posterior we can resort to maximizing the lower bound $\mathcal{L}$</em>. This may not sound like much, but often it&rsquo;s much, much easier to deal with the lower bound than with the KL directly. This is because most of the time we have the joint probability underlying the posterior and in that, we don&rsquo;t need to deal with intractable marginalizations. From the above, we shall be able to understand the basic role of KL in $(12)$. We are measuring the surprise in the approximation, and in doing so we prefer having it low, which would mean a better approximation. Since approximations are pervasive in the computing world, it&rsquo;s reasonable to see that property being carried over to KL.</p>
 <p>How you maximize the lower bound is what will instantiate the theory and make you achieve wonderful things. A full adventure into the realm of Bayesian inference via deterministic approximation methods like &ldquo;Variational Inference&rdquo; is certainly a huge topic and one I hope to cover in more detail in a separate post. For now, I wanted to give you a glimpse of how KL appears in inference so that you can further develop your intuition about the divergence.</p>
-<p>KL is pervasive across the information theory literature (yes, that includes ML, AI, etc.). At the time of this post, generative AI is being discussed everywhere, and all CEOs, engineers and researchers, across a large sector of the working force, are talking about it during their happy hours on a Friday and Saturday night. Even there, you will notice KL&rsquo;s presence. For example, during <a href="https://arxiv.org/pdf/2203.02155.pdf">Reinforcement Learning with Human Feedback</a> (RLHF), a technique used to improve (fine-tune) Large Language Models in the direction of human feedback, one uses KL to anchor model response adaptation to the previously trained model, avoiding unstable learning grounded in adaptations that are too aggressive. Take a look at the paper and see if you can spot the role of KL there.</p>
+<p>KL is pervasive across the information theory literature (yes, that includes ML, AI, etc.). At the time of this post, generative AI is being discussed everywhere, and all CEOs, engineers and researchers, across a large sector of the working force, are talking about it during their happy hours on a Friday and Saturday night. Even there, you will notice KL&rsquo;s presence. For example, during <a href="https://arxiv.org/pdf/2203.02155.pdf" target="_blank" rel="noopener noreferrer">Reinforcement Learning with Human Feedback</a>
+ (RLHF), a technique used to improve (fine-tune) Large Language Models in the direction of human feedback, one uses KL to anchor model response adaptation to the previously trained model, avoiding unstable learning grounded in adaptations that are too aggressive. Take a look at the paper and see if you can spot the role of KL there.</p>
 <p>Keep learning.</p>
 
 </div>
@@ -268,14 +273,14 @@ D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
 <div class="citation-block">
     <div class="citation-label">Citation</div>
     
-    Ewerton de Oliveira (2023). "The reasonable power of the KL divergence". Retrieved July 01, 2026, from https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/.
+    Ewerton de Oliveira (2023). "The reasonable power of the KL divergence". Retrieved July 01, 2026, from http://localhost:1313/posts/2023/2023-10-24-kulback-leibler/.
     
 </div>
 <div class="bibtex-block">@misc{deoliveira2023-blogpost,
     author = {de Oliveira, Ewerton},
     title = The reasonable power of the KL divergence,
     year = 2023,
-    url = https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/,
+    url = http://localhost:1313/posts/2023/2023-10-24-kulback-leibler/,
     note = {Accessed: 2026-07-01}
 }</div>
 
@@ -288,9 +293,9 @@ D_{KL} + \mathcal{L} = \log{\left(P(\boldsymbol{X})\right)}
         <footer class="site-footer">
             <ul class="site-footer-links">
                 <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
-                <li><a href="https://github.com/ewerlopes">→ github</a></li>
-                <li><a href="https://x.com/ewerlopes">→ x</a></li>
-                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="https://github.com/ewerlopes" target="_blank" rel="noopener noreferrer">→ github</a></li>
+                <li><a href="https://x.com/ewerlopes" target="_blank" rel="noopener noreferrer">→ x</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes" target="_blank" rel="noopener noreferrer">→ linkedin</a></li>
                 <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>

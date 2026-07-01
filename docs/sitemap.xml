@@ -3,69 +3,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ewerlopes.github.io/categories/bayesian/</loc>
+    <loc>http://localhost:1313/categories/bayesian/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/categories/divergence-measures/</loc>
+    <loc>http://localhost:1313/categories/divergence-measures/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/exponential-family/</loc>
+    <loc>http://localhost:1313/tags/exponential-family/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/categories/inference/</loc>
+    <loc>http://localhost:1313/categories/inference/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/kl-divergence/</loc>
+    <loc>http://localhost:1313/tags/kl-divergence/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/posts/2026/2026-30-06-moment-matching/</loc>
+    <loc>http://localhost:1313/posts/2026/2026-30-06-moment-matching/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/posterior-approximation/</loc>
+    <loc>http://localhost:1313/tags/posterior-approximation/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/cost-functions/</loc>
+    <loc>http://localhost:1313/tags/cost-functions/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/generative-ai/</loc>
+    <loc>http://localhost:1313/tags/generative-ai/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/optimization/</loc>
+    <loc>http://localhost:1313/tags/optimization/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/posts/2023/2023-10-24-kulback-leibler/</loc>
+    <loc>http://localhost:1313/posts/2023/2023-10-24-kulback-leibler/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/categories/methodology/</loc>
+    <loc>http://localhost:1313/categories/methodology/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/posts/2021/2021-11-01-research-methodology/</loc>
+    <loc>http://localhost:1313/posts/2021/2021-11-01-research-methodology/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/research/</loc>
+    <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2023-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/posts/2021/2021-10-01-start/</loc>
+    <loc>http://localhost:1313/posts/2021/2021-10-01-start/</loc>
     <lastmod>2021-10-01T22:10:00-03:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/categories/notes/</loc>
+    <loc>http://localhost:1313/categories/notes/</loc>
     <lastmod>2021-10-01T22:10:00-03:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/tags/updates/</loc>
+    <loc>http://localhost:1313/tags/updates/</loc>
     <lastmod>2021-10-01T22:10:00-03:00</lastmod>
   </url><url>
-    <loc>https://ewerlopes.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Half-bayesianism</title>
-		<link>https://ewerlopes.github.io/categories/</link>
+		<link>http://localhost:1313/categories/</link>
 		<description>Recent content in Categories on Half-bayesianism</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,40 +12,40 @@
 		
 			<lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://ewerlopes.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Bayesian</title>
-				<link>https://ewerlopes.github.io/categories/bayesian/</link>
+				<link>http://localhost:1313/categories/bayesian/</link>
 				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/categories/bayesian/</guid>
+				<guid>http://localhost:1313/categories/bayesian/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Divergence-Measures</title>
-				<link>https://ewerlopes.github.io/categories/divergence-measures/</link>
+				<link>http://localhost:1313/categories/divergence-measures/</link>
 				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/categories/divergence-measures/</guid>
+				<guid>http://localhost:1313/categories/divergence-measures/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Inference</title>
-				<link>https://ewerlopes.github.io/categories/inference/</link>
+				<link>http://localhost:1313/categories/inference/</link>
 				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/categories/inference/</guid>
+				<guid>http://localhost:1313/categories/inference/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Methodology</title>
-				<link>https://ewerlopes.github.io/categories/methodology/</link>
+				<link>http://localhost:1313/categories/methodology/</link>
 				<pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/categories/methodology/</guid>
+				<guid>http://localhost:1313/categories/methodology/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Notes</title>
-				<link>https://ewerlopes.github.io/categories/notes/</link>
+				<link>http://localhost:1313/categories/notes/</link>
 				<pubDate>Fri, 01 Oct 2021 22:10:00 -0300</pubDate>
-				<guid>https://ewerlopes.github.io/categories/notes/</guid>
+				<guid>http://localhost:1313/categories/notes/</guid>
 				<description></description>
 			</item>
 	</channel>

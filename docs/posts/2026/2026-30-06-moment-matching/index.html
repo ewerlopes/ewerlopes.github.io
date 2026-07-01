@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>On Moment Matching | Half-bayesianism</title>
@@ -135,7 +135,8 @@ p(\boldsymbol{x}|\boldsymbol{\theta}) &= \frac{1}{Z(\boldsymbol{\theta})}h(\bold
 \nabla \left( \int p(\boldsymbol{x}|\boldsymbol{\theta}) d\boldsymbol{x} \right) &= \nabla \left( \int h(\boldsymbol{x})\exp\{\boldsymbol{\theta}^{T}\boldsymbol{\phi}(\boldsymbol{x}) - A(\boldsymbol{\theta})\}d\boldsymbol{x} \right) = 0
 \end{aligned}
 \end{equation}
-\]<p>Using the <a href="https://en.wikipedia.org/wiki/Leibniz_integral_rule">Leibniz integral rule</a>, we obtain</p>
+\]<p>Using the <a href="https://en.wikipedia.org/wiki/Leibniz_integral_rule" target="_blank" rel="noopener noreferrer">Leibniz integral rule</a>
+, we obtain</p>
 \[
 \begin{equation}
 \begin{aligned}
@@ -194,7 +195,8 @@ The \(\text{const}\) collects all terms not dependent on \(\boldsymbol{\theta}\)
 \begin{equation}
 \mathbb{E}_{q(\boldsymbol{x})}[\boldsymbol{\phi}(\boldsymbol{x})] = \mathbb{E}_{p(\boldsymbol{x})}[\boldsymbol{\phi}(\boldsymbol{x})]
 \end{equation}
-\]<p>The second derivative of the objective is positive semidefinite, so this stationary point is a minimum. That completes the argument, assuming the relevant expectations are finite and the optimum exists. This completes the proof (read more <a href="https://www.herbrich.me/papers/KL.pdf">here</a>).</p>
+\]<p>The second derivative of the objective is positive semidefinite, so this stationary point is a minimum. That completes the argument, assuming the relevant expectations are finite and the optimum exists. This completes the proof (read more <a href="https://www.herbrich.me/papers/KL.pdf" target="_blank" rel="noopener noreferrer">here</a>
+).</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>In the Gaussian case, Theorem 1 reduces to matching the mean and covariance, because the first and second derivatives of the log-partition function yield the first and second moments. That is why the statement &ldquo;the expected statistics can be related to the derivatives of the normalization coefficient&rdquo; now makes much more sense. The result is powerful, and it highlights one of the great strengths of the exponential family: its members are not merely convenient parametric forms, but families for which expectations can be recovered through differentiation.</p>
 <p>In practice, this perspective is useful because it turns the problem of approximate inference into a problem of matching a few summary statistics. That is exactly why exponential-family approximations are so common in Bayesian modeling, variational methods, and expectation propagation.</p>
@@ -227,14 +229,14 @@ The \(\text{const}\) collects all terms not dependent on \(\boldsymbol{\theta}\)
 <div class="citation-block">
     <div class="citation-label">Citation</div>
     
-    Ewerton de Oliveira (2026). "On Moment Matching". Retrieved July 01, 2026, from https://ewerlopes.github.io/posts/2026/2026-30-06-moment-matching/.
+    Ewerton de Oliveira (2026). "On Moment Matching". Retrieved July 01, 2026, from http://localhost:1313/posts/2026/2026-30-06-moment-matching/.
     
 </div>
 <div class="bibtex-block">@misc{deoliveira2026-blogpost,
     author = {de Oliveira, Ewerton},
     title = On Moment Matching,
     year = 2026,
-    url = https://ewerlopes.github.io/posts/2026/2026-30-06-moment-matching/,
+    url = http://localhost:1313/posts/2026/2026-30-06-moment-matching/,
     note = {Accessed: 2026-07-01}
 }</div>
 
@@ -247,9 +249,9 @@ The \(\text{const}\) collects all terms not dependent on \(\boldsymbol{\theta}\)
         <footer class="site-footer">
             <ul class="site-footer-links">
                 <li><a href="mailto:ewerlopes@gmail.com">→ email</a></li>
-                <li><a href="https://github.com/ewerlopes">→ github</a></li>
-                <li><a href="https://x.com/ewerlopes">→ x</a></li>
-                <li><a href="https://www.linkedin.com/in/ewerlopes">→ linkedin</a></li>
+                <li><a href="https://github.com/ewerlopes" target="_blank" rel="noopener noreferrer">→ github</a></li>
+                <li><a href="https://x.com/ewerlopes" target="_blank" rel="noopener noreferrer">→ x</a></li>
+                <li><a href="https://www.linkedin.com/in/ewerlopes" target="_blank" rel="noopener noreferrer">→ linkedin</a></li>
                 <li><a href="/feed.xml">→ rss</a></li>
             </ul>
         </footer>

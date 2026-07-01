@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Exponential-Family on Half-bayesianism</title>
-		<link>https://ewerlopes.github.io/tags/exponential-family/</link>
+		<link>http://localhost:1313/tags/exponential-family/</link>
 		<description>Recent content in Exponential-Family on Half-bayesianism</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://ewerlopes.github.io/tags/exponential-family/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/exponential-family/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>On Moment Matching</title>
-				<link>https://ewerlopes.github.io/posts/2026/2026-30-06-moment-matching/</link>
+				<link>http://localhost:1313/posts/2026/2026-30-06-moment-matching/</link>
 				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://ewerlopes.github.io/posts/2026/2026-30-06-moment-matching/</guid>
+				<guid>http://localhost:1313/posts/2026/2026-30-06-moment-matching/</guid>
 				<description>&lt;p&gt;I am not sure about you, but I have reread this passage from Chris Bishop&amp;rsquo;s Pattern Recognition and Machine Learning more times than I care to admit:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;More generally, it is straightforward to obtain the required expectations for any member of the exponential family, provided it can be normalized, because the expected statistics can be related to the derivatives of the normalization coefficient, as given by (2.226).&amp;rdquo; (Chapter 10, p. 508)&lt;/p&gt;</description>
 			</item>
 	</channel>
