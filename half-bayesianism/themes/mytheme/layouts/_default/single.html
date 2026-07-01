@@ -3,7 +3,7 @@
 <div class="post-meta-bar">
     {{ if eq .Lang "pt" }}
     {{ $m := sub (int (time .Date).Month) 1 }}
-    <time>{{ .Date.Format "02" }} {{ index site.Data.dates.pt.months $m }} {{ .Date.Format "2006" }}</time>
+    <time>{{ .Date.Format "02" }} {{ index hugo.Data.dates.pt.months $m }} {{ .Date.Format "2006" }}</time>
     {{ else }}
     <time>{{ .Date.Format "Jan 2, 2006" }}</time>
     {{ end }}
@@ -34,7 +34,7 @@
 </div>
 
 {{ if .Params.author }}
-    {{ $author := index site.Data.authors .Params.author }}
+    {{ $author := index hugo.Data.authors .Params.author }}
     {{ if $author }}
     <div class="post-footer">
         {{ partial "author.html" . }}

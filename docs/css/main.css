@@ -1,5 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Iosevka-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src: url('/fonts/Iosevka-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url('/fonts/Iosevka-Oblique.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Iosevka-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Iosevka-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Iosevka-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src: url('/fonts/Iosevka-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url('/fonts/Iosevka-BoldOblique.woff2') format('woff2');
+}
+
 :root {
   --bg: #0a0a0a;
   --surface: #141414;
@@ -17,7 +89,7 @@
   --warning: #f5a742;
   --cyan: #56b6c2;
   --yellow: #e5c07b;
-  --font-mono: 'JetBrains Mono', 'SF Mono', 'SFMono-Regular', 'Menlo', 'Consolas', monospace;
+  --font-mono: 'Iosevka Web', 'JetBrains Mono', 'SF Mono', 'SFMono-Regular', 'Menlo', 'Consolas', monospace;
 }
 
 *, *::before, *::after {

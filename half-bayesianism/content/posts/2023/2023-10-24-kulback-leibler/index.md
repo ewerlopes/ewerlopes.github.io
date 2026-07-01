@@ -38,7 +38,7 @@ and we would naturally be using integrals to replace the summation for continuou
 If you have been exposed to the concept of **surprise** ($I_P(x)=-\log(P(x))$) in Information Theory before, you may realize that equation (2) looks very similar to expected surprise, a.k.a. **entropy**:
 
 \begin{equation}
-H_{P(X)}= - \sum_{x \in \mathcal{X}}P(x)\log{\left(P(x)\right)} = \mathbb{E}_P\[I_P(X)\]
+H_{P(X)}= - \sum_{x \in \mathcal{X}}P(x)\log{\left(P(x)\right)} = \mathbb{E}_P[I_P(X)]
 \end{equation}
 
 The resemblance is uncanny! This gives us a nice clue to build up intuition. Okay. But... what is entropy then? Don't worry. We certainly don't need to go in-depth here and make a full exploration of what entropy means to later come back to KL. The key point that will allow us to make the connection we are looking for is the fact that entropy is often seen as average information/surprise. This is enough for us here. Just think about what would you get by trying to calculate the difference between $P$ and $Q$ in terms of their average information. Perhaps, you would follow your intuition from physics and decide to do a "delta subtraction":
@@ -60,7 +60,7 @@ D_{KL}(P||Q) & = \big[ - \sum_{x \in \mathcal{X}}P(x)\log{\left(Q(x)\right)} \bi
 , which should make you realize the following:
 
 \begin{equation}
-D_{KL}(P||Q) = \mathbb{E}_P\[I_Q(X) - I_P(X)\]
+D_{KL}(P||Q) = \mathbb{E}_P[I_Q(X) - I_P(X)]
 \end{equation}
 
 That is my favourite way of thinking about KL: As a difference between **expected surprises** of a "challenging" distribution $Q$ and a reference one, $P$. This last distribution is the first argument of the KL, i.e., $P$ in $D_{KL}(P||Q)$ or $Q$ in $D_{KL}(Q||P)$.

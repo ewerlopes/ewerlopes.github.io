@@ -1,5 +1,5 @@
 <li>
-    <time class="post-date">{{ if eq .Params.lang "pt" }}{{ $m := sub (time .Date).Month 1 }}{{ .Date.Format "02 " }}{{ index site.Data.dates.pt.months $m }}{{ .Date.Format " 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</time>
+    <time class="post-date">{{ if eq .Params.lang "pt" }}{{ $m := sub (time .Date).Month 1 }}{{ .Date.Format "02 " }}{{ index hugo.Data.dates.pt.months $m }}{{ .Date.Format " 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</time>
     <a class="post-title-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
     {{ with .Params.tags }}
     <div class="post-tags">

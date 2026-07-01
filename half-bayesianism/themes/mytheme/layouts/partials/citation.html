@@ -1,4 +1,4 @@
-{{ $author := index site.Data.authors .Params.author }}
+{{ $author := index hugo.Data.authors .Params.author }}
 {{ $lang := .Params.lang }}
 <div class="citation-block">
     <div class="citation-label">{{ if eq $lang "pt" }}Citação{{ else }}Citation{{ end }}</div>
